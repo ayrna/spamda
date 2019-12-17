@@ -1,0 +1,12 @@
+Author Contributions: All authors contributed to this work. Design and implementation of the software, A.M.G.-O., J.F.C. and M.D.-M.; Test of the Software, P.A.G. and C.H.-M.; Conceptualization, A.M.G.-O., J.F.C., M.D.-M., P.A.G., and C.H.-M.; Methodology, A.M.G.-O., J.F.C., M.D.-M., P.A.G., and C.H.-M.; Investigation, A.M.G.-O., J.F.C., M.D.-M., P.A.G., and C.H.-M.; Writing-original draft preparation, A.M.G.-O., J.F.C. and M.D.-M.; Funding acquisition, P.A.G. and C.H.-M.; Resources, P.A.G. and C.H.-M.; Supervision, P.A.G. and C.H.-M.
+
+
+A añadir cuando lo revisemos:
+------------------------------
+Writing—review and editing, A.M.G.-O., J.F.C. and P.A.G.
+
+
+
+
+
+Author Contributions: All authors contributed equally for the decimation of the research article in current form.

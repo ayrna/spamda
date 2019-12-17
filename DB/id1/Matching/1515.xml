@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matchingInformation attributeNameToPredict="FLUXOFENERGY" calculateFluxOfEnergy="true" datasetFileName="1212.db" datasetFilePath="id1/Datasets/1212.db" dateCreation="2018-02-15T13:16:10.040+01:00" idBuoy="1" includeAttributesAsInputs="true" includeMissingDates="false" numberOfNearestGeopointsToConsider="4" openDatabasesWithWEKA="false" outputFilesFormat="ARFF" outputFilesToCreate="0" outputFolder="/home/agomez/Escritorio/pruebas" typeDatasetFile="Dataset" typeOfMatching="Prediction">
+    <reanalysisFiles>X150.214.94.234.71.3.25.57.nc</reanalysisFiles>
+    <reanalysisVars>air</reanalysisVars>
+    <shortDescription>1515	</shortDescription>
+    <thresholdsClass>A</thresholdsClass>
+    <thresholdsDescription>Default class</thresholdsDescription>
+    <thresholdsValues>0.5327</thresholdsValues>
+    <thresholdsValues>900.5783</thresholdsValues>
+</matchingInformation>

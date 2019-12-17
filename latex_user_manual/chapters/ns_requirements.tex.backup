@@ -1,0 +1,27 @@
+
+\chapter{System requirements}
+
+	\begin{onehalfspace}
+	
+%		\section{Hardware requirements}
+	
+%			SPADNN does not requires any specific hardware requirement and it can be run on personal computers or laptops.
+			
+%			\textcolor{red}{Se pone algún: minimum requirement}
+		
+
+%		\section{Software requirements}
+
+			SPADNN has been developed in Java, in this way any computer able to install and run a Java Virtual Machine (JVM) will be does not requires any specific hardware requirement and it can be run on personal computers or laptops.
+		
+			To install the siguiendo los pasos que se indican a continuación:
+		
+				\begin{enumerate}
+			
+					\item Create the folder where holding the software tool.
+					\item Copy the compressed file of the application to the folder created.
+					\item Double click on the compressed file to decompress the ...
+				
+				\end{enumerate}
+	
+	\end{onehalfspace}

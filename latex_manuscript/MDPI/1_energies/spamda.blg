@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: spamda.aux
+The style file: Definitions/mdpi.bst
+Database file #1: bibfile.bib
+Warning--empty author and editor in srivastava2017large
+Warning--empty publisher in srivastava2017large
+Warning--empty year in srivastava2017large
+You've used 56 entries,
+            2865 wiz_defined-function locations,
+            933 strings with 17344 characters,
+and the built_in function-call counts, 20655 in all, are:
+= -- 1703
+> -- 1230
+< -- 16
++ -- 492
+- -- 372
+* -- 1950
+:= -- 3283
+add.period$ -- 202
+call.type$ -- 56
+change.case$ -- 57
+chr.to.int$ -- 48
+cite$ -- 69
+duplicate$ -- 900
+empty$ -- 1775
+format.name$ -- 424
+if$ -- 4253
+int.to.chr$ -- 9
+int.to.str$ -- 56
+missing$ -- 44
+newline$ -- 318
+num.names$ -- 138
+pop$ -- 415
+preamble$ -- 0
+purify$ -- 56
+quote$ -- 0
+skip$ -- 441
+stack$ -- 0
+substring$ -- 878
+swap$ -- 198
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 377
+warning$ -- 3
+while$ -- 153
+width$ -- 0
+write$ -- 738
+(There were 3 warnings)

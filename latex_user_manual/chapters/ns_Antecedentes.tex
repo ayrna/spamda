@@ -1,0 +1,26 @@
+
+\chapter{Antecedentes}
+
+	\begin{onehalfspace}
+	
+		Se puede considerar como antecedente de referencia la herramienta \textit{Scientific Processing of Meteorological Data} (SPMD). Así mismo, se han buscado aplicaciones que generen conjuntos de datos creados a partir de la información obtenida del NDBC y NNRP, pero no se tiene conocimiento de su existencia. Sin embargo, sí se han encontrado algunas aplicaciones que trabajan con ficheros en formato NetCDF.
+		
+		\section{ncdump}
+
+			La herramienta \textit{ncdump} \cite{Ncdump2017} permite generar una representación del contenido de un fichero NetCDF empleando \textit{Common Data form Language} (CDL), la cual puede ser visualizada por pantalla, editada o servir de entrada para generar un nuevo fichero.
+			
+			Dispone de diferentes opciones con las cuales es posible configurar la salida de dicha representación, así como seleccionar qué contenidos del fichero se desean procesar.
+			
+			Es muy versátil para analizar el contenido de este tipo de ficheros y almacenarlo en un formato de texto plano, consiguiendo de este modo reducir la complejidad a una dimensión.
+			
+			La ejecución de la misma se realiza desde la línea de comandos y no dispone de interfaz gráfica. En la figura \ref{figura:ncdump} se muestra el uso de \textit{ncdump} para obtener el contenido de la cabecera de un fichero NetCDF. En ella se puede observar que la dimensionalidad del fichero es de 1465 (número de mediciones) x 2 (latitud Norte: 57.5\degree \space y 55.0\degree) x 2 (longitud Este: 210\degree \space y 212.5\degree).
+			
+			
+			\begin{figure}
+				\centering
+			   \includegraphics[scale=0.41]{img/antecedentes/ncdump.png}
+				\caption{Uso de \textit{ncdump} para mostrar la cabecera de un fichero NetCDF}
+				\label{figura:ncdump}
+			\end{figure}
+
+	\end{onehalfspace}

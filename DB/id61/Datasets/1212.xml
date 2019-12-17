@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasetInformation fileNameDataset="1212.db" headerDatasetFile="#YY  MM DD hh mm WDIR WSPD GST  WVHT   DPD   APD MWD   PRES  ATMP  WTMP  DEWP  VIS  TIDE">
+    <dateCreation>2018-03-13T08:54:17.323+01:00</dateCreation>
+    <firstDate>2014 01 03 16 50</firstDate>
+    <lastDate>2014 12 31 22 00</lastDate>
+    <missingDates>Missing: 2014 01 04 11 50</missingDates>
+    <missingDates>Missing: 2014 01 06 07 50</missingDates>
+    <missingDates>Missing: 2014 01 12 04 50</missingDates>
+    <missingDates>Missing: 2014 01 16 23 50</missingDates>
+    <missingDates>Missing: 2014 01 21 05 50</missingDates>
+    <missingDates>Missing: 2014 01 22 14 50</missingDates>
+    <missingDates>Missing: 2014 01 25 08 50</missingDates>
+    <missingDates>Missing: 2014 01 26 00 50</missingDates>
+    <missingDates>Missing: 2014 01 26 14 50</missingDates>
+    <missingDates>Missing: 2014 01 27 16 50</missingDates>
+    <missingDates>Missing: 2014 02 23 13 50</missingDates>
+    <missingDates>Missing: 2014 02 24 08 50</missingDates>
+    <missingDates>Missing: 2014 03 09 02 50</missingDates>
+    <missingDates>Missing: 2014 03 10 12 50</missingDates>
+    <missingDates>Missing: 2014 03 10 15 50</missingDates>
+    <missingDates>Missing: 2014 03 13 00 50</missingDates>
+    <missingDates>Missing: 2014 03 14 10 50</missingDates>
+    <missingDates>Missing: 2014 03 21 09 50</missingDates>
+    <missingDates>Missing: 2014 03 21 13 50</missingDates>
+    <missingDates>Missing: 2014 03 23 06 50</missingDates>
+    <missingDates>Missing: 2014 03 25 13 50</missingDates>
+    <missingDates>Missing: 2014 04 13 02 50</missingDates>
+    <missingDates>Missing: 2014 04 17 14 50</missingDates>
+    <missingDates>Missing: 2014 04 20 01 50</missingDates>
+    <missingDates>Missing: 2014 04 27 00 50</missingDates>
+    <missingDates>Missing: 2014 04 27 10 50</missingDates>
+    <missingDates>Missing: 2014 05 06 18 50</missingDates>
+    <missingDates>Missing: 2014 05 12 17 50</missingDates>
+    <missingDates>Missing: 2014 07 08 00 50</missingDates>
+    <missingDates>Missing: 2014 08 16 09 50</missingDates>
+    <missingDates>Missing: 2014 11 10 01 50</missingDates>
+    <missingDates>Missing: 2014 11 12 08 50</missingDates>
+    <missingDates>Missing: 2014 11 14 05 50</missingDates>
+    <missingDates>Missing: 2014 12 04 15 50</missingDates>
+    <missingDates>Missing: 2014 12 05 11 50</missingDates>
+    <missingDates>Missing: 2014 12 31 21 50</missingDates>
+    <missingDates>    Unexpected date: 2014 12 31 21 57</missingDates>
+    <missingDates>    Unexpected date: 2014 12 31 21 57</missingDates>
+    <missingDates>    Unexpected date: 2014 12 31 22 00</missingDates>
+    <numInstances>8661</numInstances>
+    <shortDescription>1212</shortDescription>
+    <statistics>
+        <attributeName>DATE</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>1.3887678E9</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>1.4200632E9</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>1.4044450386976156E9</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>9029562.523818776</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>0.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>WDIR</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>WSPD</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>GST</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>WVHT</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>0.56</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>8.84</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>2.464284875528417</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>1.2639532603619337</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>145.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>DPD</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>2.94</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>19.05</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>9.393686002818226</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>2.412520818462538</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>145.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>APD</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>3.42</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>10.83</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>6.270794974166276</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>1.1593308312470954</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>145.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>MWD</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>PRES</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>964.0</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>1038.5</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>1006.8157603048148</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>12.988989735752078</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>0.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>ATMP</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>WTMP</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>4.2</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>16.2</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>9.000647398843938</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>3.625076719232598</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>11.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>DEWP</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>VIS</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <statistics>
+        <attributeName>TIDE</attributeName>
+        <attributeStatistics>
+            <name>Minimum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Maximum</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Mean</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>StdDev</name>
+            <value>NaN</value>
+        </attributeStatistics>
+        <attributeStatistics>
+            <name>Missing count</name>
+            <value>8661.0</value>
+        </attributeStatistics>
+    </statistics>
+    <TXTFiles>2014_fechas_mal.txt</TXTFiles>
+</datasetInformation>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matchingInformation attributeNameToPredict="WVHT" datasetFileName="46001_2012.db" datasetFilePath="id1/Datasets/46001_2012.db" dateCreation="2017-10-31T19:44:18.174+01:00" idBuoy="1" includeAttributesAsInputs="false" includeMissingDates="true" numberOfNearestGeopointsToConsider="4" openDatabasesWithWEKA="false" outputFilesFormat="ARFF" outputFilesToCreate="1" outputFolder="/home/usuario/NetBeansProjects/SPADNN/TXTFiles" typeDatasetFile="Dataset">
+    <reanalysisFiles>X150.214.94.234.71.3.25.57.nc</reanalysisFiles>
+    <shortDescription>46001_2012_1</shortDescription>
+</matchingInformation>

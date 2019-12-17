@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matchingInformation attributeNameToPredict="WDIR" calculateFluxOfEnergy="false" datasetFileName="46001_2012.db" datasetFilePath="id1/Datasets/46001_2012.db" dateCreation="2018-02-08T13:32:19.521+01:00" idBuoy="1" includeAttributesAsInputs="false" includeMissingDates="false" numberOfNearestGeopointsToConsider="4" openDatabasesWithWEKA="true" outputFilesFormat="ARFF" outputFilesToCreate="0" outputFolder="/home/agomez/Escritorio/pruebas" typeDatasetFile="Dataset" typeOfMatching="Direct matching">
+    <reanalysisFiles>X150.214.94.234.71.3.25.57.nc</reanalysisFiles>
+    <reanalysisVars>air</reanalysisVars>
+    <shortDescription>1212</shortDescription>
+</matchingInformation>

@@ -1,0 +1,58 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Example of a six sub-grid reanalysis nodes around the \textit {Station 46001}.\relax }}{4}{figure.caption.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Content of the folder after installing SPAMDA (Linux).\relax }}{6}{figure.caption.6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Running SPAMDA on Linux.\relax }}{7}{figure.caption.7}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces SPAMDA main view (Linux).\relax }}{7}{figure.caption.8}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Content of the folder after installing SPAMDA (Windows).\relax }}{8}{figure.caption.9}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces SPAMDA main view (Windows).\relax }}{9}{figure.caption.10}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Content of the folder after installing SPAMDA (macOS).\relax }}{10}{figure.caption.11}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces SPAMDA main view (macOS).\relax }}{11}{figure.caption.12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces SPAMDA main view.\relax }}{14}{figure.caption.13}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tab \textit {Buoys}.\relax }}{15}{figure.caption.14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Entering a new buoy.\relax }}{16}{figure.caption.15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Tab \textit {Datasets}.\relax }}{16}{figure.caption.16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces New intermediate dataset view.\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Status of the creation of the intermediate dataset.\relax }}{18}{figure.caption.18}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Tab \textit {Pre-process}.\relax }}{19}{figure.caption.19}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces New pre-processed dataset view.\relax }}{21}{figure.caption.20}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Visualising the content of the opened dataset.\relax }}{21}{figure.caption.21}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Tab \textit {Matching configuration}.\relax }}{22}{figure.caption.22}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Selecting reanalysis data files.\relax }}{24}{figure.caption.23}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Selecting buoys attributes.\relax }}{24}{figure.caption.24}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Status of the matching process.\relax }}{27}{figure.caption.25}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Load matching configuration.\relax }}{27}{figure.caption.26}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tab \textit {Final datasets}.\relax }}{28}{figure.caption.27}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Opening with WEKA the final dataset created.\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces New matching configuration.\relax }}{30}{figure.caption.29}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Module Manage reanalysis data.\relax }}{31}{figure.caption.30}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Utility Dataset converter.\relax }}{32}{figure.caption.31}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Utility Open ARFF file with WEKA.\relax }}{33}{figure.caption.32}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Opening an ARFF file with WEKA.\relax }}{33}{figure.caption.33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces SPAMDA main view.\relax }}{36}{figure.caption.34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Module Manage reanalysis data.\relax }}{36}{figure.caption.35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Tab \textit {Buoys}.\relax }}{37}{figure.caption.36}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Entering a new buoy.\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Tab \textit {Datasets}.\relax }}{38}{figure.caption.38}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces New intermediate dataset view.\relax }}{38}{figure.caption.39}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Tab \textit {Pre-process}.\relax }}{39}{figure.caption.40}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Tab \textit {Matching configuration}.\relax }}{40}{figure.caption.41}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Tab \textit {Final datasets}.\relax }}{41}{figure.caption.42}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The final dataset opened with the environment Explorer of WEKA.\relax }}{42}{figure.caption.44}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Selecting the desired buoy and year.\relax }}{51}{figure.caption.47}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Downloading the annual text file.\relax }}{52}{figure.caption.48}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces Selecting \textit {\textbf {Surface}} section.\relax }}{52}{figure.caption.49}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Selecting reanalysis variable.\relax }}{53}{figure.caption.50}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces Selecting \textit {\textbf {Make plot or subset}.}\relax }}{53}{figure.caption.51}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces Typing desired properties of the file to get.\relax }}{54}{figure.caption.52}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

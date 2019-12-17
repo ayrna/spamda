@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matchingInformation attributeNameToPredict="WVHT" datasetFileName="46001_2012.db" datasetFilePath="id1/Datasets/46001_2012.db" dateCreation="2018-02-05T08:57:38.421+01:00" idBuoy="1" includeAttributesAsInputs="true" includeMissingDates="true" numberOfNearestGeopointsToConsider="1" openDatabasesWithWEKA="false" outputFilesFormat="ARFF" outputFilesToCreate="1" outputFolder="/home/agomez/Escritorio/pruebas" typeDatasetFile="Dataset">
+    <reanalysisFiles>X150.214.94.234.71.3.25.57.nc</reanalysisFiles>
+    <shortDescription>p5</shortDescription>
+</matchingInformation>

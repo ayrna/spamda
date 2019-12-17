@@ -1,0 +1,155 @@
+\begin{thebibliography}{10}
+
+\bibitem{NOAA}
+{National Data Buoy Center}.
+\newblock {National Oceanic and Atmospheric Administration of the USA (NOAA)}.
+\newblock \url{http://www.ndbc.noaa.gov/}, 2017.
+\newblock {(Accessed 17 November 2017)}.
+
+\bibitem{Kalnay1996}
+E.~Kalnay, M.~Kanamitsu, R.~Kistler, W.~Collins, D.~Deaven, L.~Gandin,
+  M.~Iredell, S.~Saha, G.~White, J.~Woollen, Y.~Zhu, A.~Leetmaa, R.~Reynolds,
+  M.~Chelliah, W.~Ebisuzaki, W.~Higgins, J.~Janowiak, K.~C. Mo, C.~Ropelewski,
+  J.~Wang, Roy Jenne, and Dennis Joseph.
+\newblock {The NCEP/NCAR 40-Year Reanalysis Project}.
+\newblock {\em Bulletin of the American Meteorological Society},
+  77(3):437--471, 1996.
+
+\bibitem{Kistler2001}
+Robert Kistler, William Collins, Suranjana Saha, Glenn White, John Woollen,
+  Eugenia Kalnay, Muthuvel Chelliah, Wesley Ebisuzaki, Masao Kanamitsu, Vernon
+  Kousky, Huug van~den Dool, Roy Jenne, and Michael Fiorino.
+\newblock {The NCEP--NCAR 50--Year Reanalysis: Monthly Means CD--ROM and
+  Documentation}.
+\newblock {\em Bulletin of the American Meteorological Society},
+  82(2):247--267, 2001.
+
+\bibitem{WEKA_ARFF}
+The WEKA Data~Mining {Software}.
+\newblock {Attribute-Relation File Format (ARFF)}.
+\newblock \url{http://https://www.cs.waikato.ac.nz/ml/weka/arff.html}, 2017.
+\newblock {(Accessed 18 December 2017)}.
+
+\bibitem{WEKA}
+Mark A.~Hall {Eibe Frank} and Ian~H. Witten.
+\newblock {The WEKA Workbench. Online Appendix for Data Mining: Practical
+  Machine Learning Tools and Techniques}, 2016.
+
+\bibitem{NOAA_1}
+{National Data Buoy Center}.
+\newblock {NDBC - Historical NDBC Data}.
+\newblock \url{http://www.ndbc.noaa.gov/historical\_data.shtml}, 2018.
+\newblock {(Accessed 15 January 2018)}.
+
+\bibitem{NOAA_2}
+{National Data Buoy Center}.
+\newblock {NDBC - Important NDBC Web Site Changes}.
+\newblock \url{http://www.ndbc.noaa.gov/mods.shtml}, 2018.
+\newblock {(Accessed 15 January 2018)}.
+
+\bibitem{NNRP}
+{NOAA/OAR/ESRL PSD}.
+\newblock {ESRL : PSD : NCEP/NCAR Reanalysis 1}.
+\newblock
+  \url{https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html},
+  2017.
+\newblock {(Accessed 15 January 2018)}.
+
+\bibitem{NetCDF}
+{Unidata}.
+\newblock {Network Common Data Form (NetCDF) version 4.6.10 [software].
+  Boulder, CO: UCAR/Unidata.}
+\newblock \url{https://doi.org/10.5065/D6H70CW6}, 2017.
+
+\bibitem{Java}
+Oracle.
+\newblock {Java}.
+\newblock \url{https://www.java.com/}, 2018.
+\newblock {(Accessed 30 April 2018)}.
+
+\bibitem{WEKA_Filter_Normalize}
+The WEKA Data~Mining {Software}.
+\newblock {Normalize}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/Normalize.html},
+  2017.
+\newblock {(Accessed 04 December 2017)}.
+
+\bibitem{WEKA_Filter_Remove}
+The WEKA Data~Mining {Software}.
+\newblock {Remove}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/Remove.html},
+  2017.
+\newblock {(Accessed 15 December 2017)}.
+
+\bibitem{WEKA_Filter_RemoveByName}
+The WEKA Data~Mining {Software}.
+\newblock {RemoveByName}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/RemoveByName.html},
+  2017.
+\newblock {(Accessed 15 December 2017)}.
+
+\bibitem{WEKA_Filter_ReplaceMissingValues}
+The WEKA Data~Mining {Software}.
+\newblock {ReplaceMissingValues}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/ReplaceMissingValues.html},
+  2017.
+\newblock {(Accessed 15 December 2017)}.
+
+\bibitem{WEKA_Filter_ReplaceMissingWithUserConstant}
+The WEKA Data~Mining {Software}.
+\newblock {ReplaceMissingWithUserConstant}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/ReplaceMissingWithUserConstant.html},
+  2017.
+\newblock {(Accessed 15 December 2017)}.
+
+\bibitem{WEKA_Filter_RemoveDuplicates}
+The WEKA Data~Mining {Software}.
+\newblock {RemoveDuplicates}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/instance/RemoveDuplicates.html},
+  2017.
+\newblock {(Accessed 04 December 2017)}.
+
+\bibitem{WEKA_Filter_RemoveWithValues}
+The WEKA Data~Mining {Software}.
+\newblock {RemoveWithValues}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/instance/RemoveWithValues.html},
+  2017.
+\newblock {(Accessed 15 December 2017)}.
+
+\bibitem{WEKA_Filter_SubsetByExpression}
+The WEKA Data~Mining {Software}.
+\newblock {SubsetByExpression}.
+\newblock
+  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/instance/SubsetByExpression.html},
+  2017.
+\newblock {(Accessed 15 December 2017)}.
+
+\bibitem{FERNANDEZ201544}
+J.~C. Fern{\'a}ndez, S.~Salcedo-Sanz, P.~A. Guti{\'e}rrez, E.~Alexandre, and
+  C.~Herv{\'a}s-Mart{\'i}nez.
+\newblock {Significant wave height and energy flux range forecast with machine
+  learning classifiers}.
+\newblock {\em Engineering Applications of Artificial Intelligence},
+  43(Supplement C):44--53, 2015.
+
+\bibitem{Haversine_2009}
+Michael~J. de~Smith, Michael~F. Goodchild, and Paul~A. Longley.
+\newblock {\em {Geospatial Analysis: A Comprehensive Guide to Principles,
+  Techniques and Software Tools}}.
+\newblock Matador, 3rd revised edition, November 2009.
+
+\bibitem{DORADOMORENO2017428}
+M.~Dorado-Moreno, L.~Cornejo-Bueno, P.A. Guti{\'e}rrez, L.~Prieto,
+  C.~Herv{\'a}s-Mart{\'i}nez, and S.~Salcedo-Sanz.
+\newblock {Robust estimation of wind power ramp events with reservoir
+  computing}.
+\newblock {\em Renewable Energy}, 111:428--437, 2017.
+
+\end{thebibliography}

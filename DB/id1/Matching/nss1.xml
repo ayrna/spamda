@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matchingInformation attributeNameToPredict="WDIR" calculateFluxOfEnergy="false" datasetFileName="46001_2013_2017_preprocessed.db" datasetFilePath="id1/Preprocess/46001_2013_2017/46001_2013_2017_preprocessed.db" dateCreation="2018-04-23T11:32:12.755+02:00" idBuoy="1" includeMissingDates="false" numberOfNearestGeopointsToConsider="4" openDatabasesWithWEKA="true" outputFilesFormat="ARFF" outputFilesToCreate="1" outputFolder="/home/agomez/Escritorio/pruebas/2012_2013/4 puntos/1" predictionHorizon="6" stationID="Station 46001" synchroniseRData="false" typeDatasetFile="Preprocessed" typeOfMatching="Classification">
+    <buoyVariables>WSPD</buoyVariables>
+    <buoyVariables>GST</buoyVariables>
+    <buoyVariables>WVHT</buoyVariables>
+    <buoyVariables>DPD</buoyVariables>
+    <reanalysisFiles>airt_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisFiles>press_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisFiles>uwind_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisFiles>vwind_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisVars>air</reanalysisVars>
+    <reanalysisVars>pres</reanalysisVars>
+    <reanalysisVars>uwnd</reanalysisVars>
+    <reanalysisVars>vwnd</reanalysisVars>
+    <shortDescription></shortDescription>
+    <thresholdsClass>A</thresholdsClass>
+    <thresholdsDescription>Default class</thresholdsDescription>
+    <thresholdsValues>0.0</thresholdsValues>
+    <thresholdsValues>359.0</thresholdsValues>
+</matchingInformation>

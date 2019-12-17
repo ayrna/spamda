@@ -1,0 +1,62 @@
+
+
+    Cuando publiquen el artículo: 
+
+        -> En el fichero README hay que incluir los datos del artículo (ver el de Keel)
+        -> En el Escritorio hay una carpeta llamada licencias, esta carpeta contiene otra carpeta que se llama: Para despues de publicacion_pendiente_de_definir
+            -> Hay que definir el contenido de los ficheros que hacen mención a SPAMDA.
+
+    
+Para distribución del binario:
+
+  --> Sólo dejar la carpeta:
+        dist
+
+  --> Y los ficheros:
+        COPYING
+        LICENSE
+        NetCDF-LICENSE
+        README
+        SLF4J-LICENSE
+        WEKA-LICENSE
+
+  --> Dentro de la carpeta dist deben estar las carpetas:
+        DB (esta carpeta contiene la base de datos, al ejecutar la aplicación
+            la primera vez se crea de forma automática e inicializa
+            la base de datos.)
+
+        help (esta carpeta contiene el fichero userManual.pdf)
+
+        Y el fichero: SPAMDA.jar
+
+
+Para distribución del binario y código fuente:
+
+  --> Sólo dejar las carpetas:
+       build
+       dist (Tras realizar un clean and build??)
+       DB (Contiene la base de datos con los datos de las boyas que se den de alta.)
+       help (esta carpeta contiene el fichero userManual.pdf)
+       lib
+       nbproject
+       src
+       store (tras generar el fichero .jar)
+       test
+       javadoc (esta carpeta será movida desde /dist)
+
+
+  --> Dentro de la carpeta dist deben estar las carpetas:
+       lib
+       help (con el mismo contenido de antes.)
+       DB  (con el mismo contenido de antes.)
+
+  --> Y los ficheros:
+       COPYING
+       LICENSE
+       manifest.mf
+       build.xml
+       README
+       NetCDF-LICENSE
+       SLF4J-LICENSE
+       WEKA-LICENSE
+

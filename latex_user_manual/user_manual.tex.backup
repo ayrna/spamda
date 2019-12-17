@@ -1,0 +1,139 @@
+
+
+\documentclass[12pt, twoside, a4paper]{book}
+%\documentclass[a4paper,12pt]{report}
+\input{preamble}
+
+
+\begin{document}
+
+	% Formato para el capítulo: N. Nombre
+	\renewcommand{\chaptermark}[1]{\markboth{\textbf{\thechapter. #1}}{}}
+
+	% Formato para la sección: N.M. Nombre
+	\renewcommand{\sectionmark}[1]{\markright{\textbf{\thesection. #1}}}
+
+	% Ancho de la línea horizontal bajo el encabezado
+	\renewcommand{\headrulewidth}{0.6pt}
+
+	% Aumenta la altura del encabezado en 1.5 veces.
+	\setlength{\headheight}{1.5\headheight}
+	
+	
+	% Unidades frontales del book
+	% Emplea numeración con números romanos
+	\frontmatter
+
+	% Portada
+	\input{cover/cover}
+
+	% Página en blanco
+	\newpage
+	
+	% Página con el copyright de la documentación.
+	\input{license/licenseDoc}
+
+	% Índice de contenido
+	\tableofcontents
+	
+	% Página en blanco
+	\paginavaciacompleta
+
+	% Índice de figuras
+	\listoffigures
+	
+	% Página en blanco
+	\paginavaciacompleta
+
+	% Índice de tablas
+	\listoftables
+	
+	% Página en blanco
+	\paginavaciacompleta
+	
+	% Unidad principal del book
+	% Comienza numeración capítulos y numeración arábiga de las páginas.
+	\mainmatter
+
+
+	% Nueva página
+	\newpage
+	
+	
+	%\part{User manual}
+
+	%TODO: Cambiar todas las imágenes: Aparece SPADNN.
+	
+	\input{chapters/introduction}
+	\input{chapters/gettingStarted}
+	\input{chapters/usingSPAMDA}
+	
+	% Página en blanco
+	%\newpage
+
+	% Licencia de SPAMDA.
+	\input{license/licenseSoft}
+
+	% La bibliografía aparecerá al mismo nivel que el resto de capítulos.
+	\bookmarksetup{startatroot}
+
+		% Página en blanco
+		\paginavaciacompleta
+		
+		% Se inserta la bibliografía.
+		\bibliography{bib/bibfile}
+		
+		
+	% Apéndice con las licencias.
+	\appendix
+		\appendixpage
+		\addappheadtotoc
+		
+		% Licencia de la documentación de FSF.
+%		\fancyhead[LO]{GNU Free Documentation License}
+%		\fancyhead[RE]{GNU Free Documentation License}
+		\input{appendix/GFDL_license}
+
+		% Página en blanco
+		\paginavaciacompleta
+		
+		% Licencia del software de SPAMDA.
+%		\fancyhead[LO]{License of SPAMDA}
+%		\fancyhead[RE]{License of SPAMDA}
+		\input{appendix/GPL3_SPAMDA_license}
+		
+		% Página en blanco
+		\paginavaciacompleta
+	
+		% Licencia del software d FSF.
+%		\fancyhead[LO]{GNU GENERAL PUBLIC LICENSE}
+%		\fancyhead[RE]{GNU GENERAL PUBLIC LICENSE}
+		\input{appendix/GPL3_license}
+		
+		% Página en blanco
+		\paginavaciacompleta
+		
+		% Licencia de la biblioteca NetCDF.
+%		\fancyhead[LO]{NetCDF-LICENSE}
+%		\fancyhead[RE]{NetCDF-LICENSE}
+		\input{appendix/NetCDF_license}
+		
+		% Página en blanco
+		\paginavaciacompleta
+		
+		% Licencia de la biblioteca SLF4J.
+%		\fancyhead[LO]{SLF4J-LICENSE}
+%		\fancyhead[RE]{SLF4J-LICENSE}
+		\input{appendix/SLF4J_license}
+		
+		% Página en blanco
+		\paginavaciacompleta
+		
+		% Licencia de la biblioteca WEKA.
+%		\fancyhead[LO]{WEKA-LICENSE}
+%		\fancyhead[RE]{WEKA-LICENSE}
+		\input{appendix/WEKA_license}
+		
+\end{document}
+
+% Fin del documento.

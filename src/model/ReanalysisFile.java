@@ -1,0 +1,432 @@
+/*
+SPAMDA: Software for Pre-processing and Analysis of Meteorological DAta to build datasets
+
+Copyright (c) 2017-2018 by AYRNA Research Group. https://www.uco.es/ayrna/
+	Authors: 
+		Antonio Manuel Gomez Orellana, Juan Carlos Fernandez Caballero,
+		Manuel Dorado Moreno, Pedro Antonio Gutierrez Peña and 
+		Cesar Hervas Martinez.
+
+This program is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program,
+in the file COPYING. If not, see <http://www.gnu.org/licenses/>.
+
+Additional permissions under GNU GPL version 3 section 7:
+1. Redistributions of source code, with or without modification, must retain
+the above full copyright notice as author attributions.
+
+2. Redistributions in binary form and/or the use of the documentation,
+with or without modification, must reproduce the above full copyright notice
+as author attributions in the documentation and/or materials provided with
+the distribution.
+
+3. Modified versions of source code and/or documentation, as well as binary
+distributions, must be marked in reasonable ways as different from the original version.
+
+4. Neither name of copyright holders nor the names of its contributors may be used
+to endorse or promote products derived from this software for publicity purposes
+without specific prior written permission.
+
+5. Redistribution and/or use of source code, binary format and documentation,
+with or without modification, could require indemnification of licensors
+and authors by anyone who conveys the material (or modified versions of it)
+with contractual assumptions of liability to the recipient, for any liability
+that these contractual assumptions directly impose on those licensors and authors.
+
+SPAMDA uses some external libraries. You can see their respective notices about license,
+copyright and disclaimer in the following files. For a more complete information about
+such licenses, see the distributions provided by their authors:
+-Library NetCDF Java, version 4.6.10
+	Notice of license in the file NetCDF-LICENSE
+-Library SLF4J, version 1.7.25
+	Notice of license in the file SLF4J-LICENSE
+-Library WEKA, version 3.8.1
+	Notice of license in the file WEKA-LICENSE
+
+Contact information:
+Juan Carlos Fernandez Caballero, PhD.
+email: jfcaballero[at]uco[dot]es
+Address: University of Cordoba, Department of Computer Science
+and Numerical Analysis, AYRNA Research Group, Rabanales Campus,
+Einstein Building, 3rd floor. Road Madrid-Cadiz, Km 396-A.
+14071 - Cordoba (Spain).
+ */
+
+package model;
+
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.JOptionPane;
+import ucar.ma2.ArrayDouble;
+import ucar.ma2.ArrayFloat;
+import ucar.nc2.NetcdfFile;
+import ucar.nc2.Variable;
+
+
+/**
+ * This class defines the model to manage a reanalysis data file and represent the information stored on it.
+ * 
+ */
+public class ReanalysisFile {
+
+    
+    /**
+     * Reanalysis data's file.
+     */
+    private NetcdfFile reanalysisFile;
+
+
+    /**
+     * Reanalysis data's variable.
+     */
+    private Variable reanalysisVariable;
+    
+    
+    
+    /**
+     * Constructor.
+     */
+    public ReanalysisFile(){
+        
+        /* Initializes to default values. */       
+        this.reanalysisFile = null;
+        this.reanalysisVariable=null;
+
+    }
+    
+    
+    /**
+     * Gets reanalysis data's file.
+     * @return Reanalysis data's file.
+     */    
+    private NetcdfFile getReanalysisFile() {
+        
+        /* Returns the reanalysis data file. */
+        
+        return this.reanalysisFile;
+        
+    }
+
+    
+    /**
+     * Sets reanalysis data's file.
+     * @param reanalysisFile Reanalysis data's file.
+     */    
+    private void setReanalysisFile(NetcdfFile reanalysisFile) {
+        
+        /* Sets the reanalysis data file. */
+        
+        this.reanalysisFile=reanalysisFile;
+
+    }
+    
+
+    /**
+     * Finds reanalysis data's variable.
+     * @return Reanalysis data's variable found.
+     */    
+    private Variable findReanalysisVariable() {
+        
+        /* Variable of reanalysis. */
+        Variable variable=null;
+        
+        /* The variable of reanalysis is the only one that has more than one dimension. */
+        for(Variable var : getReanalysisFile().getVariables()){
+            
+            if(var.getDimensions().size()>1){
+            
+                variable=var;
+                
+            }
+            
+        }
+
+        /* Returns variable of reanalysis data found. */
+        return variable;
+        
+    }
+
+    
+    /**
+     * Gets reanalysis data's variable.
+     * @return Reanalysis data's variable.
+     */    
+    private Variable getReanalysisVariable() {
+        
+        /* Gets the reanalysis variable. */
+        
+        return this.reanalysisVariable;
+
+    }
+    
+    
+    /**
+     * Sets reanalysis data's variable.
+     * @param reanalysisVariable Reanalysis data's variable.
+     */    
+    private void setReanalysisVariable(Variable reanalysisVariable) {
+        
+        /* Sets the reanalysis data variable. */
+        
+        this.reanalysisVariable=reanalysisVariable;
+
+    }
+
+
+    /**
+     * Opens the reanalysis data file's name received.
+     * @param fileName Reanalysis data file's name to open.
+     * @return True if the file was properly opened or False if the process failed.
+     */
+    public boolean openFile(String fileName) {
+              
+        /* To check if the reanalysis file was properly opened. */
+        boolean result=false;
+        
+        try {                        
+            
+            /* Opens the reanalysis data file. */
+            NetcdfFile reanalysisFileToOpen = NetcdfFile.open(fileName, null);
+            
+            /* Checks is the reanalysis data file was properly opened. */
+            if(reanalysisFileToOpen!=null){
+                
+                /* The reanalysis data file was properly opened. */
+                setReanalysisFile(reanalysisFileToOpen);
+                
+                /* Sets the variable of reanalysis data. */
+                setReanalysisVariable(findReanalysisVariable());
+                
+                result=true;
+                
+            }
+            
+        } catch (IOException ex) {            
+            
+            JOptionPane.showMessageDialog(null, "The file "+ fileName +" could not be opened.", "Error", JOptionPane.ERROR_MESSAGE);
+            
+        }
+        
+        return result;
+    }
+    
+    
+    /**
+     * Closes the reanalysis data's file.
+     * @return True if the file was properly closed or False if the process failed.
+     */
+    public boolean closeFile() {
+        
+        /* To check if the reanalysis data file was properly closed. */
+        boolean result=false;
+                
+        try {                        
+            
+            /* Closes the reanalysis data file. */
+            getReanalysisFile().close();
+            
+            result=true;
+                        
+        } catch (IOException ex) {
+            Logger.getLogger(ReanalysisFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return result;
+    }    
+            
+    
+    /**
+     * Gets reanalysis data variable's name.
+     * @return Reanalysis data variable's name.
+     */
+    public String getReanalysisVariableName() {
+
+        /* Returns reanalysis data variable's name. */
+        return getReanalysisVariable().getFullName();
+
+    }
+    
+
+    /**
+     * Gets number of dimensions of the reanalysis data variable.
+     * @return Number of dimensions of the reanalysis data variable.
+     */
+    public int getReanalysisVariableNumDimensions() {
+
+        /* Returns number of dimensions of the reanalysis data variable. */
+        return getReanalysisVariable().getDimensions().size();
+
+    }
+    
+    
+    /**
+     * Gets reanalysis data variable's size.
+     * @return Reanalysis data variable's size.
+     */
+    public int getReanalysisVariableSize() {
+
+        /* Returns reanalysis data variable's size. */
+        return getReanalysisVariable().getShape()[0];
+
+    }
+        
+
+    /**
+     * Gets the data of reanalysis's variable.
+     * @return The data of reanalysis's variable.
+     */
+    public ArrayFloat.D3 getReanalysisVariableData() {
+                
+        /* To store the data of the variable of reanalysis. */
+        ArrayFloat.D3 data=null;
+        
+        try {
+
+            /* Gets the data of the variable of reanalysis. */
+            data = (ArrayFloat.D3) getReanalysisVariable().read();
+            
+        } catch (IOException ex) {    
+            Logger.getLogger(ReanalysisFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        /* Returns data of the variable of reanalysis. */
+        return data;
+        
+    }
+        
+    
+    /**
+     * Gets variable's size.
+     * @param varName Name of the variable to get its size.
+     * @return Variable's size.
+     */
+    public int getSizeVariable(String varName) {                
+
+        /* Gets the variable. */
+        Variable var = getReanalysisFile().findVariable(varName);
+
+        /* Returns its size. */
+        return (int) var.getSize();
+
+    }
+    
+    
+    /**
+     * Gets variable time's data.
+     * @return Variable time's data.
+     */
+    public ArrayDouble.D1 getDataVariableTime() {
+
+        /* Gets the variable. */
+        Variable var = getReanalysisFile().findVariable("time");
+        
+        /* To store the data of the variable time. */
+        ArrayDouble.D1 data=null;
+        
+        try {
+
+            /* Gets the data of the variable time. */
+            data =  (ArrayDouble.D1) var.read();
+            
+        } catch (IOException ex) {              
+            Logger.getLogger(ReanalysisFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        /* Returns data of the variable time. */
+        return data;
+
+    }
+    
+    
+    /**
+     * Gets variable's data.
+     * @param varName Name of the variable to get its data.
+     * @return Variable's data.
+     */
+    public ArrayFloat.D1 getDataVariable(String varName) {
+
+        /* Gets the variable. */
+        Variable var = getReanalysisFile().findVariable(varName);
+
+        /* To store the data of the received variable. */
+        ArrayFloat.D1 data=null;
+
+        try {
+            
+            /* Gets the data of the received variable. */                  
+            data =  (ArrayFloat.D1) var.read();
+            
+        } catch (IOException ex) {                        
+            Logger.getLogger(ReanalysisFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        /* Returns data of the received variable. */        
+        return data;
+
+    }        
+    
+    
+    /**
+     * Gets first data of the variable time.
+     * @return First data of the variable time.
+     */
+    public double getFirstDataVariableTime() {
+
+        /* Gets first data of the variable time. */
+        return getDataVariableTime().get(0);
+
+    }
+    
+    
+    /**
+     * Gets last data of the variable time.
+     * @return Last data of the variable time.
+     */
+    public double getLastDataVariableTime() {
+
+        /* Size of the variable time. */
+        int size=getSizeVariable("time");
+        
+        /* Gets the last data of the variable time. */
+        return getDataVariableTime().get(size-1);
+
+    }
+                
+
+    /**
+     * Gets first data of the received variable.
+     * @param varName Name of the variable.
+     * @return First data of the received variable.
+     */
+    public float getFirstDataVariable(String varName) {
+
+        /* Gets first data of the received variable. */
+        return getDataVariable(varName).get(0);
+
+    }
+    
+    
+    /**
+     * Gets last data of the received variable.
+     * @param varName Name of the variable.
+     * @return Last data of the received variable.
+     */
+    public float getLastDataVariable(String varName) {
+
+        /* Size of the variable received. */
+        int size=getSizeVariable(varName);
+        
+        /* Gets last data of the received variable. */
+        return getDataVariable(varName).get(size-1);
+
+    }
+    
+}

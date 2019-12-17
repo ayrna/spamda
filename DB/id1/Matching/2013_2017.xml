@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<matchingInformation attributeNameToPredict="WVHT" calculateFluxOfEnergy="false" datasetFileName="46001_2013_2017_preprocessed.db" datasetFilePath="id1/Preprocess/46001_2013_2017/46001_2013_2017_preprocessed.db" dateCreation="2018-03-07T12:22:38.543+01:00" idBuoy="1" includeAttributesAsInputs="true" includeMissingDates="false" numberOfNearestGeopointsToConsider="1" openDatabasesWithWEKA="true" outputFilesFormat="ARFF" outputFilesToCreate="0" outputFolder="/home/agomez/Escritorio/boyas/Station_46001_2018_03_07_12_22" predictionHorizon="6" stationID="Station 46001" typeDatasetFile="Preprocessed" typeOfMatching="Classification">
+    <reanalysisFiles>airt_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisFiles>press_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisFiles>uwind_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisFiles>vwind_2013_01_01_2018_01_01.nc</reanalysisFiles>
+    <reanalysisVars>air</reanalysisVars>
+    <reanalysisVars>pres</reanalysisVars>
+    <reanalysisVars>uwnd</reanalysisVars>
+    <reanalysisVars>vwnd</reanalysisVars>
+    <shortDescription>46001: 2013 a 2017</shortDescription>
+    <thresholdsClass>Baja</thresholdsClass>
+    <thresholdsClass>Media</thresholdsClass>
+    <thresholdsClass>Moderada</thresholdsClass>
+    <thresholdsClass>MuyAlta</thresholdsClass>
+    <thresholdsDescription>Altura de ola baja.</thresholdsDescription>
+    <thresholdsDescription>Altura de ola media.</thresholdsDescription>
+    <thresholdsDescription>Altura de ola moderada.</thresholdsDescription>
+    <thresholdsDescription>Altura de ola muy alta.</thresholdsDescription>
+    <thresholdsValues>0.36</thresholdsValues>
+    <thresholdsValues>1.5</thresholdsValues>
+    <thresholdsValues>2.5</thresholdsValues>
+    <thresholdsValues>4.0</thresholdsValues>
+    <thresholdsValues>9.9</thresholdsValues>
+</matchingInformation>

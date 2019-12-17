@@ -1,0 +1,44 @@
+   ---- Begin of matching process summary ---- 
+
+Date of creation .........................: Mon Feb 26 10:10:22 CET 2018
+Short description ........................:
+
+
+Type of matching .........................: Prediction
+
+     Class  , Description  , #Instances , Inferior[ , Superior)
+     ------ , ------------ , ---------- , --------- , ---------
+     A , Default class , 1450 , 0.0 , 359.0
+
+     Prediction horizon: 0 days and 0 hours
+
+Station ID ...............................: Station 46001
+File name dataset used ...................: 46001_2012.db
+Attribute predicted ......................: WDIR
+Included remaining attributes as inputs ..: false
+Included missing dates ...................: false. The following missing dates were found:
+                                            -> 2012-01-06 18:00:00
+                                            -> 2012-03-21 00:00:00
+                                            -> 2012-04-11 18:00:00
+                                            -> 2012-04-26 00:00:00
+                                            -> 2012-04-27 00:00:00
+                                            -> 2012-04-28 00:00:00
+                                            -> 2012-04-29 00:00:00
+                                            -> 2012-04-30 00:00:00
+                                            -> 2012-05-01 00:00:00
+                                            -> 2012-05-02 00:00:00
+                                            -> 2012-06-04 06:00:00
+                                            -> 2012-06-13 06:00:00
+                                            -> 2012-10-02 18:00:00
+                                            -> 2012-10-26 06:00:00
+                                            -> 2012-11-04 00:00:00
+Reanalysis data files used ...............:
+                                            -> (air) X150.214.94.234.71.3.25.57.nc
+Nearest geopoints to the buoy considered .: 4
+Output folder ............................: /home/agomez/NetBeansProjects/SPADNN/DB/finalDatasets/p1
+Output file format .......................: ARFF
+Output files created .....................: one final dataset using weighted mean of nearest geopoints
+                                            -> p1_1.arff
+
+   ----  End of matching process summary  ---- 
+

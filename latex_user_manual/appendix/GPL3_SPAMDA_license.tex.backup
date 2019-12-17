@@ -1,0 +1,80 @@
+\fancyhead[LO]{License of SPAMDA}
+\fancyhead[RE]{License of SPAMDA}
+%\chapter{\rlap{License of SPAMDA}} \label{licenseGPLSPAMDA}
+\chapter{License of SPAMDA} \label{licenseGPLSPAMDA}
+%\phantomsection  % so hyperref creates bookmarks
+%\addcontentsline{toc}{chapter}{License of SPAMDA}
+%\fancyhead[L]{License of SPAMDA}
+
+\parindent=0pt
+
+\small
+
+SPAMDA: Software for Pre-processing and Analysis of Meteorological DAta to build datasets
+
+Copyright (c) 2017-2018 by AYRNA Research Group. https://www.uco.es/ayrna/
+	\begin{quote}
+	Authors: 
+		\begin{quote}
+			Antonio Manuel Gómez Orellana, Juan Carlos Fernández Caballero,
+			Manuel Dorado Moreno, Pedro Antonio Gutiérrez Peña and 
+			César Hervás Martínez.
+		\end{quote}
+	\end{quote}
+
+This program is free software: you can redistribute it and/or modify it under the
+terms of the GNU General Public License as published by the Free Software Foundation,
+either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU General Public License for more details.
+
+A copy of the license is included in the appendix entitled "GNU GENERAL PUBLIC LICENSE" \ref{GPL_LICENSE}.
+If not, see <http://www.gnu.org/licenses/>.
+
+Additional permissions under GNU GPL version 3 section 7:
+
+1. Redistributions of source code, with or without modification, must retain
+the above full copyright notice as author attributions.
+
+2. Redistributions in binary form and/or the use of the documentacion,
+with or without modification, must reproduce the above full copyright notice
+as author attributions in the documentation and/or materials provided with
+the distribution.
+
+3. Neither name of copyright holders nor the names of its contributors may be used
+to endorse or promote products derived from this software for publicity purposes
+without specific prior written permission.
+
+4. Redistribution and/or use of source code, binary format and documentation,
+with or without modification, could require indemnification of licensors
+and authors by anyone who conveys the material (or modified versions of it)
+with contractual assumptions of liability to the recipient, for any liability
+that these contractual assumptions directly impose on those licensors and authors.
+
+SPAMDA uses some external libraries on its source code. You can see a copy of their respective
+notices about license, copyright and disclaimer in the following sections. For a more
+complete information about such licenses, see the distributions provided by their authors:
+
+-Library NetCDF Java, version 4.6.10
+
+\hspace{0.75cm}Notice of license in the appendix entitled ``NetCDF-LICENSE'' \ref{NetCDF_LICENSE}.
+
+-Library SLF4J, version 1.7.25
+
+\hspace{0.75cm}Notice of license in the appendix entitled ``SLF4J-LICENSE`` \ref{SLF4J_LICENSE}.
+
+-Library WEKA, version 3.8.1
+
+\hspace{0.75cm}Notice of license in the appendix entitled ''WEKA-LICENSE'' \ref{WEKA_LICENSE}.
+
+
+
+Contact information:
+	
+Prof. Dr. Juan Carlos Fernández Caballero
+	
+email: jfcaballero[at]uco[dot]es
+
+Address: University of Córdoba, Department of Computer Science and Numerical Analysis, Rabanales Campus, AYRNA Research Group, Einstein Building, 3rd floor. Road Madrid-Cádiz, Km 396-A. 14071 - Córdoba (Spain)
