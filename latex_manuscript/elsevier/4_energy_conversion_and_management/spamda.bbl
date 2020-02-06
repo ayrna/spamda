@@ -1,0 +1,369 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{WANG2019443}
+F.~Wang, Z.~Zhang, C.~Liu, Y.~Yu, S.~Pang, N.~Dui{\'c}, M.~Shafie-khah, J.~P.
+  Catal{\~a}o, {Generative adversarial networks and convolutional neural
+  networks based weather classification model for day ahead short-term
+  photovoltaic power forecasting}, Energy Conversion and Management 181 (2019)
+  443--462.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2018.11.074}
+  {\path{doi:10.1016/j.enconman.2018.11.074}}.
+
+\bibitem{LAFACE201545}
+V.~Laface, F.~Arena, C.~G. Soares, {Directional analysis of sea storms}, Ocean
+  Engineering 107~(Supplement C) (2015) 45--53.
+\newblock \href {http://dx.doi.org/10.1016/j.oceaneng.2015.07.027}
+  {\path{doi:10.1016/j.oceaneng.2015.07.027}}.
+
+\bibitem{DORADOMORENO2017428}
+M.~Dorado-Moreno, L.~Cornejo-Bueno, P.~Guti{\'e}rrez, L.~Prieto,
+  C.~Herv{\'a}s-Mart{\'i}nez, S.~Salcedo-Sanz, {Robust estimation of wind power
+  ramp events with reservoir computing}, Renewable Energy 111 (2017) 428--437.
+\newblock \href {http://dx.doi.org/10.1016/j.renene.2017.04.016}
+  {\path{doi:10.1016/j.renene.2017.04.016}}.
+
+\bibitem{WEISS201843}
+C.~V. Weiss, R.~Guanche, B.~Ondiviela, O.~F. Castellanos, J.~Juanes, {Marine
+  renewable energy potential: A global perspective for offshore wind and wave
+  exploitation}, Energy Conversion and Management 177 (2018) 43--54.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2018.09.059}
+  {\path{doi:10.1016/j.enconman.2018.09.059}}.
+
+\bibitem{ANTONANZASTORRES2016122}
+F.~Antonanzas-Torres, J.~Antonanzas, R.~Urraca, M.~Alia-Martinez,
+  F.~Martinez-de Pison, {Impact of atmospheric components on solar clear-sky
+  models at different elevation: Case study Canary Islands}, Energy Conversion
+  and Management 109 (2016) 122--129.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2015.11.067}
+  {\path{doi:10.1016/j.enconman.2015.11.067}}.
+
+\bibitem{FUCHS2016109}
+H.~L. Fuchs, G.~P. Gerbi, {Seascape-level variation in turbulence- and
+  wave-generated hydrodynamic signals experienced by plankton}, Progress in
+  Oceanography 141~(Supplement C) (2016) 109--129.
+\newblock \href {http://dx.doi.org/10.1016/j.pocean.2015.12.010}
+  {\path{doi:10.1016/j.pocean.2015.12.010}}.
+
+\bibitem{SILVA20101852}
+V.~d. P.~R. da~Silva, R.~A. e~Silva, E.~P. Cavalcanti, C.~C. Braga, P.~V.
+  de~Azevedo, V.~P. Singh, E.~R.~R. Pereira, {Trends in solar radiation in
+  NCEP/NCAR database and measurements in northeastern Brazil}, Solar Energy
+  84~(10) (2010) 1852--1862.
+\newblock \href {http://dx.doi.org/10.1016/j.solener.2010.07.011}
+  {\path{doi:10.1016/j.solener.2010.07.011}}.
+
+\bibitem{GOULDBY201415}
+B.~Gouldby, F.~J. M{\'e}ndez, Y.~Guanche, A.~Rueda, R.~M{\'i}nguez, {A
+  methodology for deriving extreme nearshore sea conditions for structural
+  design and flood risk analysis}, Coastal Engineering 88~(Supplement C) (2014)
+  15--26.
+\newblock \href {http://dx.doi.org/10.1016/j.coastaleng.2014.01.012}
+  {\path{doi:10.1016/j.coastaleng.2014.01.012}}.
+
+\bibitem{CAMARGONOGUEIRA2016361}
+C.~E.~C. Nogueira, M.~L. Vidotto, F.~Toniazzo, G.~Debastiani, {Software for
+  designing solar water heating systems}, Renewable and Sustainable Energy
+  Reviews 58~(Supplement C) (2016) 361--375.
+\newblock \href {http://dx.doi.org/10.1016/j.rser.2015.12.346}
+  {\path{doi:10.1016/j.rser.2015.12.346}}.
+
+\bibitem{LO2015293}
+C.~K. Lo, Y.~S. Lim, F.~A. Rahman, {New integrated simulation tool for the
+  optimum design of bifacial solar panel with reflectors on a specific site},
+  Renewable Energy 81~(Supplement C) (2015) 293--307.
+\newblock \href {http://dx.doi.org/10.1016/j.renene.2015.03.047}
+  {\path{doi:10.1016/j.renene.2015.03.047}}.
+
+\bibitem{NGUYEN2013150}
+T.~H. Nguyen, A.~Prinz, T.~Friis{\o}, R.~Nossum, I.~Tyapin, {A framework for
+  data integration of offshore wind farms}, Renewable Energy 60~(Supplement C)
+  (2013) 150--161.
+\newblock \href {http://dx.doi.org/10.1016/j.renene.2013.05.002}
+  {\path{doi:10.1016/j.renene.2013.05.002}}.
+
+\bibitem{LIU2018516}
+Y.~Liu, S.~Yoshida, C.~Hu, M.~Sueyoshi, L.~Sun, J.~Gao, P.~Cong, G.~He, {A
+  reliable open-source package for performance evaluation of floating renewable
+  energy systems in coastal and offshore regions}, Energy Conversion and
+  Management 174 (2018) 516--536.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2018.08.012}
+  {\path{doi:10.1016/j.enconman.2018.08.012}}.
+
+\bibitem{MOHAMMADI2018378}
+E.~Mohammadi, R.~Fadaeinedjad, H.~R. Naji, {Using a new wind turbine emulator
+  to analyze tower shadow and yaw error effects}, Energy Conversion and
+  Management 174 (2018) 378--387.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2018.08.049}
+  {\path{doi:10.1016/j.enconman.2018.08.049}}.
+
+\bibitem{RAABE2010213}
+A.~L.~A. Raabe, A.~H. d.~F. Klein, M.~Gonz{\'a}lez, R.~Medina, {MEPBAY and SMC:
+  Software tools to support different operational levels of headland-bay beach
+  in coastal engineering projects}, Coastal Engineering 57~(2) (2010) 213--226,
+  hydrodynamics and Applications of Headland-Bay Beaches.
+\newblock \href {http://dx.doi.org/10.1016/j.coastaleng.2009.10.008}
+  {\path{doi:10.1016/j.coastaleng.2009.10.008}}.
+
+\bibitem{NUNES2014758}
+J.~Nunes, D.~Neves, P.~D. Gaspar, P.~D. Silva, L.~P. Andrade, {Predictive tool
+  of energy performance of cold storage in agrifood industries: The Portuguese
+  case study}, Energy Conversion and Management 88 (2014) 758--767.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2014.09.018}
+  {\path{doi:10.1016/j.enconman.2014.09.018}}.
+
+\bibitem{ZEYRINGER20181281}
+M.~Zeyringer, B.~Fais, I.~Keppo, J.~Price, {The potential of marine energy
+  technologies in the UK -- Evaluation from a systems perspective}, Renewable
+  Energy 115~(Supplement C) (2018) 1281--1293.
+\newblock \href {http://dx.doi.org/10.1016/j.renene.2017.07.092}
+  {\path{doi:10.1016/j.renene.2017.07.092}}.
+
+\bibitem{BHATTACHARYA2017157}
+M.~Bhattacharya, S.~A. Churchill, S.~R. Paramati, {The dynamic impact of
+  renewable energy and institutions on economic output and CO2 emissions across
+  regions}, Renewable Energy 111~(Supplement C) (2017) 157--167.
+\newblock \href {http://dx.doi.org/10.1016/j.renene.2017.03.102}
+  {\path{doi:10.1016/j.renene.2017.03.102}}.
+
+\bibitem{BREDE201344}
+M.~Brede, B.~J. de~Vries, {The energy transition in a climate-constrained
+  world: Regional vs. global optimization}, Environmental Modelling \& Software
+  44 (2013) 44--61, thematic Issue on Innovative Approaches to Global Change
+  Modelling.
+\newblock \href {http://dx.doi.org/10.1016/j.envsoft.2012.07.011}
+  {\path{doi:10.1016/j.envsoft.2012.07.011}}.
+
+\bibitem{FALCAO2010899}
+A.~F. d.~O. Falc{\~a}o, {Wave energy utilization: A review of the
+  technologies}, Renewable and Sustainable Energy Reviews 14~(3) (2010)
+  899--918.
+\newblock \href {http://dx.doi.org/10.1016/j.rser.2009.11.003}
+  {\path{doi:10.1016/j.rser.2009.11.003}}.
+
+\bibitem{OLIVEIRAPINTO2019556}
+S.~Oliveira-Pinto, P.~Rosa-Santos, F.~Taveira-Pinto, {Electricity supply to
+  offshore oil and gas platforms from renewable ocean wave energy: Overview and
+  case study analysis}, Energy Conversion and Management 186 (2019) 556--569.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2019.02.050}
+  {\path{doi:10.1016/j.enconman.2019.02.050}}.
+
+\bibitem{FERNANDEZPRIETO2019546}
+L.~F. Prieto, G.~R. Rodr{\'i}guez, J.~S. Rodr{\'i}guez, {Wave energy to power a
+  desalination plant in the north of Gran Canaria Island: Wave resource,
+  socioeconomic and environmental assessment}, Journal of Environmental
+  Management 231 (2019) 546--551.
+\newblock \href {http://dx.doi.org/10.1016/j.jenvman.2018.10.071}
+  {\path{doi:10.1016/j.jenvman.2018.10.071}}.
+
+\bibitem{ochi1998}
+M.~K. Ochi, {Ocean Waves: The Stochastic Approach}, {Cambridge Ocean Technology
+  Series}, Cambridge University Press, 1998.
+\newblock \href {http://dx.doi.org/10.1017/CBO9780511529559}
+  {\path{doi:10.1017/CBO9780511529559}}.
+
+\bibitem{CROWLEY2018159}
+S.~Crowley, R.~Porter, D.~J. Taunton, P.~A. Wilson, {Modelling of the WITT wave
+  energy converter}, Renewable Energy 115~(Supplement C) (2018) 159--174.
+\newblock \href {http://dx.doi.org/10.1016/j.renene.2017.08.004}
+  {\path{doi:10.1016/j.renene.2017.08.004}}.
+
+\bibitem{Abdelkhalik2016}
+O.~Abdelkhalik, R.~Robinett, S.~Zou, G.~Bacelli, R.~Coe, D.~Bull, D.~Wilson,
+  U.~Korde, {On the control design of wave energy converters with wave
+  prediction}, Journal of Ocean Engineering and Marine Energy 2~(4) (2016)
+  473--483.
+\newblock \href {http://dx.doi.org/10.1007/s40722-016-0048-4}
+  {\path{doi:10.1007/s40722-016-0048-4}}.
+
+\bibitem{6898109}
+J.~V. Ringwood, G.~Bacelli, F.~Fusco, {Energy-Maximizing Control of Wave-Energy
+  Converters: The Development of Control System Technology to Optimize Their
+  Operation}, IEEE Control Systems 34~(5) (2014) 30--55.
+\newblock \href {http://dx.doi.org/10.1109/MCS.2014.2333253}
+  {\path{doi:10.1109/MCS.2014.2333253}}.
+
+\bibitem{CHATZIIOANNOU2017126}
+K.~Chatziioannou, V.~Katsardi, A.~Koukouselis, E.~Mistakidis, {The effect of
+  nonlinear wave-structure and soil-structure interactions in the design of an
+  offshore structure}, Marine Structures 52~(Supplement C) (2017) 126--152.
+\newblock \href {http://dx.doi.org/10.1016/j.marstruc.2016.11.003}
+  {\path{doi:10.1016/j.marstruc.2016.11.003}}.
+
+\bibitem{DALGIC2015211}
+Y.~Dalgic, I.~Lazakis, I.~Dinwoodie, D.~McMillan, M.~Revie, {Advanced logistics
+  planning for offshore wind farm operation and maintenance activities}, Ocean
+  Engineering 101~(Supplement C) (2015) 211--226.
+\newblock \href {http://dx.doi.org/10.1016/j.oceaneng.2015.04.040}
+  {\path{doi:10.1016/j.oceaneng.2015.04.040}}.
+
+\bibitem{CALLAGHAN2018123}
+D.~P. Callaghan, T.~E. Baldock, B.~Shabani, P.~J. Mumby, {Communicating
+  physics-based wave model predictions of coral reefs using Bayesian belief
+  networks}, Environmental Modelling \& Software 108 (2018) 123--132.
+\newblock \href {http://dx.doi.org/10.1016/j.envsoft.2018.07.021}
+  {\path{doi:10.1016/j.envsoft.2018.07.021}}.
+
+\bibitem{Alpaydin:2004:IML:1036287}
+E.~Alpaydin, {Introduction to Machine Learning (Adaptive Computation and
+  Machine Learning)}, The MIT Press, 2004.
+
+\bibitem{Bishop:2006:PRM:1162264}
+C.~M. Bishop, {Pattern Recognition and Machine Learning (Information Science
+  and Statistics)}, Springer-Verlag New York, Inc., Secaucus, NJ, USA, 2006.
+
+\bibitem{TU20102938}
+Y.-L. Tu, T.-J. Chang, C.-I. Hsieh, J.-Y. Shih, {Artificial neural networks in
+  the estimation of monthly capacity factors of WECS in Taiwan}, Energy
+  Conversion and Management 51~(12) (2010) 2938--2946.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2010.06.035}
+  {\path{doi:10.1016/j.enconman.2010.06.035}}.
+
+\bibitem{WANG2019111799}
+H.~Wang, Z.~Lei, X.~Zhang, B.~Zhou, J.~Peng, {A review of deep learning for
+  renewable energy forecasting}, Energy Conversion and Management 198 (2019)
+  111799.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2019.111799}
+  {\path{doi:10.1016/j.enconman.2019.111799}}.
+
+\bibitem{WEKA}
+M.~A.~H. {Eibe Frank}, I.~H. Witten, {The WEKA Workbench. Online Appendix for
+  Data Mining: Practical Machine Learning Tools and Techniques} (2016).
+
+\bibitem{DURANROSAL2017268}
+A.~M. Dur{\'a}n-Rosal, J.~C. Fern{\'a}ndez, P.~A. Guti{\'e}rrez,
+  C.~Herv{\'a}s-Mart{\'i}nez, {Detection and prediction of segments containing
+  extreme significant wave heights}, Ocean Engineering 142~(Supplement C)
+  (2017) 268--279.
+\newblock \href {http://dx.doi.org/10.1016/j.oceaneng.2017.07.009}
+  {\path{doi:10.1016/j.oceaneng.2017.07.009}}.
+
+\bibitem{KUMAR2017605}
+N.~K. kumar, R.~Savitha, A.~A. Mamun, {Regional ocean wave height prediction
+  using sequential learning neural networks}, Ocean Engineering 129 (2017)
+  605--612.
+\newblock \href {http://dx.doi.org/10.1016/j.oceaneng.2016.10.033}
+  {\path{doi:10.1016/j.oceaneng.2016.10.033}}.
+
+\bibitem{JOHANSSON2015143}
+L.~Johansson, V.~Epitropou, K.~Karatzas, A.~Karppinen, L.~Wanner, S.~Vrochidis,
+  A.~Bassoukos, J.~Kukkonen, I.~Kompatsiaris, {Fusion of meteorological and air
+  quality data extracted from the web for personalized environmental
+  information services}, Environmental Modelling \& Software 64 (2015)
+  143--155.
+\newblock \href {http://dx.doi.org/10.1016/j.envsoft.2014.11.021}
+  {\path{doi:10.1016/j.envsoft.2014.11.021}}.
+
+\bibitem{FERNANDEZ201544}
+J.~C. Fern{\'a}ndez, S.~Salcedo-Sanz, P.~A. Guti{\'e}rrez, E.~Alexandre,
+  C.~Herv{\'a}s-Mart{\'i}nez, {Significant wave height and energy flux range
+  forecast with machine learning classifiers}, Engineering Applications of
+  Artificial Intelligence 43~(Supplement C) (2015) 44--53.
+\newblock \href {http://dx.doi.org/10.1016/j.engappai.2015.03.012}
+  {\path{doi:10.1016/j.engappai.2015.03.012}}.
+
+\bibitem{Adams2010}
+J.~Adams, S.~Flora, {Correlating seabird movements with ocean winds: linking
+  satellite telemetry with ocean scatterometry}, Marine Biology 157~(4) (2010)
+  915--929.
+\newblock \href {http://dx.doi.org/10.1007/s00227-009-1367-y}
+  {\path{doi:10.1007/s00227-009-1367-y}}.
+
+\bibitem{NOAA}
+{National Data Buoy Center}, {National Oceanic and Atmospheric Administration
+  of the USA (NOAA)}, \url{http://www.ndbc.noaa.gov/}, {(Accessed 19 November
+  2018)}.
+
+\bibitem{Kalnay1996}
+E.~Kalnay, M.~Kanamitsu, R.~Kistler, W.~Collins, D.~Deaven, L.~Gandin,
+  M.~Iredell, S.~Saha, G.~White, J.~Woollen, Y.~Zhu, A.~Leetmaa, R.~Reynolds,
+  M.~Chelliah, W.~Ebisuzaki, W.~Higgins, J.~Janowiak, K.~C. Mo, C.~Ropelewski,
+  J.~Wang, R.~Jenne, D.~Joseph, {The NCEP/NCAR 40-Year Reanalysis Project},
+  Bulletin of the American Meteorological Society 77~(3) (1996) 437--471.
+\newblock \href
+  {http://dx.doi.org/10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2}
+  {\path{doi:10.1175/1520-0477(1996)077<0437:TNYRP>2.0.CO;2}}.
+
+\bibitem{Kistler2001}
+R.~Kistler, W.~Collins, S.~Saha, G.~White, J.~Woollen, E.~Kalnay, M.~Chelliah,
+  W.~Ebisuzaki, M.~Kanamitsu, V.~Kousky, H.~van~den Dool, R.~Jenne, M.~Fiorino,
+  {The NCEP--NCAR 50--Year Reanalysis: Monthly Means CD--ROM and
+  Documentation}, Bulletin of the American Meteorological Society 82~(2) (2001)
+  247--267.
+\newblock \href
+  {http://dx.doi.org/10.1175/1520-0477(2001)082<0247:TNNYRM>2.3.CO;2}
+  {\path{doi:10.1175/1520-0477(2001)082<0247:TNNYRM>2.3.CO;2}}.
+
+\bibitem{WEKA_ARFF}
+{The WEKA Data Mining Software: {Attribute-Relation File Format (ARFF)}},
+  \url{https://www.cs.waikato.ac.nz/ml/weka/arff.html}, {(Accessed 18 December
+  2018)}.
+
+\bibitem{NOAA_1}
+{National Data Buoy Center}, {NDBC - Historical NDBC Data},
+  \url{http://www.ndbc.noaa.gov/historical\_data.shtml}, {(Accessed 15 January
+  2019)}.
+
+\bibitem{NOAA_2}
+{National Data Buoy Center}, {NDBC - Important NDBC Web Site Changes},
+  \url{http://www.ndbc.noaa.gov/mods.shtml}, {(Accessed 15 January 2019)}.
+
+\bibitem{NNRP}
+{NOAA/OAR/ESRL PSD}, {ESRL : PSD : NCEP/NCAR Reanalysis 1},
+  \url{https://www.esrl.noaa.gov/psd/data/gridded/data.ncep.reanalysis.html},
+  {(Accessed 15 January 2019)}.
+
+\bibitem{NetCDF}
+{Unidata}, {Network Common Data Form (NetCDF) version 4.6.10 [software].
+  Boulder, CO: UCAR/Unidata.}, \url{https://doi.org/10.5065/D6H70CW6} (2017).
+
+\bibitem{Haversine_2009}
+M.~J. de~Smith, M.~F. Goodchild, P.~A. Longley, {Geospatial Analysis: A
+  Comprehensive Guide to Principles, Techniques and Software Tools}, 3rd
+  Edition, Matador, 2009.
+
+\bibitem{hosmer2013applied}
+D.~W. {Hosmer Jr}, S.~Lemeshow, R.~X. Sturdivant, {Applied logistic
+  regression}, Vol. 398, John Wiley \& Sons, 2013.
+
+\bibitem{quinlan2014c4}
+J.~R. Quinlan, {C4. 5: programs for machine learning}, Elsevier, 2014.
+
+\bibitem{breiman2001random}
+L.~Breiman, {Random forests}, Machine learning 45~(1) (2001) 5--32.
+
+\bibitem{cortes1995support}
+C.~Cortes, V.~Vapnik, {Support-vector networks}, Machine learning 20~(3) (1995)
+  273--297.
+
+\bibitem{haykin1994neural}
+S.~Haykin, {Neural networks: a comprehensive foundation}, Prentice Hall PTR,
+  1994.
+
+\bibitem{NOAA_3}
+{National Data Buoy Center}, {NDBC - Measurement Descriptions and Units},
+  \url{https://www.ndbc.noaa.gov/measdes.shtml}, {(Accessed 15 January 2019)}.
+
+\bibitem{DuranRosal2016}
+A.~M. Dur{\'a}n-Rosal, C.~Herv{\'a}s-Mart{\'i}nez, A.~J.
+  Tall{\'o}n-Ballesteros, A.~C. Mart{\'i}nez-Estudillo, S.~Salcedo-Sanz,
+  {{M}assive missing data reconstruction in ocean buoys with evolutionary
+  product unit neural networks}, Ocean Engineering 117 (2016) 292--301,
+  jCR(2016): 1.894 Position: 2/14 (Q1) Category: ENGINEERING, MARINE.
+\newblock \href {http://dx.doi.org/10.1016/j.oceaneng.2016.03.053}
+  {\path{doi:10.1016/j.oceaneng.2016.03.053}}.
+
+\bibitem{AlcalFdez2009KEELAS}
+J.~Alcal{\'a}-Fdez, L.~S{\'a}nchez, S.~Garc{\'i}a, M.~J. del Jes{\'u}s,
+  S.~Ventura, J.~M.~G. i~Guiu, J.~M. Otero, C.~Romero, J.~Bacardit, V.~M.~R.
+  Santos, J.~C. Fern{\'a}ndez, F.~Herrera, {KEEL: a software tool to assess
+  evolutionary algorithms for data mining problems}, Soft Comput. 13 (2009)
+  307--318.
+\newblock \href {http://dx.doi.org/10.1007/s00500-008-0323-y}
+  {\path{doi:10.1007/s00500-008-0323-y}}.
+
+\end{thebibliography}

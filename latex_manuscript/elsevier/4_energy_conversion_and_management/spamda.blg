@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: spamda.aux
+The style file: elsarticle-num.bst
+Database file #1: bibfile.bib
+You've used 55 entries,
+            2937 wiz_defined-function locations,
+            1058 strings with 18353 characters,
+and the built_in function-call counts, 17413 in all, are:
+= -- 1677
+> -- 726
+< -- 3
++ -- 278
+- -- 223
+* -- 1437
+:= -- 2423
+add.period$ -- 94
+call.type$ -- 55
+change.case$ -- 53
+chr.to.int$ -- 6
+cite$ -- 55
+duplicate$ -- 432
+empty$ -- 1795
+format.name$ -- 264
+if$ -- 4344
+int.to.chr$ -- 0
+int.to.str$ -- 55
+missing$ -- 54
+newline$ -- 212
+num.names$ -- 54
+pop$ -- 309
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 1037
+stack$ -- 0
+substring$ -- 988
+swap$ -- 124
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 134
+width$ -- 57
+write$ -- 522
