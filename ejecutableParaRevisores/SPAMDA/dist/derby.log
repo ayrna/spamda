@@ -1,0 +1,48 @@
+----------------------------------------------------------------
+Thu Dec 12 09:36:31 CET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-016e-f940-9baa-00000682f400 
+on database directory /media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/DB/buoysDatabase with class loader sun.misc.Launcher$AppClassLoader@70dea4e 
+Loaded from file:/media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/SPAMDA.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-54-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Dec 12 09:36:31 CET 2019:
+Shutting down instance a816c00e-016e-f940-9baa-00000682f400 on database directory /media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/DB/buoysDatabase with class loader sun.misc.Launcher$AppClassLoader@70dea4e 
+----------------------------------------------------------------
+Thu Dec 12 09:36:31 CET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a02ac013-016e-f940-9baa-00000682f400 
+on database directory /media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/DB/reanalysisDatabase with class loader sun.misc.Launcher$AppClassLoader@70dea4e 
+Loaded from file:/media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/SPAMDA.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-54-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Dec 12 09:36:31 CET 2019:
+Shutting down instance a02ac013-016e-f940-9baa-00000682f400 on database directory /media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/DB/reanalysisDatabase with class loader sun.misc.Launcher$AppClassLoader@70dea4e 
+----------------------------------------------------------------
+Thu Dec 12 09:36:36 CET 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance b8450018-016e-f940-9baa-00000682f400 
+on database directory /media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/DB/buoysDatabase with class loader sun.misc.Launcher$AppClassLoader@70dea4e 
+Loaded from file:/media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/SPAMDA.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_201-b09
+user.dir=/media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-54-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Dec 12 09:36:36 CET 2019:
+Shutting down instance b8450018-016e-f940-9baa-00000682f400 on database directory /media/datos/Taller/SPAMDA/ejecutableParaRevisores/SPAMDA/dist/DB/buoysDatabase with class loader sun.misc.Launcher$AppClassLoader@70dea4e 
