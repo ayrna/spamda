@@ -786,25 +786,17 @@
 }
 
 @article{REPETTO201829,
+	abstract = "This paper describes an extensive research activity, carried out at the University of Genova, aimed at developing an integrated web-based GIS platform for the safe management and risk assessment of complex port areas exposed to intense wind actions. This activity, carried out through the Projects ``Wind and Ports'' and ``Wind, Ports and Sea'', financed by the European Territorial Cooperation Objective, Cross-border program ``Italy--France Maritime 2007--2013'', includes the realization of a wide in situ monitoring network, specific numerical codes for the multi-scale simulation of wind and wave fields, wind and wave forecasting algorithms, and statistical wind climate analyses. All the results obtained are made directly available to the port operators through a web-based GIS platform integrated into a global system for the safe and operational management of the port areas involved in the above projects. In particular, the monitoring and forecasting systems work out operative results in continuous mode. The generality of the implemented platform makes it immediately suitable for applications to any port reality worldwide and, even more, to any complex structural and infrastructural system under wind actions.",
 	author = "Repetto, Maria Pia and Burlando, Massimiliano and Solari, Giovanni and Gaetano, Patrizia De and Pizzo, Marina and Tizzi, Marco",
 	doi = "10.1016/j.advengsoft.2017.03.002",
 	issn = "0965-9978",
 	journal = "Advances in Engineering Software",
+	keywords = "Port areas; Risk assessment; Safe management; Structural and infrastructural systems; GIS; Wind forecasting; Wind monitoring",
+	note = "Special Section - CIVIL-COMP 2017",
 	pages = "29--45",
-	title = "{A web-based GIS platform for the safe management and risk assessment of complex structural and infrastructural systems exposed to wind}"
-}
-
-@article{SU20167,
-	abstract = "With the constant deepening of research on marine environment simulation and information expression, there are higher and higher requirements for the sense of reality of ocean data visualization results and the real-time interaction in the visualization process. This paper tackle the challenge of key technology of three-dimensional interaction and volume rendering technology based on GPU technology, develops large scale marine hydrological environmental data-oriented visualization software and realizes oceanographic planar graph, contour line rendering, isosurface rendering, factor field volume rendering and dynamic simulation of current field. To express the spatial characteristics and real-time update of massive marine hydrological environmental data better, this study establishes nodes in the scene for the management of geometric objects to realize high-performance dynamic rendering. The system employs CUDA (Computing Unified Device Architecture) parallel computing for the improvement of computation rate, uses NetCDF (Network Common Data Form) file format for data access and applies GPU programming technology to realize fast volume rendering of marine water environmental factors. The visualization software of marine hydrological environment developed can simulate and show properties and change process of marine water environmental factors efficiently and intuitively.",
-	author = "Su, Tianyun and Cao, Zhu and Lv, Zhihan and Liu, Chang and Li, Xinfang",
-	doi = "10.1016/j.advengsoft.2016.01.009",
-	issn = "0965-9978",
-	journal = "Advances in Engineering Software",
-	keywords = "Marine environment; GPU; 3D data; OSG; NetCDF; Multi-dimensional visualization",
-	pages = "7--15",
-	title = "{Multi-dimensional visualization of large-scale marine hydrological environmental data}",
-	url = "http://www.sciencedirect.com/science/article/pii/S0965997816300175",
-	volume = "95",
-	year = "2016"
+	title = "{A web-based GIS platform for the safe management and risk assessment of complex structural and infrastructural systems exposed to wind"},
+	url = "http://www.sciencedirect.com/science/article/pii/S096599781730159X",
+	volume = "117",
+	year = "2018"
 }
 

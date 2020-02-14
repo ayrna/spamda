@@ -802,7 +802,7 @@
 	journal = "Advances in Engineering Software",
 	keywords = "Marine environment; GPU; 3D data; OSG; NetCDF; Multi-dimensional visualization",
 	pages = "7--15",
-	title = "{Multi-dimensional visualization of large-scale marine hydrological environmental data}",
+	title = "{Multi-dimensional visualization of large-scale marine hydrological environmental data"},
 	url = "http://www.sciencedirect.com/science/article/pii/S0965997816300175",
 	volume = "95",
 	year = "2016"

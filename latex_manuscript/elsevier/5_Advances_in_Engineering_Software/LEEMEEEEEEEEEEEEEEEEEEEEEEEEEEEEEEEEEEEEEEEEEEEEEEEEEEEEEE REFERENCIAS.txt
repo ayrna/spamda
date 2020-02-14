@@ -1,0 +1,45 @@
+Referencias a eliminar articulo boyas:
+-------------------------------------
+
+Se han eliminado las 5 referencias que había, y de esas 5, 2 las he sustituido por referencias de la nueva revista.
+
+Falta buscar otras 3 referencias de la revista nueva y encajarlas en zonas del documento que mejor nos venga o relacionadas con nuestra temática.
+
+
+
+ Eliminada y sustituida
+F. Wang, Z. Zhang, C. Liu, Y. Yu, S. Pang, N. Duić, M. Shafie-khah, J. P.
+Catalão, Generative adversarial networks and convolutional neural net-
+works based weather classification model for day ahead short-term photo-
+voltaic power forecasting, Energy Conversion and Management 181 (2019)
+443–462
+
+
+ Eliminada
+C. V. Weiss, R. Guanche, B. Ondiviela, O. F. Castellanos, J. Juanes, Marine
+renewable energy potential: A global perspective for offshore wind and
+wave exploitation, Energy Conversion and Management 177 (2018) 43–54.
+
+
+ Eliminada y sustituida
+J. Nunes, D. Neves, P. D. Gaspar, P. D. Silva, L. P. Andrade, Predic-
+tive tool of energy performance of cold storage in agrifood industries: The
+Portuguese case study, Energy Conversion and Management 88 (2014) 758–
+767
+
+Eliminada
+S. Oliveira-Pinto, P. Rosa-Santos, F. Taveira-Pinto, Electricity supply to
+offshore oil and gas platforms from renewable ocean wave energy: Overview
+and case study analysis, Energy Conversion and Management 186 (2019)
+556–569
+
+
+Eliminada
+H. Wang, Z. Lei, X. Zhang, B. Zhou, J. Peng, A review of deep learning
+for renewable energy forecasting, Energy Conversion and Management 198
+(2019) 111799.
+
+
+
+
+---------------------------------------

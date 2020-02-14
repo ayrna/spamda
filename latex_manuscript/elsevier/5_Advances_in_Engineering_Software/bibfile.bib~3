@@ -794,17 +794,3 @@
 	title = "{A web-based GIS platform for the safe management and risk assessment of complex structural and infrastructural systems exposed to wind}"
 }
 
-@article{SU20167,
-	abstract = "With the constant deepening of research on marine environment simulation and information expression, there are higher and higher requirements for the sense of reality of ocean data visualization results and the real-time interaction in the visualization process. This paper tackle the challenge of key technology of three-dimensional interaction and volume rendering technology based on GPU technology, develops large scale marine hydrological environmental data-oriented visualization software and realizes oceanographic planar graph, contour line rendering, isosurface rendering, factor field volume rendering and dynamic simulation of current field. To express the spatial characteristics and real-time update of massive marine hydrological environmental data better, this study establishes nodes in the scene for the management of geometric objects to realize high-performance dynamic rendering. The system employs CUDA (Computing Unified Device Architecture) parallel computing for the improvement of computation rate, uses NetCDF (Network Common Data Form) file format for data access and applies GPU programming technology to realize fast volume rendering of marine water environmental factors. The visualization software of marine hydrological environment developed can simulate and show properties and change process of marine water environmental factors efficiently and intuitively.",
-	author = "Su, Tianyun and Cao, Zhu and Lv, Zhihan and Liu, Chang and Li, Xinfang",
-	doi = "10.1016/j.advengsoft.2016.01.009",
-	issn = "0965-9978",
-	journal = "Advances in Engineering Software",
-	keywords = "Marine environment; GPU; 3D data; OSG; NetCDF; Multi-dimensional visualization",
-	pages = "7--15",
-	title = "{Multi-dimensional visualization of large-scale marine hydrological environmental data}",
-	url = "http://www.sciencedirect.com/science/article/pii/S0965997816300175",
-	volume = "95",
-	year = "2016"
-}
-

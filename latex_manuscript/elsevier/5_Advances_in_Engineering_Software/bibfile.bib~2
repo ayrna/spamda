@@ -1,5 +1,3 @@
-@comment{x-kbibtex-personnameformatting=<%l><, %f>}
-
 @article{ZEYRINGER20181281,
 	author = "Zeyringer, Marianne and Fais, Birgit and Keppo, Ilkka and Price, James",
 	doi = "10.1016/j.renene.2017.07.092",
@@ -73,7 +71,7 @@
 }
 
 @article{FERNANDEZ201544,
-	author = "Fern{\'a}ndez, J. C. and Salcedo-Sanz, S. and Guti{\'e}rrez, P. A. and Alexandre, E. and Herv{\'a}s-Mart{\'i}nez, C.",
+	author = "Fern{\'a}ndez, J. C. and Salcedo-Sanz, S. and Guti{\'e}rrez, P. A. and Alexandre, E. and Herv{\'a}s-Mart\'{\i}nez, C.",
 	doi = "10.1016/j.engappai.2015.03.012",
 	issn = "0952-1976",
 	journal = "Engineering Applications of Artificial Intelligence",
@@ -87,7 +85,7 @@
 }
 
 @article{DURANROSAL2017268,
-	author = "Dur{\'a}n-Rosal, A. M. and Fern{\'a}ndez, J. C. and Guti{\'e}rrez, P. A. and Herv{\'a}s-Mart{\'i}nez, C.",
+	author = "Dur{\'a}n-Rosal, A. M. and Fern{\'a}ndez, J. C. and Guti{\'e}rrez, P. A. and Herv{\'a}s-Mart\'{\i}nez, C.",
 	doi = "10.1016/j.oceaneng.2017.07.009",
 	issn = "0029-8018",
 	journal = "Ocean Engineering",
@@ -194,7 +192,7 @@
 }
 
 @article{GUTIERREZ201369,
-	author = "Gutierrez, Jos{\'e} E. and Zamora, Blas and Garc{\'i}a, Julio and Peyrau, Mar{\'i}a R.",
+	author = "Gutierrez, Jos{\'e} E. and Zamora, Blas and Garc\'{\i}a, Julio and Peyrau, Mar\'{\i}a R.",
 	doi = "10.1016/j.renene.2012.12.026",
 	issn = "0960-1481",
 	journal = "Renewable Energy",
@@ -250,20 +248,6 @@
 	year = "2015"
 }
 
-@article{DVORAK20101244,
-	author = "Dvorak, Michael J. and Archer, Cristina L. and Jacobson, Mark Z.",
-	doi = "10.1016/j.renene.2009.11.022",
-	issn = "0960-1481",
-	journal = "Renewable Energy",
-	keywords = "Offshore wind energy; California; Resource assessment; MM5; Bathymetry; Mesoscale modeling",
-	number = "6",
-	pages = "1244--1254",
-	title = "{California offshore wind energy potential}",
-	urll = "http://www.sciencedirect.com/science/article/pii/S0960148109004984",
-	volume = "35",
-	year = "2010"
-}
-
 @article{FUCHS2016109,
 	author = "Fuchs, Heidi L. and Gerbi, Gregory P.",
 	doi = "10.1016/j.pocean.2015.12.010",
@@ -292,7 +276,7 @@
 }
 
 @article{GOULDBY201415,
-	author = "Gouldby, B. and M{\'e}ndez, F. J. and Guanche, Y. and Rueda, A. and M{\'i}nguez, R.",
+	author = "Gouldby, B. and M{\'e}ndez, F. J. and Guanche, Y. and Rueda, A. and M\'{\i}nguez, R.",
 	doi = "10.1016/j.coastaleng.2014.01.012",
 	issn = "0378-3839",
 	journal = "Coastal Engineering",
@@ -511,7 +495,7 @@
 }
 
 @article{DORADOMORENO2017428,
-	author = "Dorado-Moreno, M. and Cornejo-Bueno, L. and Guti{\'e}rrez, P.A. and Prieto, L. and Herv{\'a}s-Mart{\'i}nez, C. and Salcedo-Sanz, S.",
+	author = "Dorado-Moreno, M. and Cornejo-Bueno, L. and Guti{\'e}rrez, P.A. and Prieto, L. and Herv{\'a}s-Mart\'{\i}nez, C. and Salcedo-Sanz, S.",
 	doi = "10.1016/j.renene.2017.04.016",
 	issn = "0960-1481",
 	journal = "Renewable Energy",
@@ -523,7 +507,7 @@
 }
 
 @article{AlcalFdez2009KEELAS,
-	author = "Alcal{\'a}-Fdez, Jes{\'u}s and S{\'a}nchez, Luciano and Garc{\'i}a, Salvador and del Jes{\'u}s, Mar{\'i}a Jos{\'e} and Ventura, Sebasti{\'a}n and i Guiu, Josep Maria Garrell and Otero, Jos{\'e} M and Romero, Crist{\'o}bal and Bacardit, Jaume and Santos, V{\'i}ctor Manuel Rivas and Fern{\'a}ndez, Juan Carlos and Herrera, Francisco",
+	author = "Alcal{\'a}-Fdez, Jes{\'u}s and S{\'a}nchez, Luciano and Garc\'{\i}a, Salvador and del Jes{\'u}s, Mar\'{\i}a Jos{\'e} and Ventura, Sebasti{\'a}n and i Guiu, Josep Maria Garrell and Otero, Jos{\'e} M and Romero, Crist{\'o}bal and Bacardit, Jaume and Santos, V\'{\i}ctor Manuel Rivas and Fern{\'a}ndez, Juan Carlos and Herrera, Francisco",
 	doi = "10.1007/s00500-008-0323-y",
 	journal = "Soft Comput.",
 	pages = "307--318",
@@ -534,7 +518,7 @@
 
 @article{DuranRosal2016,
 	abstract = "Abstract In this paper we tackle the problem of massive missing data reconstruction in ocean buoys, with an evolutionary product unit neural network (EPUNN). When considering a large number of buoys to reconstruct missing data, it is sometimes difficult to find a common period of completeness (without missing data on it) in the data to form a proper training and test set. In this paper we solve this issue by using partial reconstruction, which are then used as inputs of the EPUNN, with linear models. Missing data reconstruction in several phases or steps is then proposed. In this work we also show the potential of \{EPUNN\} to obtain simple, interpretable models in spite of the non-linear characteristic of the neural network, much simpler than the commonly used sigmoid-based neural systems. In the experimental section of the paper we show the performance of the proposed approach in a real case of massive missing data reconstruction in 6 wave-rider buoys at the Gulf of Alaska.",
-	author = "Dur{\'a}n-Rosal, Antonio Manuel and Herv{\'a}s-Mart{\'i}nez, C{\'e}sar and Tall{\'o}n-Ballesteros, Antonio Javier and Mart{\'i}nez-Estudillo, Alfonso Carlos and Salcedo-Sanz, Sancho",
+	author = "Dur{\'a}n-Rosal, Antonio Manuel and Herv{\'a}s-Mart\'{\i}nez, C{\'e}sar and Tall{\'o}n-Ballesteros, Antonio Javier and Mart\'{\i}nez-Estudillo, Alfonso Carlos and Salcedo-Sanz, Sancho",
 	awards = "JCR(2016): 1.894 Position: 2/14 (Q1) Category: ENGINEERING, MARINE",
 	comments = "JCR(2016): 1.894 Position: 2/14 (Q1) Category: ENGINEERING, MARINE",
 	doi = "10.1016/j.oceaneng.2016.03.053",
@@ -602,7 +586,7 @@
 
 @article{FERNANDEZPRIETO2019546,
 	abstract = "The Canary Islands are recognized as an area of particular interest to exploit and to promote the use of renewable energies as a way to reduce its energy dependence on fossil fuels and ultimately reach energy self-sufficiency and sustainability. A common major problem in mid-latitude small and remote islands is the low annual precipitation rate and the associated freshwater scarcity, leading to the installation of desalination plants powered by oil. In this context, the assessment of wave energy potential along with socioeconomic and environmental factors in a selected area at the north side of Gran Canaria Island shows that wave power availability is adequate for its exploitation and there are no sources of potential conflicts that prevent the installation of wave energy converters. In particular, the harvesting of wave energy to power existing seawater desalination plants, fully based in the use of oil, is considered as a viable, appealing and advantageous alternative over the direct injection to the electric network.",
-	author = "Prieto, L. Fern{\'a}ndez and Rodr{\'i}guez, G. Rodr{\'i}guez and Rodr{\'i}guez, J. Schallenberg",
+	author = "Prieto, L. Fern{\'a}ndez and Rodr\'{\i}guez, G. Rodr\'{\i}guez and Rodr\'{\i}guez, J. Schallenberg",
 	doi = "10.1016/j.jenvman.2018.10.071",
 	issn = "0301-4797",
 	journal = "Journal of Environmental Management",
@@ -615,7 +599,7 @@
 
 @article{MARTINSSILVA2019109368,
 	abstract = "The Brazilian Savannah, known as Cerrado, has the richest flora in the world among the savannas, with a high degree of endemic species. Despite the global ecological importance of the Cerrado, there are few studies focused on the modeling of the volume and biomass of this forest formation. Volume and biomass estimation can be performed using allometric models, artificial intelligence (AI) techniques and mixed regression models. Thus, the aim of this work was to evaluate the use of AI techniques and mixed models to estimate the volume and biomass of individual trees in vegetation of Brazilian central savanna. Numerical variables (diameter at height of 1.30 m of ground, total height, volume and biomass) and categorical variables (species) were used for the training and fitting of AI techniques and mixed models, respectively. The statistical indicators used to evaluate the training and the adjustment were the correlation coefficient, bias and Root mean square error relative. In addition, graphs were elaborated as complementary analysis. The results obtained by the statistical indicators and the graphical analysis show the great potential of AI techniques and mixed models in the estimation of volume and biomass of individual trees in Brazilian savanna vegetation. In addition, the proposed methodologies can be adapted to other biomes, forest typologies and variables of interest.",
-	author = "Silva, Jeferson Pereira Martins and da Silva, Mayra Luiza Marques and da Silva, Evandro Ferreira and da Silva, Gilson Fernandes and de Mendon\c{c}a, Adriano Ribeiro and Cabacinha, Christian Dias and Ara{\'u}jo, Emanuel Fran\c{c}a and Santos, Jeangelis Silva and Vieira, Giovanni Correia and de Almeida, Maria Naruna Felix and Fernandes, M{\'a}rcia Rodrigues de Moura",
+	author = "Silva, Jeferson Pereira Martins and da Silva, Mayra Luiza Marques and da Silva, Evandro Ferreira and da Silva, Gilson Fernandes and de Mendon{\c c}a, Adriano Ribeiro and Cabacinha, Christian Dias and Ara{\'u}jo, Emanuel Fran{\c c}a and Santos, Jeangelis Silva and Vieira, Giovanni Correia and de Almeida, Maria Naruna Felix and Fernandes, M{\'a}rcia Rodrigues de Moura",
 	doi = "10.1016/j.jenvman.2019.109368",
 	issn = "0301-4797",
 	journal = "Journal of Environmental Management",
@@ -750,7 +734,7 @@
 
 @article{NUNES2014758,
 	abstract = "Food processing and conservation represent decisive factors for the sustainability of the planet given the significant growth of the world population in the last decades. Therefore, the cooling process during the manufacture and/or storage of food products has been subject of study and improvement in order to ensure the food supply with good quality and safety. A predictive tool for assessment of the energy performance in agrifood industries that use cold storage is developed in order to contribute to the improvement of the energy efficiency of this industry. The predictive tool is based on a set of characteristic correlated parameters: amount of raw material annually processed, annual energy consumption and volume of cold rooms. Case studies of application of the predictive tool consider industries in the meat sector, specifically slaughterhouses. The results obtained help on the decision-making of practice measures for improvement of the energy efficiency in this industry.",
-	author = "Nunes, Jos{\'e} and Neves, Diogo and Gaspar, Pedro D. and Silva, Pedro D. and Andrade, Lu{\'i}s P.",
+	author = "Nunes, Jos{\'e} and Neves, Diogo and Gaspar, Pedro D. and Silva, Pedro D. and Andrade, Lu\'{\i}s P.",
 	doi = "10.1016/j.enconman.2014.09.018",
 	issn = "0196-8904",
 	journal = "Energy Conversion and Management",
@@ -772,5 +756,41 @@
 	title = "{Marine renewable energy potential: A global perspective for offshore wind and wave exploitation}",
 	volume = "177",
 	year = "2018"
+}
+
+@article{TU20102938,
+	abstract = "Measured wind speed and power output time series with 10-min resolution at Jhongtun wind power station and 30-min resolution at Mailiao station have been used to estimate monthly energy output by artificial neural networks (ANNs) over a period spanned between 2002 and 2006. The widely used back propagation algorithm is used in the network. The available database of these two stations is divided into two parts -- data from Year 2002 to Year 2005 is for training and Year 2006 data is used for the validation of training results. For the purpose of investigating the adequate training length of ANN simulations, four training periods (Year 2002--2005, 2003--2005, 2004--2005 and 2005) together with four training intervals (yearly, half-yearly, seasonal, and monthly) are input into the ANN model to estimate monthly capacity factors of the two stations at Year 2006 and compared with the measured data. The results show that ANN is an efficient tool for estimating wind power production. A training length with 12months can provide satisfactory estimation of monthly capacity factors in both of the stations. Moreover, the half-yearly training interval, which is derived from the real wind characteristics in Taiwan, gives the best estimation of monthly capacity factors compared to other training intervals.",
+	author = "Tu, Yi-Long and Chang, Tsang-Jung and Hsieh, Cheng-I and Shih, Jen-Ying",
+	doi = "10.1016/j.enconman.2010.06.035",
+	issn = "0196-8904",
+	journal = "Energy Conversion and Management",
+	keywords = "Wind power; Artificial neural network; Monthly capacity factor; Training length",
+	number = "12",
+	pages = "2938--2946",
+	title = "{Artificial neural networks in the estimation of monthly capacity factors of WECS in Taiwan}",
+	volume = "51",
+	year = "2010"
+}
+
+@article{WANG2019111799,
+	abstract = "As renewable energy becomes increasingly popular in the global electric energy grid, improving the accuracy of renewable energy forecasting is critical to power system planning, management, and operations. However, this is a challenging task due to the intermittent and chaotic nature of renewable energy data. To date, various methods have been developed, including physical models, statistical methods, artificial intelligence techniques, and their hybrids to improve the forecasting accuracy of renewable energy. Among them, deep learning, as a promising type of machine learning capable for discovering the inherent nonlinear features and high-level invariant structures in data, has been frequently reported in the literature. This paper provides a comprehensive and extensive review of renewable energy forecasting methods based on deep learning to explore its effectiveness, efficiency and application potential. We divide the existing deterministic and probabilistic forecasting methods based on deep learning into four groups, namely deep belief network, stack auto-encoder, deep recurrent neural network and others. We also dissect the feasible data preprocessing techniques and error post-correction methods to improve the forecasting accuracy. Extensive analysis and discussion of various deep learning based forecasting methods are given. Finally, we explore the current research activities, challenges and potential future research directions in this topic.",
+	author = "Wang, Huaizhi and Lei, Zhenxing and Zhang, Xian and Zhou, Bin and Peng, Jianchun",
+	doi = "10.1016/j.enconman.2019.111799",
+	issn = "0196-8904",
+	journal = "Energy Conversion and Management",
+	keywords = "Deep learning; Renewable energy; Deterministic forecasting; Probabilistic forecasting; Machine learning",
+	pages = "111799",
+	title = "{A review of deep learning for renewable energy forecasting}",
+	volume = "198",
+	year = "2019"
+}
+
+@article{REPETTO201829,
+	author = "Repetto, Maria Pia and Burlando, Massimiliano and Solari, Giovanni and Gaetano, Patrizia De and Pizzo, Marina and Tizzi, Marco",
+	doi = "10.1016/j.advengsoft.2017.03.002",
+	issn = "0965-9978",
+	journal = "Advances in Engineering Software",
+	pages = "29-45",
+	title = "{A web-based GIS platform for the safe management and risk assessment of complex structural and infrastructural systems exposed to wind}"
 }
 

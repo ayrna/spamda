@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: spamda.aux
+The style file: elsarticle-num.bst
+Database file #1: bibfile.bib
+Warning--empty year in REPETTO201829
+You've used 52 entries,
+            2937 wiz_defined-function locations,
+            1039 strings with 17610 characters,
+and the built_in function-call counts, 16354 in all, are:
+= -- 1571
+> -- 678
+< -- 3
++ -- 260
+- -- 208
+* -- 1344
+:= -- 2270
+add.period$ -- 87
+call.type$ -- 52
+change.case$ -- 50
+chr.to.int$ -- 6
+cite$ -- 53
+duplicate$ -- 410
+empty$ -- 1697
+format.name$ -- 246
+if$ -- 4087
+int.to.chr$ -- 0
+int.to.str$ -- 52
+missing$ -- 51
+newline$ -- 200
+num.names$ -- 51
+pop$ -- 301
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 977
+stack$ -- 0
+substring$ -- 911
+swap$ -- 115
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 126
+width$ -- 54
+write$ -- 491
+(There was 1 warning)

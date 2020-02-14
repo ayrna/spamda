@@ -1,0 +1,952 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.12.24)  14 FEB 2020 14:01
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**spamda.tex
+(./spamda.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.2.0: Elsevier Ltd
+\@bls=\dimen102
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count87
+\c@fnote=\count88
+\c@cnote=\count89
+\c@ead=\count90
+\c@author=\count91
+\@eadauthor=\toks15
+\c@affn=\count92
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+ (./spamda.spl)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count93
+)
+\splwrite=\write3
+\openout3 = `spamda.spl'.
+
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen109
+\extrarowheight=\dimen110
+\NC@list=\toks17
+\extratabsurround=\skip47
+\backup@length=\skip48
+)
+\everycr=\toks18
+\minrowclearance=\skip49
+)
+LaTeX Info: Redefining \color on input line 709.
+\rownum=\count94
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen111
+\captionmargin@=\dimen112
+\captionwidth=\dimen113
+\caption@tempdima=\dimen114
+\caption@indent=\dimen115
+\caption@parindent=\dimen116
+\caption@hangindent=\dimen117
+)
+\c@ContinuedFloat=\count95
+)
+\c@KVtest=\count96
+\sf@farskip=\skip50
+\sf@captopadj=\dimen118
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count97
+\c@subfigure@save=\count98
+\c@lofdepth=\count99
+\c@subtable=\count100
+\c@subtable@save=\count101
+\c@lotdepth=\count102
+\sf@top=\skip53
+\sf@bottom=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2005/11/02 line numbers on paragraphs v4.41
+\linenopenalty=\count103
+\output=\toks19
+\linenoprevgraf=\count104
+\linenumbersep=\dimen119
+\linenumberwidth=\dimen120
+\c@linenumber=\count105
+\c@pagewiselinenumber=\count106
+\c@LN@truepage=\count107
+\c@internallinenumber=\count108
+\c@internallinenumbers=\count109
+\quotelinenumbersep=\dimen121
+\bframerule=\dimen122
+\bframesep=\dimen123
+\bframebox=\box30
+LaTeX Info: Redefining \\ on input line 3056.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen124
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count110
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count111
+\leftroot@=\count112
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count113
+\DOTSCASE@=\count114
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box31
+\strutbox@=\box32
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count115
+\c@MaxMatrixCols=\count116
+\dotsspace@=\muskip10
+\c@parentequation=\count117
+\dspbrk@lvl=\count118
+\tag@help=\toks21
+\row@=\count119
+\column@=\count120
+\maxfields@=\count121
+\andhelp@=\toks22
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks23
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package hobsub Info: Skipping package `kvdefinekeys' (already loaded).
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen133
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count124
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count125
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen134
+\Fld@menulength=\count126
+\Field@Width=\dimen135
+\Fld@charsize=\dimen136
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip58
+)
+(./spamda.aux)
+\openout1 = `spamda.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count132
+\scratchdimen=\dimen137
+\scratchbox=\box33
+\nofMPsegments=\count133
+\nofMParguments=\count134
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen138
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
+\everyMPtoPDFconversion=\toks26
+)
+\symgns@font=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
+(Font)                  TS1/cmr/m/n --> TS1/cmr/bx/n on input line 28.
+Package gensymb Info: Math companion symbols declared on input line 28.
+LaTeX Info: Redefining \degree on input line 28.
+LaTeX Info: Redefining \celsius on input line 28.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
+erthousand on input line 28.
+LaTeX Info: Redefining \ohm on input line 28.
+Package gensymb Info: Using \textohm for \ohm on input line 28.
+Package gensymb Info: Using \textmu for \micro on input line 28.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box34
+Package hyperref Info: Link coloring OFF on input line 28.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count138
+)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
+
+(./spamda.out) (./spamda.out)
+\@outlinefile=\write4
+\openout4 = `spamda.out'.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 61.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 65.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
+Overfull \hbox (2.53238pt too wide) in paragraph at lines 89--90
+\T1/cmr/m/n/10 man-age-ment, and it is in-te-grated with the Ex-plorer en-vi-ro
+n-ment of WEKA. 
+ []
+
+
+Overfull \hbox (5.94574pt too wide) in paragraph at lines 97--98
+[]\T1/cmr/m/n/10 The data pro-vided by the above-mentioned sources of in-for-ma
+-tion of SPAMDA
+ []
+
+[6]
+<figures/FigureFragmentAnnualTextFile.png, id=194, 714.67pt x 181.67876pt>
+File: figures/FigureFragmentAnnualTextFile.png Graphic file (type png)
+<use figures/FigureFragmentAnnualTextFile.png>
+Package pdftex.def Info: figures/FigureFragmentAnnualTextFile.png  used on inpu
+t line 107.
+(pdftex.def)             Requested size: 357.33412pt x 90.83914pt.
+
+Overfull \hbox (12.33412pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+[7 <./figures/FigureFragmentAnnualTextFile.png>] [8]
+<figures/FigureSubGrid.jpg, id=215, 482.80376pt x 227.85126pt>
+File: figures/FigureSubGrid.jpg Graphic file (type jpg)
+<use figures/FigureSubGrid.jpg>
+Package pdftex.def Info: figures/FigureSubGrid.jpg  used on input line 168.
+(pdftex.def)             Requested size: 251.0594pt x 118.48332pt.
+ [9]
+Package epstopdf Info: Source file: <figures/FigureSPAMDA.eps>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 359695 bytes
+(epstopdf)             Output file: <./figures/FigureSPAMDA-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 157228 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/FigureSPAMDA-eps
+-converted-to.pdf figures/FigureSPAMDA.eps>
+(epstopdf)             \includegraphics on input line 189.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureSPAMDA-eps-converted-to
+.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
+d
+<./figures/FigureSPAMDA-eps-converted-to.pdf, id=224, 1275.76625pt x 472.76625p
+t>
+File: ./figures/FigureSPAMDA-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/FigureSPAMDA-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/FigureSPAMDA-eps-converted-to.pdf  used on i
+nput line 189.
+(pdftex.def)             Requested size: 408.25354pt x 151.28828pt.
+
+Overfull \hbox (63.25354pt too wide) in paragraph at lines 189--190
+ [][] 
+ []
+
+[10 <./figures/FigureSubGrid.jpg>] [11 <./figures/FigureSPAMDA-eps-converted-to
+.pdf>]
+Package epstopdf Info: Source file: <figures/FigureBuoys.eps>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 83964 bytes
+(epstopdf)             Output file: <./figures/FigureBuoys-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 31783 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/FigureBuoys-eps-
+converted-to.pdf figures/FigureBuoys.eps>
+(epstopdf)             \includegraphics on input line 229.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureBuoys-eps-converted-to.
+pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<./figures/FigureBuoys-eps-converted-to.pdf, id=243, 530.98375pt x 336.25626pt>
+
+File: ./figures/FigureBuoys-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/FigureBuoys-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/FigureBuoys-eps-converted-to.pdf  used on in
+put line 229.
+(pdftex.def)             Requested size: 223.01164pt x 141.22665pt.
+[12 <./figures/FigureBuoys-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/FigureDatasets.eps>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 184312 bytes
+(epstopdf)             Output file: <./figures/FigureDatasets-eps-converted-to.
+pdf>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 73737 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/FigureDatasets-e
+ps-converted-to.pdf figures/FigureDatasets.eps>
+(epstopdf)             \includegraphics on input line 245.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureDatasets-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<./figures/FigureDatasets-eps-converted-to.pdf, id=253, 630.355pt x 336.25626pt
+>
+File: ./figures/FigureDatasets-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/FigureDatasets-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/FigureDatasets-eps-converted-to.pdf  used on
+ input line 245.
+(pdftex.def)             Requested size: 252.13753pt x 134.5001pt.
+[13 <./figures/FigureDatasets-eps-converted-to.pdf>] [14]
+Package epstopdf Info: Source file: <figures/FigurePreprocess.eps>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 250460 bytes
+(epstopdf)             Output file: <./figures/FigurePreprocess-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 107726 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/FigurePreprocess
+-eps-converted-to.pdf figures/FigurePreprocess.eps>
+(epstopdf)             \includegraphics on input line 293.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigurePreprocess-eps-converte
+d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
+lowed
+<./figures/FigurePreprocess-eps-converted-to.pdf, id=267, 682.55pt x 315.1775pt
+>
+File: ./figures/FigurePreprocess-eps-converted-to.pdf Graphic file (type pdf)
+<use ./figures/FigurePreprocess-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/FigurePreprocess-eps-converted-to.pdf  used 
+on input line 293.
+(pdftex.def)             Requested size: 245.7178pt x 113.4638pt.
+[15 <./figures/FigurePreprocess-eps-converted-to.pdf>]
+<figures/FigureMatchingProcess.png, id=278, 1035.87pt x 470.75874pt>
+File: figures/FigureMatchingProcess.png Graphic file (type png)
+<use figures/FigureMatchingProcess.png>
+Package pdftex.def Info: figures/FigureMatchingProcess.png  used on input line 
+311.
+(pdftex.def)             Requested size: 393.63469pt x 178.89018pt.
+
+Overfull \hbox (48.63469pt too wide) in paragraph at lines 311--312
+ [][] 
+ []
+
+[16] [17 <./figures/FigureMatchingProcess.png>] [18] [19] [20]
+<figures/FigureDirectMatching.png, id=323, 300.12125pt x 303.1325pt>
+File: figures/FigureDirectMatching.png Graphic file (type png)
+<use figures/FigureDirectMatching.png>
+Package pdftex.def Info: figures/FigureDirectMatching.png  used on input line 3
+96.
+(pdftex.def)             Requested size: 147.0607pt x 148.53622pt.
+ [21] [22 <./figures/FigureDirectMatching.png>]
+<figures/FigureRegressionNoSync.png, id=344, 302.12875pt x 288.07625pt>
+File: figures/FigureRegressionNoSync.png Graphic file (type png)
+<use figures/FigureRegressionNoSync.png>
+Package pdftex.def Info: figures/FigureRegressionNoSync.png  used on input line
+ 439.
+(pdftex.def)             Requested size: 148.04437pt x 141.15858pt.
+ [23 <./figures/FigureRegressionNoSync.png>]
+<figures/FigureRegressionSync.png, id=356, 302.12875pt x 285.065pt>
+File: figures/FigureRegressionSync.png Graphic file (type png)
+<use figures/FigureRegressionSync.png>
+Package pdftex.def Info: figures/FigureRegressionSync.png  used on input line 4
+50.
+(pdftex.def)             Requested size: 148.04437pt x 139.68306pt.
+
+[24 <./figures/FigureRegressionSync.png>]
+<figures/FigureClassification.png, id=368, 349.305pt x 290.08376pt>
+File: figures/FigureClassification.png Graphic file (type png)
+<use figures/FigureClassification.png>
+Package pdftex.def Info: figures/FigureClassification.png  used on input line 4
+99.
+(pdftex.def)             Requested size: 171.16093pt x 142.14227pt.
+ [25 <./figures/FigureClassification.png>] [26]
+Package epstopdf Info: Source file: <figures/FigureManageReanalisys.eps>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 183949 bytes
+(epstopdf)             Output file: <./figures/FigureManageReanalisys-eps-conve
+rted-to.pdf>
+(epstopdf)                    date: 2020-02-06 17:18:41
+(epstopdf)                    size: 77076 bytes
+(epstopdf)             Command: <repstopdf --outfile=./figures/FigureManageRean
+alisys-eps-converted-to.pdf figures/FigureManageReanalisys.eps>
+(epstopdf)             \includegraphics on input line 540.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureManageReanalisys-eps-co
+nverted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
+.5> allowed
+<./figures/FigureManageReanalisys-eps-converted-to.pdf, id=386, 469.755pt x 347
+.2975pt>
+File: ./figures/FigureManageReanalisys-eps-converted-to.pdf Graphic file (type 
+pdf)
+<use ./figures/FigureManageReanalisys-eps-converted-to.pdf>
+Package pdftex.def Info: ./figures/FigureManageReanalisys-eps-converted-to.pdf 
+ used on input line 540.
+(pdftex.def)             Requested size: 211.3878pt x 156.28242pt.
+[27 <./figures/FigureManageReanalisys-eps-converted-to.pdf>]
+<figures/FigureMain_view.png, id=396, 443.6575pt x 288.07625pt>
+File: figures/FigureMain_view.png Graphic file (type png)
+<use figures/FigureMain_view.png>
+Package pdftex.def Info: figures/FigureMain_view.png  used on input line 565.
+(pdftex.def)             Requested size: 207.0021pt x 134.40681pt.
+ [28]
+<figures/FigureManage_reanalysis_data.png, id=407, 941.5175pt x 553.06625pt>
+File: figures/FigureManage_reanalysis_data.png Graphic file (type png)
+<use figures/FigureManage_reanalysis_data.png>
+Package pdftex.def Info: figures/FigureManage_reanalysis_data.png  used on inpu
+t line 573.
+(pdftex.def)             Requested size: 307.04979pt x 180.3689pt.
+<figures/FigureManage_buoys.png, id=408, 904.37875pt x 553.06625pt>
+File: figures/FigureManage_buoys.png Graphic file (type png)
+<use figures/FigureManage_buoys.png>
+Package pdftex.def Info: figures/FigureManage_buoys.png  used on input line 579
+.
+(pdftex.def)             Requested size: 307.04979pt x 187.76997pt.
+ [29 <./figures/FigureMain_view.png> <./figures/FigureManage_reanalysis_data.pn
+g>]
+<figures/FigureNew_buoy.png, id=419, 659.46375pt x 550.055pt>
+File: figures/FigureNew_buoy.png Graphic file (type png)
+<use figures/FigureNew_buoy.png>
+Package pdftex.def Info: figures/FigureNew_buoy.png  used on input line 589.
+(pdftex.def)             Requested size: 241.49895pt x 201.43565pt.
+ [30 <./figures/FigureManage_buoys.png> <./figures/FigureNew_buoy.png>]
+<figures/FigureDatasets.png, id=427, 904.37875pt x 553.06625pt>
+File: figures/FigureDatasets.png Graphic file (type png)
+<use figures/FigureDatasets.png>
+Package pdftex.def Info: figures/FigureDatasets.png  used on input line 597.
+(pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
+<figures/FigureNew_intermediate_dataset.png, id=431, 634.37pt x 444.66125pt>
+File: figures/FigureNew_intermediate_dataset.png Graphic file (type png)
+<use figures/FigureNew_intermediate_dataset.png>
+Package pdftex.def Info: figures/FigureNew_intermediate_dataset.png  used on in
+put line 605.
+(pdftex.def)             Requested size: 241.49895pt x 169.27835pt.
+ [31 <./figures/FigureDatasets.png>]
+<figures/FigurePreprocess.png, id=442, 904.37875pt x 553.06625pt>
+File: figures/FigurePreprocess.png Graphic file (type png)
+<use figures/FigurePreprocess.png>
+Package pdftex.def Info: figures/FigurePreprocess.png  used on input line 613.
+(pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
+ [32 <./figures/FigureNew_intermediate_dataset.png> <./figures/FigurePreprocess
+.png>]
+<figures/FigureMatching_configuration.png, id=451, 904.37875pt x 553.06625pt>
+File: figures/FigureMatching_configuration.png Graphic file (type png)
+<use figures/FigureMatching_configuration.png>
+Package pdftex.def Info: figures/FigureMatching_configuration.png  used on inpu
+t line 624.
+(pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
+ [33]
+<figures/FigureFinal_datasets.png, id=461, 904.37875pt x 553.06625pt>
+File: figures/FigureFinal_datasets.png Graphic file (type png)
+<use figures/FigureFinal_datasets.png>
+Package pdftex.def Info: figures/FigureFinal_datasets.png  used on input line 6
+40.
+(pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
+ [34 <./figures/FigureMatching_configuration.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35 <./figures/FigureFinal_datasets.png>]
+<figures/FigureOpeningFinalDatasetWeka.png, id=479, 1087.06125pt x 610.28pt>
+File: figures/FigureOpeningFinalDatasetWeka.png Graphic file (type png)
+<use figures/FigureOpeningFinalDatasetWeka.png>
+Package pdftex.def Info: figures/FigureOpeningFinalDatasetWeka.png  used on inp
+ut line 690.
+(pdftex.def)             Requested size: 327.74895pt x 183.99799pt.
+ [36 <./figures/FigureOpeningFinalDatasetWeka.png>] [37] [38] (./spamda.bbl [39
+] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 106--113
+\T1/cmr/m/n/10 URL []$\T1/cmtt/m/n/10 http : / / www . sciencedirect . com / sc
+ience / article / pii /
+ []
+
+[41] [42] [43] [44]
+Underfull \hbox (badness 8075) in paragraph at lines 283--286
+\T1/cmr/m/n/10 (ARFF), []$\T1/cmtt/m/n/10 https : / / www . cs . waikato . ac .
+ nz / ml / weka / arff . html$[]\T1/cmr/m/n/10 , (Ac-
+ []
+
+
+Underfull \hbox (badness 4726) in paragraph at lines 297--300
+[]\T1/cmr/m/n/10 NOAA/OAR/ESRL PSD, ESRL : PSD : NCEP/NCAR Re-anal-
+ []
+
+
+Underfull \hbox (badness 7595) in paragraph at lines 297--300
+\T1/cmr/m/n/10 y-sis 1, []$\T1/cmtt/m/n/10 https : / / www . esrl . noaa . gov 
+/ psd / data / gridded / data . ncep .
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 302--304
+\T1/cmr/m/n/10 Boul-der, CO: UCAR/Unidata., []$\T1/cmtt/m/n/10 https : / / doi 
+. org / 10 . 5065 / D6H70CW6$[]
+ []
+
+[45]) [46]
+<figures/FigureMeasurements.png, id=655, 764.8575pt x 597.23125pt>
+File: figures/FigureMeasurements.png Graphic file (type png)
+<use figures/FigureMeasurements.png>
+Package pdftex.def Info: figures/FigureMeasurements.png  used on input line 781
+.
+(pdftex.def)             Requested size: 344.1827pt x 268.75157pt.
+ [47]
+<figures/FigureCreatingDataset.png, id=666, 449.68pt x 369.38pt>
+File: figures/FigureCreatingDataset.png Graphic file (type png)
+<use figures/FigureCreatingDataset.png>
+Package pdftex.def Info: figures/FigureCreatingDataset.png  used on input line 
+792.
+(pdftex.def)             Requested size: 179.8688pt x 147.74937pt.
+ [48 <./figures/FigureMeasurements.png>]
+<figures/FigureMatchingMeasurements.png, id=675, 1089.06876pt x 589.20125pt>
+File: figures/FigureMatchingMeasurements.png Graphic file (type png)
+<use figures/FigureMatchingMeasurements.png>
+Package pdftex.def Info: figures/FigureMatchingMeasurements.png  used on input 
+line 801.
+(pdftex.def)             Requested size: 392.06445pt x 212.11227pt.
+
+Overfull \hbox (47.06445pt too wide) in paragraph at lines 801--802
+ [][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 806.
+[49 <./figures/FigureCreatingDataset.png> <./figures/FigureMatchingMeasurements
+.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 806.
+ (./spamda.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 806.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 806.
+Package rerunfilecheck Info: File `spamda.out' has not changed.
+(rerunfilecheck)             Checksum: 9601A1D661BED4995755A623FCDFC5BF;903.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 806.
+ ) 
+Here is how much of TeX's memory you used:
+ 9382 strings out of 492982
+ 141287 string characters out of 6134895
+ 232006 words of memory out of 5000000
+ 12600 multiletter control sequences out of 15000+600000
+ 20589 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 44i,13n,42p,2231b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
+fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+rm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfss0500.pfb></usr/share/texmf/fonts/type1/public/cm-super/sft
+i0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti0800.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sftt0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt
+1000.pfb>
+Output written on spamda.pdf (49 pages, 1680740 bytes).
+PDF statistics:
+ 805 PDF objects out of 1000 (max. 8388607)
+ 683 compressed objects within 7 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
+
