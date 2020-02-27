@@ -5,6 +5,13 @@
 \expandafter\ifx\csname href\endcsname\relax
   \def\href#1#2{#2} \def\path#1{#1}\fi
 
+\bibitem{KALLIORAS20158}
+N.~A. Kallioras, N.~D. Lagaros, M.~G. Karlaftis, P.~Pachy, {Optimum layout
+  design of onshore wind farms considering stochastic loading}, Advances in
+  Engineering Software 88 (2015) 8--20.
+\newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2015.05.002}
+  {\path{doi:10.1016/j.advengsoft.2015.05.002}}.
+
 \bibitem{LAFACE201545}
 V.~Laface, F.~Arena, C.~G. Soares, {Directional analysis of sea storms}, Ocean
   Engineering 107~(Supplement C) (2015) 45--53.
@@ -21,19 +28,18 @@ M.~P. Repetto, M.~Burlando, G.~Solari, P.~D. Gaetano, M.~Pizzo, M.~Tizzi, {A
 
 \bibitem{DORADOMORENO2017428}
 M.~Dorado-Moreno, L.~Cornejo-Bueno, P.~Guti{\'e}rrez, L.~Prieto,
-  C.~Herv{\'a}s-Mart\'{\i}nez, S.~Salcedo-Sanz, {Robust estimation of wind
-  power ramp events with reservoir computing}, Renewable Energy 111 (2017)
-  428--437.
+  C.~Herv{\'a}s-Mart{\'i}nez, S.~Salcedo-Sanz, {Robust estimation of wind power
+  ramp events with reservoir computing}, Renewable Energy 111 (2017) 428--437.
 \newblock \href {http://dx.doi.org/10.1016/j.renene.2017.04.016}
   {\path{doi:10.1016/j.renene.2017.04.016}}.
 
-\bibitem{ANTONANZASTORRES2016122}
-F.~Antonanzas-Torres, J.~Antonanzas, R.~Urraca, M.~Alia-Martinez,
-  F.~Martinez-de Pison, {Impact of atmospheric components on solar clear-sky
-  models at different elevation: Case study Canary Islands}, Energy Conversion
-  and Management 109 (2016) 122--129.
-\newblock \href {http://dx.doi.org/10.1016/j.enconman.2015.11.067}
-  {\path{doi:10.1016/j.enconman.2015.11.067}}.
+\bibitem{KANG201960}
+F.~Kang, J.~Li, J.~Dai, {Prediction of long-term temperature effect in
+  structural health monitoring of concrete dams using support vector machines
+  with Jaya optimizer and salp swarm algorithms}, Advances in Engineering
+  Software 131 (2019) 60--76.
+\newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2019.03.003}
+  {\path{doi:10.1016/j.advengsoft.2019.03.003}}.
 
 \bibitem{FUCHS2016109}
 H.~L. Fuchs, G.~P. Gerbi, {Seascape-level variation in turbulence- and
@@ -51,7 +57,7 @@ V.~d. P.~R. da~Silva, R.~A. e~Silva, E.~P. Cavalcanti, C.~C. Braga, P.~V.
   {\path{doi:10.1016/j.solener.2010.07.011}}.
 
 \bibitem{GOULDBY201415}
-B.~Gouldby, F.~J. M{\'e}ndez, Y.~Guanche, A.~Rueda, R.~M\'{\i}nguez, {A
+B.~Gouldby, F.~J. M{\'e}ndez, Y.~Guanche, A.~Rueda, R.~M{\'i}nguez, {A
   methodology for deriving extreme nearshore sea conditions for structural
   design and flood risk analysis}, Coastal Engineering 88~(Supplement C) (2014)
   15--26.
@@ -79,20 +85,19 @@ T.~H. Nguyen, A.~Prinz, T.~Friis{\o}, R.~Nossum, I.~Tyapin, {A framework for
 \newblock \href {http://dx.doi.org/10.1016/j.renene.2013.05.002}
   {\path{doi:10.1016/j.renene.2013.05.002}}.
 
-\bibitem{LIU2018516}
-Y.~Liu, S.~Yoshida, C.~Hu, M.~Sueyoshi, L.~Sun, J.~Gao, P.~Cong, G.~He, {A
-  reliable open-source package for performance evaluation of floating renewable
-  energy systems in coastal and offshore regions}, Energy Conversion and
-  Management 174 (2018) 516--536.
-\newblock \href {http://dx.doi.org/10.1016/j.enconman.2018.08.012}
-  {\path{doi:10.1016/j.enconman.2018.08.012}}.
+\bibitem{KRATZIG201333}
+W.~B. Kr{\"a}tzig, {An integrated computer model of a solar updraft power
+  plant}, Advances in Engineering Software 62-63 (2013) 33--38, special Issue
+  dedicated to Professor Zden ek Bittnar on the occasion of his Seventieth
+  Birthday: Part I.
+\newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2013.04.018}
+  {\path{doi:10.1016/j.advengsoft.2013.04.018}}.
 
-\bibitem{MOHAMMADI2018378}
-E.~Mohammadi, R.~Fadaeinedjad, H.~R. Naji, {Using a new wind turbine emulator
-  to analyze tower shadow and yaw error effects}, Energy Conversion and
-  Management 174 (2018) 378--387.
-\newblock \href {http://dx.doi.org/10.1016/j.enconman.2018.08.049}
-  {\path{doi:10.1016/j.enconman.2018.08.049}}.
+\bibitem{OROSA2011846}
+J.~A. Orosa, A.~C. Oliveira, {Software tools for HVAC research}, Advances in
+  Engineering Software 42~(10) (2011) 846--851.
+\newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2011.05.028}
+  {\path{doi:10.1016/j.advengsoft.2011.05.028}}.
 
 \bibitem{RAABE2010213}
 A.~L.~A. Raabe, A.~H. d.~F. Klein, M.~Gonz{\'a}lez, R.~Medina, {MEPBAY and SMC:
@@ -103,13 +108,11 @@ A.~L.~A. Raabe, A.~H. d.~F. Klein, M.~Gonz{\'a}lez, R.~Medina, {MEPBAY and SMC:
   {\path{doi:10.1016/j.coastaleng.2009.10.008}}.
 
 \bibitem{SU20167}
-T.~Su, Z.~Cao, Z.~Lv, C.~Liu, X.~Li,
-  \href{http://www.sciencedirect.com/science/article/pii/S0965997816300175}{{Multi-dimensional
-  visualization of large-scale marine hydrological environmental data}},
-  Advances in Engineering Software 95 (2016) 7--15.
+T.~Su, Z.~Cao, Z.~Lv, C.~Liu, X.~Li, {Multi-dimensional visualization of
+  large-scale marine hydrological environmental data}, Advances in Engineering
+  Software 95 (2016) 7--15.
 \newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2016.01.009}
   {\path{doi:10.1016/j.advengsoft.2016.01.009}}.
-\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/S0965997816300175}
 
 \bibitem{ZEYRINGER20181281}
 M.~Zeyringer, B.~Fais, I.~Keppo, J.~Price, {The potential of marine energy
@@ -140,9 +143,16 @@ A.~F. d.~O. Falc{\~a}o, {Wave energy utilization: A review of the
 \newblock \href {http://dx.doi.org/10.1016/j.rser.2009.11.003}
   {\path{doi:10.1016/j.rser.2009.11.003}}.
 
+\bibitem{OLIVEIRAPINTO2019556}
+S.~Oliveira-Pinto, P.~Rosa-Santos, F.~Taveira-Pinto, {Electricity supply to
+  offshore oil and gas platforms from renewable ocean wave energy: Overview and
+  case study analysis}, Energy Conversion and Management 186 (2019) 556--569.
+\newblock \href {http://dx.doi.org/10.1016/j.enconman.2019.02.050}
+  {\path{doi:10.1016/j.enconman.2019.02.050}}.
+
 \bibitem{FERNANDEZPRIETO2019546}
-L.~F. Prieto, G.~R. Rodr\'{\i}guez, J.~S. Rodr\'{\i}guez, {Wave energy to power
-  a desalination plant in the north of Gran Canaria Island: Wave resource,
+L.~F. Prieto, G.~R. Rodr{\'i}guez, J.~S. Rodr{\'i}guez, {Wave energy to power a
+  desalination plant in the north of Gran Canaria Island: Wave resource,
   socioeconomic and environmental assessment}, Journal of Environmental
   Management 231 (2019) 546--551.
 \newblock \href {http://dx.doi.org/10.1016/j.jenvman.2018.10.071}
@@ -204,12 +214,26 @@ E.~Alpaydin, {Introduction to Machine Learning (Adaptive Computation and
 C.~M. Bishop, {Pattern Recognition and Machine Learning (Information Science
   and Statistics)}, Springer-Verlag New York, Inc., Secaucus, NJ, USA, 2006.
 
-\bibitem{TU20102938}
-Y.-L. Tu, T.-J. Chang, C.-I. Hsieh, J.-Y. Shih, {Artificial neural networks in
-  the estimation of monthly capacity factors of WECS in Taiwan}, Energy
-  Conversion and Management 51~(12) (2010) 2938--2946.
-\newblock \href {http://dx.doi.org/10.1016/j.enconman.2010.06.035}
-  {\path{doi:10.1016/j.enconman.2010.06.035}}.
+\bibitem{ZHOU20191}
+G.~Zhou, X.~Yang, C.~Zhang, Z.~Li, Z.~Xiao, {Deep learning enabled cutting tool
+  selection for special-shaped machining features of complex products},
+  Advances in Engineering Software 133 (2019) 1--11.
+\newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2019.04.007}
+  {\path{doi:10.1016/j.advengsoft.2019.04.007}}.
+
+\bibitem{NOURANI2012127}
+V.~Nourani, M.~S. Fard, {Sensitivity analysis of the artificial neural network
+  outputs in simulation of the evaporation process at different climatologic
+  regimes}, Advances in Engineering Software 47~(1) (2012) 127--146.
+\newblock \href {http://dx.doi.org/10.1016/j.advengsoft.2011.12.014}
+  {\path{doi:10.1016/j.advengsoft.2011.12.014}}.
+
+\bibitem{GUO201816}
+Y.~Guo, J.~Wang, H.~Chen, G.~Li, J.~Liu, C.~Xu, R.~Huang, Y.~Huang, {Machine
+  learning-based thermal response time ahead energy demand prediction for
+  building heating systems}, Applied Energy 221 (2018) 16--27.
+\newblock \href {http://dx.doi.org/10.1016/j.apenergy.2018.03.125}
+  {\path{doi:10.1016/j.apenergy.2018.03.125}}.
 
 \bibitem{WEKA}
 M.~A.~H. {Eibe Frank}, I.~H. Witten, {The WEKA Workbench. Online Appendix for
@@ -217,7 +241,7 @@ M.~A.~H. {Eibe Frank}, I.~H. Witten, {The WEKA Workbench. Online Appendix for
 
 \bibitem{DURANROSAL2017268}
 A.~M. Dur{\'a}n-Rosal, J.~C. Fern{\'a}ndez, P.~A. Guti{\'e}rrez,
-  C.~Herv{\'a}s-Mart\'{\i}nez, {Detection and prediction of segments containing
+  C.~Herv{\'a}s-Mart{\'i}nez, {Detection and prediction of segments containing
   extreme significant wave heights}, Ocean Engineering 142~(Supplement C)
   (2017) 268--279.
 \newblock \href {http://dx.doi.org/10.1016/j.oceaneng.2017.07.009}
@@ -241,7 +265,7 @@ L.~Johansson, V.~Epitropou, K.~Karatzas, A.~Karppinen, L.~Wanner, S.~Vrochidis,
 
 \bibitem{FERNANDEZ201544}
 J.~C. Fern{\'a}ndez, S.~Salcedo-Sanz, P.~A. Guti{\'e}rrez, E.~Alexandre,
-  C.~Herv{\'a}s-Mart\'{\i}nez, {Significant wave height and energy flux range
+  C.~Herv{\'a}s-Mart{\'i}nez, {Significant wave height and energy flux range
   forecast with machine learning classifiers}, Engineering Applications of
   Artificial Intelligence 43~(Supplement C) (2015) 44--53.
 \newblock \href {http://dx.doi.org/10.1016/j.engappai.2015.03.012}
@@ -330,8 +354,8 @@ S.~Haykin, {Neural networks: a comprehensive foundation}, Prentice Hall PTR,
   \url{https://www.ndbc.noaa.gov/measdes.shtml}, {(Accessed 15 January 2019)}.
 
 \bibitem{DuranRosal2016}
-A.~M. Dur{\'a}n-Rosal, C.~Herv{\'a}s-Mart\'{\i}nez, A.~J.
-  Tall{\'o}n-Ballesteros, A.~C. Mart\'{\i}nez-Estudillo, S.~Salcedo-Sanz,
+A.~M. Dur{\'a}n-Rosal, C.~Herv{\'a}s-Mart{\'i}nez, A.~J.
+  Tall{\'o}n-Ballesteros, A.~C. Mart{\'i}nez-Estudillo, S.~Salcedo-Sanz,
   {{M}assive missing data reconstruction in ocean buoys with evolutionary
   product unit neural networks}, Ocean Engineering 117 (2016) 292--301,
   jCR(2016): 1.894 Position: 2/14 (Q1) Category: ENGINEERING, MARINE.
@@ -339,7 +363,7 @@ A.~M. Dur{\'a}n-Rosal, C.~Herv{\'a}s-Mart\'{\i}nez, A.~J.
   {\path{doi:10.1016/j.oceaneng.2016.03.053}}.
 
 \bibitem{AlcalFdez2009KEELAS}
-J.~Alcal{\'a}-Fdez, L.~S{\'a}nchez, S.~Garc\'{\i}a, M.~J. del Jes{\'u}s,
+J.~Alcal{\'a}-Fdez, L.~S{\'a}nchez, S.~Garc{\'i}a, M.~J. del Jes{\'u}s,
   S.~Ventura, J.~M.~G. i~Guiu, J.~M. Otero, C.~Romero, J.~Bacardit, V.~M.~R.
   Santos, J.~C. Fern{\'a}ndez, F.~Herrera, {KEEL: a software tool to assess
   evolutionary algorithms for data mining problems}, Soft Comput. 13 (2009)

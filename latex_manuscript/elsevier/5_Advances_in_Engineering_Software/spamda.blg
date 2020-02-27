@@ -1,48 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: spamda.aux
 The style file: elsarticle-num.bst
 Database file #1: bibfile.bib
 Warning--empty year in REPETTO201829
-You've used 52 entries,
+You've used 56 entries,
             2937 wiz_defined-function locations,
-            1039 strings with 17610 characters,
-and the built_in function-call counts, 16354 in all, are:
-= -- 1571
-> -- 678
+            1069 strings with 18443 characters,
+and the built_in function-call counts, 17484 in all, are:
+= -- 1700
+> -- 706
 < -- 3
-+ -- 260
-- -- 208
-* -- 1344
-:= -- 2270
-add.period$ -- 87
-call.type$ -- 52
-change.case$ -- 50
++ -- 272
+- -- 216
+* -- 1432
+:= -- 2421
+add.period$ -- 95
+call.type$ -- 56
+change.case$ -- 55
 chr.to.int$ -- 6
-cite$ -- 53
-duplicate$ -- 410
-empty$ -- 1697
-format.name$ -- 246
-if$ -- 4087
+cite$ -- 57
+duplicate$ -- 440
+empty$ -- 1813
+format.name$ -- 257
+if$ -- 4376
 int.to.chr$ -- 0
-int.to.str$ -- 52
-missing$ -- 51
-newline$ -- 200
-num.names$ -- 51
-pop$ -- 301
+int.to.str$ -- 56
+missing$ -- 55
+newline$ -- 215
+num.names$ -- 55
+pop$ -- 314
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 977
+skip$ -- 1057
 stack$ -- 0
-substring$ -- 911
-swap$ -- 115
+substring$ -- 971
+swap$ -- 126
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 126
-width$ -- 54
-write$ -- 491
+while$ -- 138
+width$ -- 58
+write$ -- 531
 (There was 1 warning)

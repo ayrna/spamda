@@ -1,3 +1,5 @@
+@comment{x-kbibtex-personnameformatting=<%l><, %f>}
+
 @article{ZEYRINGER20181281,
 	author = "Zeyringer, Marianne and Fais, Birgit and Keppo, Ilkka and Price, James",
 	doi = "10.1016/j.renene.2017.07.092",
@@ -71,7 +73,7 @@
 }
 
 @article{FERNANDEZ201544,
-	author = "Fern{\'a}ndez, J. C. and Salcedo-Sanz, S. and Guti{\'e}rrez, P. A. and Alexandre, E. and Herv{\'a}s-Mart\'{\i}nez, C.",
+	author = "Fern{\'a}ndez, J. C. and Salcedo-Sanz, S. and Guti{\'e}rrez, P. A. and Alexandre, E. and Herv{\'a}s-Mart{\'i}nez, C.",
 	doi = "10.1016/j.engappai.2015.03.012",
 	issn = "0952-1976",
 	journal = "Engineering Applications of Artificial Intelligence",
@@ -85,7 +87,7 @@
 }
 
 @article{DURANROSAL2017268,
-	author = "Dur{\'a}n-Rosal, A. M. and Fern{\'a}ndez, J. C. and Guti{\'e}rrez, P. A. and Herv{\'a}s-Mart\'{\i}nez, C.",
+	author = "Dur{\'a}n-Rosal, A. M. and Fern{\'a}ndez, J. C. and Guti{\'e}rrez, P. A. and Herv{\'a}s-Mart{\'i}nez, C.",
 	doi = "10.1016/j.oceaneng.2017.07.009",
 	issn = "0029-8018",
 	journal = "Ocean Engineering",
@@ -192,7 +194,7 @@
 }
 
 @article{GUTIERREZ201369,
-	author = "Gutierrez, Jos{\'e} E. and Zamora, Blas and Garc\'{\i}a, Julio and Peyrau, Mar\'{\i}a R.",
+	author = "Gutierrez, Jos{\'e} E. and Zamora, Blas and Garc{\'i}a, Julio and Peyrau, Mar{\'i}a R.",
 	doi = "10.1016/j.renene.2012.12.026",
 	issn = "0960-1481",
 	journal = "Renewable Energy",
@@ -276,7 +278,7 @@
 }
 
 @article{GOULDBY201415,
-	author = "Gouldby, B. and M{\'e}ndez, F. J. and Guanche, Y. and Rueda, A. and M\'{\i}nguez, R.",
+	author = "Gouldby, B. and M{\'e}ndez, F. J. and Guanche, Y. and Rueda, A. and M{\'i}nguez, R.",
 	doi = "10.1016/j.coastaleng.2014.01.012",
 	issn = "0378-3839",
 	journal = "Coastal Engineering",
@@ -495,7 +497,7 @@
 }
 
 @article{DORADOMORENO2017428,
-	author = "Dorado-Moreno, M. and Cornejo-Bueno, L. and Guti{\'e}rrez, P.A. and Prieto, L. and Herv{\'a}s-Mart\'{\i}nez, C. and Salcedo-Sanz, S.",
+	author = "Dorado-Moreno, M. and Cornejo-Bueno, L. and Guti{\'e}rrez, P.A. and Prieto, L. and Herv{\'a}s-Mart{\'i}nez, C. and Salcedo-Sanz, S.",
 	doi = "10.1016/j.renene.2017.04.016",
 	issn = "0960-1481",
 	journal = "Renewable Energy",
@@ -507,7 +509,7 @@
 }
 
 @article{AlcalFdez2009KEELAS,
-	author = "Alcal{\'a}-Fdez, Jes{\'u}s and S{\'a}nchez, Luciano and Garc\'{\i}a, Salvador and del Jes{\'u}s, Mar\'{\i}a Jos{\'e} and Ventura, Sebasti{\'a}n and i Guiu, Josep Maria Garrell and Otero, Jos{\'e} M and Romero, Crist{\'o}bal and Bacardit, Jaume and Santos, V\'{\i}ctor Manuel Rivas and Fern{\'a}ndez, Juan Carlos and Herrera, Francisco",
+	author = "Alcal{\'a}-Fdez, Jes{\'u}s and S{\'a}nchez, Luciano and Garc{\'i}a, Salvador and del Jes{\'u}s, Mar{\'i}a Jos{\'e} and Ventura, Sebasti{\'a}n and i Guiu, Josep Maria Garrell and Otero, Jos{\'e} M and Romero, Crist{\'o}bal and Bacardit, Jaume and Santos, V{\'i}ctor Manuel Rivas and Fern{\'a}ndez, Juan Carlos and Herrera, Francisco",
 	doi = "10.1007/s00500-008-0323-y",
 	journal = "Soft Comput.",
 	pages = "307--318",
@@ -518,7 +520,7 @@
 
 @article{DuranRosal2016,
 	abstract = "Abstract In this paper we tackle the problem of massive missing data reconstruction in ocean buoys, with an evolutionary product unit neural network (EPUNN). When considering a large number of buoys to reconstruct missing data, it is sometimes difficult to find a common period of completeness (without missing data on it) in the data to form a proper training and test set. In this paper we solve this issue by using partial reconstruction, which are then used as inputs of the EPUNN, with linear models. Missing data reconstruction in several phases or steps is then proposed. In this work we also show the potential of \{EPUNN\} to obtain simple, interpretable models in spite of the non-linear characteristic of the neural network, much simpler than the commonly used sigmoid-based neural systems. In the experimental section of the paper we show the performance of the proposed approach in a real case of massive missing data reconstruction in 6 wave-rider buoys at the Gulf of Alaska.",
-	author = "Dur{\'a}n-Rosal, Antonio Manuel and Herv{\'a}s-Mart\'{\i}nez, C{\'e}sar and Tall{\'o}n-Ballesteros, Antonio Javier and Mart\'{\i}nez-Estudillo, Alfonso Carlos and Salcedo-Sanz, Sancho",
+	author = "Dur{\'a}n-Rosal, Antonio Manuel and Herv{\'a}s-Mart{\'i}nez, C{\'e}sar and Tall{\'o}n-Ballesteros, Antonio Javier and Mart{\'i}nez-Estudillo, Alfonso Carlos and Salcedo-Sanz, Sancho",
 	awards = "JCR(2016): 1.894 Position: 2/14 (Q1) Category: ENGINEERING, MARINE",
 	comments = "JCR(2016): 1.894 Position: 2/14 (Q1) Category: ENGINEERING, MARINE",
 	doi = "10.1016/j.oceaneng.2016.03.053",
@@ -586,7 +588,7 @@
 
 @article{FERNANDEZPRIETO2019546,
 	abstract = "The Canary Islands are recognized as an area of particular interest to exploit and to promote the use of renewable energies as a way to reduce its energy dependence on fossil fuels and ultimately reach energy self-sufficiency and sustainability. A common major problem in mid-latitude small and remote islands is the low annual precipitation rate and the associated freshwater scarcity, leading to the installation of desalination plants powered by oil. In this context, the assessment of wave energy potential along with socioeconomic and environmental factors in a selected area at the north side of Gran Canaria Island shows that wave power availability is adequate for its exploitation and there are no sources of potential conflicts that prevent the installation of wave energy converters. In particular, the harvesting of wave energy to power existing seawater desalination plants, fully based in the use of oil, is considered as a viable, appealing and advantageous alternative over the direct injection to the electric network.",
-	author = "Prieto, L. Fern{\'a}ndez and Rodr\'{\i}guez, G. Rodr\'{\i}guez and Rodr\'{\i}guez, J. Schallenberg",
+	author = "Prieto, L. Fern{\'a}ndez and Rodr{\'i}guez, G. Rodr{\'i}guez and Rodr{\'i}guez, J. Schallenberg",
 	doi = "10.1016/j.jenvman.2018.10.071",
 	issn = "0301-4797",
 	journal = "Journal of Environmental Management",
@@ -599,7 +601,7 @@
 
 @article{MARTINSSILVA2019109368,
 	abstract = "The Brazilian Savannah, known as Cerrado, has the richest flora in the world among the savannas, with a high degree of endemic species. Despite the global ecological importance of the Cerrado, there are few studies focused on the modeling of the volume and biomass of this forest formation. Volume and biomass estimation can be performed using allometric models, artificial intelligence (AI) techniques and mixed regression models. Thus, the aim of this work was to evaluate the use of AI techniques and mixed models to estimate the volume and biomass of individual trees in vegetation of Brazilian central savanna. Numerical variables (diameter at height of 1.30 m of ground, total height, volume and biomass) and categorical variables (species) were used for the training and fitting of AI techniques and mixed models, respectively. The statistical indicators used to evaluate the training and the adjustment were the correlation coefficient, bias and Root mean square error relative. In addition, graphs were elaborated as complementary analysis. The results obtained by the statistical indicators and the graphical analysis show the great potential of AI techniques and mixed models in the estimation of volume and biomass of individual trees in Brazilian savanna vegetation. In addition, the proposed methodologies can be adapted to other biomes, forest typologies and variables of interest.",
-	author = "Silva, Jeferson Pereira Martins and da Silva, Mayra Luiza Marques and da Silva, Evandro Ferreira and da Silva, Gilson Fernandes and de Mendon{\c c}a, Adriano Ribeiro and Cabacinha, Christian Dias and Ara{\'u}jo, Emanuel Fran{\c c}a and Santos, Jeangelis Silva and Vieira, Giovanni Correia and de Almeida, Maria Naruna Felix and Fernandes, M{\'a}rcia Rodrigues de Moura",
+	author = "Silva, Jeferson Pereira Martins and da Silva, Mayra Luiza Marques and da Silva, Evandro Ferreira and da Silva, Gilson Fernandes and de Mendon\c{c}a, Adriano Ribeiro and Cabacinha, Christian Dias and Ara{\'u}jo, Emanuel Fran\c{c}a and Santos, Jeangelis Silva and Vieira, Giovanni Correia and de Almeida, Maria Naruna Felix and Fernandes, M{\'a}rcia Rodrigues de Moura",
 	doi = "10.1016/j.jenvman.2019.109368",
 	issn = "0301-4797",
 	journal = "Journal of Environmental Management",
@@ -734,7 +736,7 @@
 
 @article{NUNES2014758,
 	abstract = "Food processing and conservation represent decisive factors for the sustainability of the planet given the significant growth of the world population in the last decades. Therefore, the cooling process during the manufacture and/or storage of food products has been subject of study and improvement in order to ensure the food supply with good quality and safety. A predictive tool for assessment of the energy performance in agrifood industries that use cold storage is developed in order to contribute to the improvement of the energy efficiency of this industry. The predictive tool is based on a set of characteristic correlated parameters: amount of raw material annually processed, annual energy consumption and volume of cold rooms. Case studies of application of the predictive tool consider industries in the meat sector, specifically slaughterhouses. The results obtained help on the decision-making of practice measures for improvement of the energy efficiency in this industry.",
-	author = "Nunes, Jos{\'e} and Neves, Diogo and Gaspar, Pedro D. and Silva, Pedro D. and Andrade, Lu\'{\i}s P.",
+	author = "Nunes, Jos{\'e} and Neves, Diogo and Gaspar, Pedro D. and Silva, Pedro D. and Andrade, Lu{\'i}s P.",
 	doi = "10.1016/j.enconman.2014.09.018",
 	issn = "0196-8904",
 	journal = "Energy Conversion and Management",
@@ -791,6 +793,73 @@
 	issn = "0965-9978",
 	journal = "Advances in Engineering Software",
 	pages = "29--45",
-	title = "{{A web-based GIS platform for the safe management and risk assessment of complex structural and infrastructural systems exposed to wind"}
+	title = "{A web-based GIS platform for the safe management and risk assessment of complex structural and infrastructural systems exposed to wind}"
+}
+
+@article{SU20167,
+	abstract = "With the constant deepening of research on marine environment simulation and information expression, there are higher and higher requirements for the sense of reality of ocean data visualization results and the real-time interaction in the visualization process. This paper tackle the challenge of key technology of three-dimensional interaction and volume rendering technology based on GPU technology, develops large scale marine hydrological environmental data-oriented visualization software and realizes oceanographic planar graph, contour line rendering, isosurface rendering, factor field volume rendering and dynamic simulation of current field. To express the spatial characteristics and real-time update of massive marine hydrological environmental data better, this study establishes nodes in the scene for the management of geometric objects to realize high-performance dynamic rendering. The system employs CUDA (Computing Unified Device Architecture) parallel computing for the improvement of computation rate, uses NetCDF (Network Common Data Form) file format for data access and applies GPU programming technology to realize fast volume rendering of marine water environmental factors. The visualization software of marine hydrological environment developed can simulate and show properties and change process of marine water environmental factors efficiently and intuitively.",
+	author = "Su, Tianyun and Cao, Zhu and Lv, Zhihan and Liu, Chang and Li, Xinfang",
+	doi = "10.1016/j.advengsoft.2016.01.009",
+	issn = "0965-9978",
+	journal = "Advances in Engineering Software",
+	keywords = "Marine environment; GPU; 3D data; OSG; NetCDF; Multi-dimensional visualization",
+	pages = "7--15",
+	title = "{Multi-dimensional visualization of large-scale marine hydrological environmental data}",
+	url = "http://www.sciencedirect.com/science/article/pii/S0965997816300175",
+	volume = "95",
+	year = "2016"
+}
+
+@article{ZHOU20191,
+	abstract = "Each complex product contains many special-shaped machining features required to be machined by the specific customized cutting tools. In this context, we propose a deep learning based cutting tool selection approach, which contributes to make it effective and efficiency for and also improves the intelligence of the process of cutting tool selection for special-shaped machining features of complex products. In this approach, one-to-one correspondence between each special-shaped machining feature and each cutting tool is first analyzed and established. Then, the problem of cutting tool selection could be transformed into a feature recognition problem. To this end, each special-shaped machining feature is represented by its multiple drawing views that contain rich information for differentiating each of these features. With numbers of these views as training set, a deep residual network (ResNet) is trained successfully for feature recognition, where the recognized feature's cutting tool could also be automatically selected based on the one-to-one correspondence. With the learned ResNet, engineers could use an engineering drawing to select cutting tools intelligently. Finally, the proposed approach is applied to the special-shaped machining features of a vortex shell workpiece to demonstrate its feasibility. The presented approach provides a valuable insight into the intelligent cutting tool selection for special-shaped machining features of complex products.",
+	author = "Zhou, Guanghui and Yang, Xiongjun and Zhang, Chao and Li, Zhi and Xiao, Zhongdong",
+	doi = "10.1016/j.advengsoft.2019.04.007",
+	issn = "0965-9978",
+	journal = "Advances in Engineering Software",
+	keywords = "Cutting tool selection; Special-shaped machining features; Complex products; Residual networks; Deep learning",
+	pages = "1--11",
+	title = "{Deep learning enabled cutting tool selection for special-shaped machining features of complex products}",
+	volume = "133",
+	year = "2019"
+}
+
+@article{NOURANI2012127,
+	abstract = "This study follows three aims; firstly to develop and examine three different Artificial Neural Networks (ANNs) viz.: Multi-Layer Perceptron (MLP), Radial Basis Neural Network (RBNN) and Elman network for estimating daily evaporation rate of Tabriz and Urmia cities using measured hydro-meteorological data; second to compare the results of ANN models with three physically-based models include, Energy balance, Aerodynamic, and Penman models and also black-box Multiple Linear Regression (MLR) model; and finally to perform a sensitivity analysis to investigate the effect of each input parameter on the output in terms of magnitude and direction. The used meteorological data set to develop the models for estimation of daily evaporation includes daily air temperature, evaporation, solar radiation, air pressure, relative humidity, and wind speed measured at synoptic stations of Tabriz and Urmia cities which have almost distinct climatologic conditions. The obtained results denote to the superiority of the ANN models on the classic models. Also based on the comparisons, the MLP network performs better than the RBNN and Elman network so that in the next step, sensitivity analysis is performed by the Partial Derivation (PaD) and Weights methods on the MLP outputs. Sensitivity analysis results show although air temperature, solar radiation and the amount of evaporation at previous time step are the effective parameters in estimation of daily evaporation at both regions, due to the climatologic condition wind speed and relative humidity are other predominant parameters in Tabriz and Urmia, respectively.",
+	author = "Nourani, Vahid and Fard, Mina Sayyah",
+	doi = "10.1016/j.advengsoft.2011.12.014",
+	issn = "0965-9978",
+	journal = "Advances in Engineering Software",
+	keywords = "Climate; Meteorological modeling; Artificial neural network; Sensitivity analysis; Daily evaporation; Tabriz; Urmia",
+	number = "1",
+	pages = "127--146",
+	title = "{Sensitivity analysis of the artificial neural network outputs in simulation of the evaporation process at different climatologic regimes}",
+	volume = "47",
+	year = "2012"
+}
+
+@article{GUO201816,
+	abstract = "Energy demand prediction of building heating is conducive to optimal control, fault detection and diagnosis and building intelligentization. In this study, energy demand prediction models are developed through machine learning methods, including extreme learning machine, multiple linear regression, support vector regression and backpropagation neural network. Seven different meteorological parameters, operating parameters, time and indoor temperature parameters are used as feature variables of the model. Correlation analysis method is utilized to optimize the feature sets. Moreover, this paper proposes a strategy for obtaining the thermal response time of building, which is used as the time ahead of prediction models. The prediction performances of extreme learning machine models with various hidden layer nodes are analyzed and contrasted. Actual data of building heating using a ground source heat pump system are collected and used to test the performances of the models. Results show that the thermal response time of the building is approximately 40 min. Four feature sets are obtained, and the performances of the models with feature set 4 are better. For different machine learning methods, the performances of extreme learning machine models are better than others. In addition, the optimal number of hidden layer nodes is 11 for the extreme learning machine model with feature set 4.",
+	author = "Guo, Yabin and Wang, Jiangyu and Chen, Huanxin and Li, Guannan and Liu, Jiangyan and Xu, Chengliang and Huang, Ronggeng and Huang, Yao",
+	doi = "10.1016/j.apenergy.2018.03.125",
+	issn = "0306-2619",
+	journal = "Applied Energy",
+	keywords = "Energy demand prediction; Building heating system; Machine learning; Thermal response time; Extreme learning machine",
+	pages = "16--27",
+	title = "{Machine learning-based thermal response time ahead energy demand prediction for building heating systems}",
+	volume = "221",
+	year = "2018"
+}
+
+@article{KALLIORAS20158,
+	abstract = "Renewable energy technologies are developing rapidly, while in the last decade great interest is encountered in the use of wind energy, especially due to the energy crisis and serious environmental problems appeared from the use of fossil fuels and therefore a large number of wind farms have been installed around the world. On the other hand the ability of nature inspired algorithms to efficiently handle combinatorial optimization problems was proved by their successful implementation in many fields of engineering sciences. In this study, a new problem formulation for the optimum layout design of onshore wind farms is presented, where the wind load is implemented using stochastic fields. For this purpose, a metaheuristic search algorithm based on a discrete variant of the harmony search method is used for solving the problem at hand. The farm layout problem is by nature a constrained optimization problem, and the contribution of the wake effects is significant; therefore, in two formulations presented in this study the influence of wind direction is also taken into account and compared with the scenario that the wake effect is ignored. The results of this study proved the applicability of the proposed formulations and the efficiency of combining metaheuristic optimization with stochastic wind loading for dealing with the problem of optimal layout design of wind farms.",
+	author = "Kallioras, Nikos Ath. and Lagaros, Nikos D. and Karlaftis, Matthew G. and Pachy, Paraskevi",
+	doi = "10.1016/j.advengsoft.2015.05.002",
+	issn = "0965-9978",
+	journal = "Advances in Engineering Software",
+	keywords = "Wind farm design optimization; Layout design problem; Wake effect; Stochastic wind loads; Harmony search; Real world test case",
+	pages = "8--20",
+	title = "{Optimum layout design of onshore wind farms considering stochastic loading}",
+	volume = "88",
+	year = "2015"
 }
 
