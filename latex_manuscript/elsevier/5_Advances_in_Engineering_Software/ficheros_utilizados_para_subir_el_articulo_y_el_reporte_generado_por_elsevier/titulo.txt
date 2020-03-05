@@ -1,0 +1,1 @@
+SPAMDA: A software tool to manage meteorological data for environmental modelling
