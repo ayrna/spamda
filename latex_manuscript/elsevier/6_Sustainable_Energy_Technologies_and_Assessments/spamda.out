@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Meteorological data sources}{}% 2
+\BOOKMARK [1][-]{section.3}{SPAMDA}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Buoys}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Datasets}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Pre-process}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{Matching configuration}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Final datasets}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.6}{Manage reanalysis data}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.7}{Tools}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Case study}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Obtaining the final dataset}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Obtaining models with ML algorithms}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Important remarks}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 15
