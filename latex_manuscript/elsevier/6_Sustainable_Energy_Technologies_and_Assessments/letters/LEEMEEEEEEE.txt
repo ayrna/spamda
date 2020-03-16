@@ -1,5 +1,2 @@
-Juan Carlos:
-
-Hay que cambiar el nombre de la nueva revista y actualizar las fechas en las cartas.
-
-
+Queda por compilar el .tex para que salga fecha del 18 de marzo en el paper.
+Las cartas ya estan en .pdf para adjuntar.
