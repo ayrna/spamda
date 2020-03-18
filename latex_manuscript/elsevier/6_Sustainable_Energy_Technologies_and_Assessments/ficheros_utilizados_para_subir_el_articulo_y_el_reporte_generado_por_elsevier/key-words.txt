@@ -1,1 +1,1 @@
-Meteorological data, Reanalysis data, Pre-processing, Creating datasets, Environmental prediction, Marine energy
+Meteorological data;Reanalysis data;Creating datasets;Environmental prediction;Marine energy.
