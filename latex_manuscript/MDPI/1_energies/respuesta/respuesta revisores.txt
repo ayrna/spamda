@@ -1,0 +1,30 @@
+Comments and Suggestions for Authors
+The paper presents a software tool extending and customizing existing Weka features, tailored to the data pre-processing and integration of two specific data sources.
+
+The result of the tool is a new integrated tabular dataset which can be used for further analysis, e.g., machine learning. The latter is beyond the scope of the work.
+
+
+
+The paper is well written and mostly clear in the presentation of the software.
+
+The authors well motivate the practical need of such a tool in their vertical application domain.
+
+However, there is no scientific novelty at all.
+
+The presented work lacks in lessons learned, in generality, and in innovation.
+
+As also noted by the authors (Sec 4, line 480), the software already provides a user guide: the paper seems to be a shadow copy of the software manual.
+
+Most (if not all) of the described features and solutions are already established practices, with some being also less complete and general than the state of the art.
+
+The described software tool is limited to the very specific use case and to the two data sources, discussing very "short-sighted" ad-hoc solutions.
+
+The terminology is not appropriate in the data analysis domain; for instance, the "matching" step is a relational-data (fuzzy) join, and the process is called data integration.
+
+Some very popular and trivial issues are described with many useless details (e.g., missing data), whereas other you-can't-miss-it requirements for machine learning, such as feature selection, are not addressed at all, even if the goal is to prepare datasets for ML.
+
+No comparisons with state-of-the-art pre-processing tools are performed: most and more than the provided features can be provided by existing state-of-the-practice data analysis tools. For instance, a simple Python script with Pandas and Sci-kit learn can do it all.
+
+Some choices are not discussed, no motivations are provided for design choices, e.g., the list of options for handling missing data.
+
+I regret to say that I find it very difficult to find value in the paper for a scientific venue.

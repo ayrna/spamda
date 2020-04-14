@@ -1,0 +1,5 @@
+
+Reviewer #3: Authors have presented the structure and functionalities of SPAMDA. There are limited features that are appreciable. Author have related the data demand to Machine Learning (ML) and specifically WEKA. The idea behind this software is plausible but there is less flexibility in terms of data formats and ability to add new data sources. Overall, the software is not generalized for handling different types of input formats/sources/output formats/ ability to add new sources.
+
+There is not much originality in the software that is developed.  Similar software are already available that work with MATLAB runtime library (free) has the flexibility to run on any type of operating system.
+https://publicwiki.deltares.nl/display/DDB/Delft+Dashboard
