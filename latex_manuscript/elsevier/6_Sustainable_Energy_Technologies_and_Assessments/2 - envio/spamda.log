@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  18 MAR 2020 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.10.21)  17 APR 2020 10:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,56 +570,56 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 68.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
-Overfull \hbox (2.53238pt too wide) in paragraph at lines 96--97
+) [2] [3] [4] [5]
+Overfull \hbox (2.53238pt too wide) in paragraph at lines 98--99
 \T1/cmr/m/n/10 man-age-ment, and it is in-te-grated with the Ex-plorer en-vi-ro
 n-ment of WEKA. 
  []
 
-
-Overfull \hbox (5.94574pt too wide) in paragraph at lines 104--105
+[6]
+Overfull \hbox (5.94574pt too wide) in paragraph at lines 108--109
 []\T1/cmr/m/n/10 The data pro-vided by the above-mentioned sources of in-for-ma
 -tion of SPAMDA
  []
 
-[6] <figures/FigureFragmentAnnualTextFile.png, id=203, 714.67pt x 181.67876pt>
+[7] <figures/FigureFragmentAnnualTextFile.png, id=212, 714.67pt x 181.67876pt>
 File: figures/FigureFragmentAnnualTextFile.png Graphic file (type png)
 
 <use figures/FigureFragmentAnnualTextFile.png>
 Package pdftex.def Info: figures/FigureFragmentAnnualTextFile.png used on input
- line 114.
+ line 118.
 (pdftex.def)             Requested size: 357.33412pt x 90.83914pt.
 
-Overfull \hbox (12.33412pt too wide) in paragraph at lines 114--115
+Overfull \hbox (12.33412pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
-[7 <./figures/FigureFragmentAnnualTextFile.png>] [8]
-<figures/FigureSubGrid.jpg, id=223, 482.80376pt x 227.85126pt>
+[8 <./figures/FigureFragmentAnnualTextFile.png>] [9]
+<figures/FigureSubGrid.jpg, id=229, 482.80376pt x 227.85126pt>
 File: figures/FigureSubGrid.jpg Graphic file (type jpg)
 
 <use figures/FigureSubGrid.jpg>
-Package pdftex.def Info: figures/FigureSubGrid.jpg used on input line 175.
+Package pdftex.def Info: figures/FigureSubGrid.jpg used on input line 179.
 (pdftex.def)             Requested size: 251.0594pt x 118.48332pt.
- [9]
+ [10 <./figures/FigureSubGrid.jpg>]
 Package epstopdf Info: Source file: <figures/FigureSPAMDA.eps>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 359695 bytes
 (epstopdf)             Output file: <./figures/FigureSPAMDA-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 157230 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/FigureSPAMDA-eps
 -converted-to.pdf figures/FigureSPAMDA.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -627,30 +627,29 @@ pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureSPAMDA-eps-converted-to
 .pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
 d
 
-<./figures/FigureSPAMDA-eps-converted-to.pdf, id=232, 1275.76625pt x 472.76625p
+<./figures/FigureSPAMDA-eps-converted-to.pdf, id=236, 1275.76625pt x 472.76625p
 t>
 File: ./figures/FigureSPAMDA-eps-converted-to.pdf Graphic file (type pdf)
  <use ./figures/FigureSPAMDA-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/FigureSPAMDA-eps-converted-to.pdf used on in
-put line 196.
+put line 200.
 (pdftex.def)             Requested size: 408.25354pt x 151.28828pt.
 
-Overfull \hbox (63.25354pt too wide) in paragraph at lines 196--197
+Overfull \hbox (63.25354pt too wide) in paragraph at lines 200--201
  [][] 
  []
 
-[10 <./figures/FigureSubGrid.jpg>] [11 <./figures/FigureSPAMDA-eps-converted-to
-.pdf>]
+[11 <./figures/FigureSPAMDA-eps-converted-to.pdf>] [12]
 Package epstopdf Info: Source file: <figures/FigureBuoys.eps>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 83964 bytes
 (epstopdf)             Output file: <./figures/FigureBuoys-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 31783 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/FigureBuoys-eps-
 converted-to.pdf figures/FigureBuoys.eps>
-(epstopdf)             \includegraphics on input line 236.
+(epstopdf)             \includegraphics on input line 240.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -658,23 +657,22 @@ pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureBuoys-eps-converted-to.
 pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-<./figures/FigureBuoys-eps-converted-to.pdf, id=251, 530.98375pt x 336.25626pt>
+<./figures/FigureBuoys-eps-converted-to.pdf, id=255, 530.98375pt x 336.25626pt>
 File: ./figures/FigureBuoys-eps-converted-to.pdf Graphic file (type pdf)
 <use ./figures/FigureBuoys-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/FigureBuoys-eps-converted-to.pdf used on inp
-ut line 236.
+ut line 240.
 (pdftex.def)             Requested size: 223.01164pt x 141.22665pt.
- [12 <./figures/FigureBuoys-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figures/FigureDatasets.eps>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 184312 bytes
 (epstopdf)             Output file: <./figures/FigureDatasets-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 73737 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/FigureDatasets-e
 ps-converted-to.pdf figures/FigureDatasets.eps>
-(epstopdf)             \includegraphics on input line 252.
+(epstopdf)             \includegraphics on input line 256.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -682,24 +680,26 @@ pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigureDatasets-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
 
-<./figures/FigureDatasets-eps-converted-to.pdf, id=261, 630.355pt x 336.25626pt
+<./figures/FigureDatasets-eps-converted-to.pdf, id=258, 630.355pt x 336.25626pt
 >
 File: ./figures/FigureDatasets-eps-converted-to.pdf Graphic file (type pdf)
  <use ./figures/FigureDatasets-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/FigureDatasets-eps-converted-to.pdf used on 
-input line 252.
+input line 256.
 (pdftex.def)             Requested size: 252.13753pt x 134.5001pt.
- [13 <./figures/FigureDatasets-eps-converted-to.pdf>] [14]
+ [13 <./figures/FigureBuoys-eps-converted-to.pdf>] [14 <./figures/FigureDataset
+s-eps-converted-to.pdf>]
+[15]
 Package epstopdf Info: Source file: <figures/FigurePreprocess.eps>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 250460 bytes
 (epstopdf)             Output file: <./figures/FigurePreprocess-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:28
 (epstopdf)                    size: 107726 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/FigurePreprocess
 -eps-converted-to.pdf figures/FigurePreprocess.eps>
-(epstopdf)             \includegraphics on input line 300.
+(epstopdf)             \includegraphics on input line 304.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -707,69 +707,70 @@ pdfTeX warning: /usr/bin/pdflatex (file ./figures/FigurePreprocess-eps-converte
 d-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> al
 lowed
 
-<./figures/FigurePreprocess-eps-converted-to.pdf, id=275, 682.55pt x 315.1775pt
+<./figures/FigurePreprocess-eps-converted-to.pdf, id=279, 682.55pt x 315.1775pt
 >
 File: ./figures/FigurePreprocess-eps-converted-to.pdf Graphic file (type pdf)
  <use ./figures/FigurePreprocess-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/FigurePreprocess-eps-converted-to.pdf used o
-n input line 300.
+n input line 304.
 (pdftex.def)             Requested size: 245.7178pt x 113.4638pt.
- [15 <./figures/FigurePreprocess-eps-converted-to.pdf>]
-<figures/FigureMatchingProcess.png, id=286, 1035.87pt x 470.75874pt>
+ [16 <./figures/FigurePreprocess-eps-converted-to.pdf>]
+<figures/FigureMatchingProcess.png, id=290, 1035.87pt x 470.75874pt>
 File: figures/FigureMatchingProcess.png Graphic file (type png)
 
 <use figures/FigureMatchingProcess.png>
 Package pdftex.def Info: figures/FigureMatchingProcess.png used on input line 3
-18.
+22.
 (pdftex.def)             Requested size: 393.63469pt x 178.89018pt.
 
-Overfull \hbox (48.63469pt too wide) in paragraph at lines 318--319
+Overfull \hbox (48.63469pt too wide) in paragraph at lines 322--323
  [][] 
  []
 
-[16] [17 <./figures/FigureMatchingProcess.png>] [18] [19] [20]
-<figures/FigureDirectMatching.png, id=332, 300.12125pt x 303.1325pt>
+[17 <./figures/FigureMatchingProcess.png>] [18] [19] [20] [21]
+<figures/FigureDirectMatching.png, id=339, 300.12125pt x 303.1325pt>
 File: figures/FigureDirectMatching.png Graphic file (type png)
 
 <use figures/FigureDirectMatching.png>
 Package pdftex.def Info: figures/FigureDirectMatching.png used on input line 40
-3.
+7.
 (pdftex.def)             Requested size: 147.0607pt x 148.53622pt.
- [21] [22 <./figures/FigureDirectMatching.png>] <figures/FigureRegressionNoSync
-.png, id=352, 302.12875pt x 288.07625pt>
+ [22 <./figures/FigureDirectMatching.png>] [23] <figures/FigureRegressionNoSync
+.png, id=358, 302.12875pt x 288.07625pt>
 File: figures/FigureRegressionNoSync.png Graphic file (type png)
 
 <use figures/FigureRegressionNoSync.png>
 Package pdftex.def Info: figures/FigureRegressionNoSync.png used on input line 
-446.
+450.
 (pdftex.def)             Requested size: 148.04437pt x 141.15858pt.
- [23 <./figures/FigureRegressionNoSync.png>] <figures/FigureRegressionSync.png,
- id=364, 302.12875pt x 285.065pt>
+
+<figures/FigureRegressionSync.png, id=363, 302.12875pt x 285.065pt>
 File: figures/FigureRegressionSync.png Graphic file (type png)
 
 <use figures/FigureRegressionSync.png>
-Package pdftex.def Info: figures/FigureRegressionSync.png used on input line 45
-7.
+Package pdftex.def Info: figures/FigureRegressionSync.png used on input line 46
+1.
 (pdftex.def)             Requested size: 148.04437pt x 139.68306pt.
- [24 <./figures/FigureRegressionSync.png>] <figures/FigureClassification.png, i
-d=376, 349.305pt x 290.08376pt>
+ [24 <./figures/FigureRegressionNoSync.png>] <figures/FigureClassification.png,
+ id=376, 349.305pt x 290.08376pt>
 File: figures/FigureClassification.png Graphic file (type png)
 
 <use figures/FigureClassification.png>
-Package pdftex.def Info: figures/FigureClassification.png used on input line 50
-6.
+Package pdftex.def Info: figures/FigureClassification.png used on input line 51
+0.
 (pdftex.def)             Requested size: 171.16093pt x 142.14227pt.
- [25 <./figures/FigureClassification.png>] [26]
+ [25 <./figures/FigureRegressionSync.png>] [26 <./figures/FigureClassification.
+png>]
 Package epstopdf Info: Source file: <figures/FigureManageReanalisys.eps>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 183949 bytes
 (epstopdf)             Output file: <./figures/FigureManageReanalisys-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2020-03-16 11:53:18
+(epstopdf)                    date: 2020-04-15 11:24:27
 (epstopdf)                    size: 77076 bytes
 (epstopdf)             Command: <repstopdf --outfile=./figures/FigureManageRean
 alisys-eps-converted-to.pdf figures/FigureManageReanalisys.eps>
-(epstopdf)             \includegraphics on input line 547.
+(epstopdf)             \includegraphics on input line 551.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -783,98 +784,99 @@ File: ./figures/FigureManageReanalisys-eps-converted-to.pdf Graphic file (type
 pdf)
  <use ./figures/FigureManageReanalisys-eps-converted-to.pdf>
 Package pdftex.def Info: ./figures/FigureManageReanalisys-eps-converted-to.pdf 
-used on input line 547.
+used on input line 551.
 (pdftex.def)             Requested size: 211.3878pt x 156.28242pt.
- [27 <./figures/FigureManageReanalisys-eps-converted-to.pdf>]
-<figures/FigureMain_view.png, id=404, 443.6575pt x 288.07625pt>
+ [27]
+[28 <./figures/FigureManageReanalisys-eps-converted-to.pdf>]
+<figures/FigureMain_view.png, id=410, 443.6575pt x 288.07625pt>
 File: figures/FigureMain_view.png Graphic file (type png)
 
 <use figures/FigureMain_view.png>
-Package pdftex.def Info: figures/FigureMain_view.png used on input line 572.
+Package pdftex.def Info: figures/FigureMain_view.png used on input line 576.
 (pdftex.def)             Requested size: 207.0021pt x 134.40681pt.
- [28]
-<figures/FigureManage_reanalysis_data.png, id=415, 941.5175pt x 553.06625pt>
+
+<figures/FigureManage_reanalysis_data.png, id=413, 941.5175pt x 553.06625pt>
 File: figures/FigureManage_reanalysis_data.png Graphic file (type png)
 
 <use figures/FigureManage_reanalysis_data.png>
 Package pdftex.def Info: figures/FigureManage_reanalysis_data.png used on input
- line 580.
+ line 584.
 (pdftex.def)             Requested size: 307.04979pt x 180.3689pt.
 
-<figures/FigureManage_buoys.png, id=416, 904.37875pt x 553.06625pt>
+<figures/FigureManage_buoys.png, id=414, 904.37875pt x 553.06625pt>
 File: figures/FigureManage_buoys.png Graphic file (type png)
 
 <use figures/FigureManage_buoys.png>
-Package pdftex.def Info: figures/FigureManage_buoys.png used on input line 586.
+Package pdftex.def Info: figures/FigureManage_buoys.png used on input line 590.
 
 (pdftex.def)             Requested size: 307.04979pt x 187.76997pt.
- [29 <./figures/FigureMain_view.png> <./figures/FigureManage_reanalysis_data.pn
-g>]
-<figures/FigureNew_buoy.png, id=427, 659.46375pt x 550.055pt>
+ [29 <./figures/FigureMain_view.png>]
+<figures/FigureNew_buoy.png, id=425, 659.46375pt x 550.055pt>
 File: figures/FigureNew_buoy.png Graphic file (type png)
 
 <use figures/FigureNew_buoy.png>
-Package pdftex.def Info: figures/FigureNew_buoy.png used on input line 596.
+Package pdftex.def Info: figures/FigureNew_buoy.png used on input line 600.
 (pdftex.def)             Requested size: 241.49895pt x 201.43565pt.
- [30 <./figures/FigureManage_buoys.png> <./figures/FigureNew_buoy.png>]
-<figures/FigureDatasets.png, id=435, 904.37875pt x 553.06625pt>
+ [30 <./figures/FigureManage_reanalysis_data.png> <./figures/FigureManage_buoys
+.png>]
+<figures/FigureDatasets.png, id=434, 904.37875pt x 553.06625pt>
 File: figures/FigureDatasets.png Graphic file (type png)
 
 <use figures/FigureDatasets.png>
-Package pdftex.def Info: figures/FigureDatasets.png used on input line 604.
+Package pdftex.def Info: figures/FigureDatasets.png used on input line 608.
 (pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
 
-<figures/FigureNew_intermediate_dataset.png, id=439, 634.37pt x 444.66125pt>
+<figures/FigureNew_intermediate_dataset.png, id=438, 634.37pt x 444.66125pt>
 File: figures/FigureNew_intermediate_dataset.png Graphic file (type png)
 
 <use figures/FigureNew_intermediate_dataset.png>
 Package pdftex.def Info: figures/FigureNew_intermediate_dataset.png used on inp
-ut line 612.
+ut line 616.
 (pdftex.def)             Requested size: 241.49895pt x 169.27835pt.
- [31 <./figures/FigureDatasets.png>] <figures/FigurePreprocess.png, id=450, 904
+ [31 <./figures/FigureNew_buoy.png>] <figures/FigurePreprocess.png, id=449, 904
 .37875pt x 553.06625pt>
 File: figures/FigurePreprocess.png Graphic file (type png)
 
 <use figures/FigurePreprocess.png>
-Package pdftex.def Info: figures/FigurePreprocess.png used on input line 620.
+Package pdftex.def Info: figures/FigurePreprocess.png used on input line 624.
 (pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
- [32 <./figures/FigureNew_intermediate_dataset.png> <./figures/FigurePreprocess
-.png>]
-<figures/FigureMatching_configuration.png, id=459, 904.37875pt x 553.06625pt>
+ [32 <./figures/FigureDatasets.png> <./figures/FigureNew_intermediate_dataset.p
+ng>] [33 <./figures/FigurePreprocess.png>]
+<figures/FigureMatching_configuration.png, id=464, 904.37875pt x 553.06625pt>
 File: figures/FigureMatching_configuration.png Graphic file (type png)
 
 <use figures/FigureMatching_configuration.png>
 Package pdftex.def Info: figures/FigureMatching_configuration.png used on input
- line 631.
+ line 635.
 (pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
- [33]
-<figures/FigureFinal_datasets.png, id=469, 904.37875pt x 553.06625pt>
+ [34 <./figures/FigureMatching_configuration.png>]
+<figures/FigureFinal_datasets.png, id=474, 904.37875pt x 553.06625pt>
 File: figures/FigureFinal_datasets.png Graphic file (type png)
 
 <use figures/FigureFinal_datasets.png>
-Package pdftex.def Info: figures/FigureFinal_datasets.png used on input line 64
-7.
+Package pdftex.def Info: figures/FigureFinal_datasets.png used on input line 65
+1.
 (pdftex.def)             Requested size: 310.4979pt x 189.87976pt.
- [34 <./figures/FigureMatching_configuration.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35 <./figures/FigureFinal_datasets.png>]
-<figures/FigureOpeningFinalDatasetWeka.png, id=487, 1087.06125pt x 610.28pt>
+ [35 <./figures/FigureFinal_datasets.png>] <figures/FigureOpeningFinalDatasetWe
+ka.png, id=486, 1087.06125pt x 610.28pt>
 File: figures/FigureOpeningFinalDatasetWeka.png Graphic file (type png)
 
 <use figures/FigureOpeningFinalDatasetWeka.png>
 Package pdftex.def Info: figures/FigureOpeningFinalDatasetWeka.png used on inpu
-t line 697.
+t line 701.
 (pdftex.def)             Requested size: 327.74895pt x 183.99799pt.
- [36 <./figures/FigureOpeningFinalDatasetWeka.png>] [37] [38] [39] (./spamda.bb
-l [40] [41] [42] [43] [44]
+ [36]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./figures/FigureOpeningFinalDatasetWeka.png>] [38] [39] (./spamda.bbl
+[40] [41] [42] [43] [44] [45]
 Underfull \hbox (badness 8075) in paragraph at lines 308--311
 \T1/cmr/m/n/10 (ARFF), []$\T1/cmtt/m/n/10 https : / / www . cs . waikato . ac .
  nz / ml / weka / arff . html$[]\T1/cmr/m/n/10 , (Ac-
  []
 
-[45]
+
 Underfull \hbox (badness 4726) in paragraph at lines 322--325
 []\T1/cmr/m/n/10 NOAA/OAR/ESRL PSD, ESRL : PSD : NCEP/NCAR Re-anal-
  []
@@ -891,53 +893,53 @@ Underfull \hbox (badness 2142) in paragraph at lines 327--329
 . org / 10 . 5065 / D6H70CW6$[]
  []
 
-[46]) [47] <figures/FigureMeasurements.png, id=670, 764.8575pt x 597.23125pt>
+[46]) [47] <figures/FigureMeasurements.png, id=669, 764.8575pt x 597.23125pt>
 File: figures/FigureMeasurements.png Graphic file (type png)
 
 <use figures/FigureMeasurements.png>
-Package pdftex.def Info: figures/FigureMeasurements.png used on input line 788.
+Package pdftex.def Info: figures/FigureMeasurements.png used on input line 792.
 
 (pdftex.def)             Requested size: 344.1827pt x 268.75157pt.
- [48 <./figures/FigureMeasurements.png>]
+ [48]
 <figures/FigureCreatingDataset.png, id=680, 449.68pt x 369.38pt>
 File: figures/FigureCreatingDataset.png Graphic file (type png)
 
 <use figures/FigureCreatingDataset.png>
-Package pdftex.def Info: figures/FigureCreatingDataset.png used on input line 7
-99.
+Package pdftex.def Info: figures/FigureCreatingDataset.png used on input line 8
+03.
 (pdftex.def)             Requested size: 179.8688pt x 147.74937pt.
-
-<figures/FigureMatchingMeasurements.png, id=684, 1089.06876pt x 589.20125pt>
+ [49 <./figures/FigureMeasurements.png>] <figures/FigureMatchingMeasurements.pn
+g, id=690, 1089.06876pt x 589.20125pt>
 File: figures/FigureMatchingMeasurements.png Graphic file (type png)
 
 <use figures/FigureMatchingMeasurements.png>
 Package pdftex.def Info: figures/FigureMatchingMeasurements.png used on input l
-ine 808.
+ine 812.
 (pdftex.def)             Requested size: 392.06445pt x 212.11227pt.
 
-Overfull \hbox (47.06445pt too wide) in paragraph at lines 808--809
+Overfull \hbox (47.06445pt too wide) in paragraph at lines 812--813
  [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 813.
-[49 <./figures/FigureCreatingDataset.png>] [50 <./figures/FigureMatchingMeasure
-ments.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 813.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 817.
+[50 <./figures/FigureCreatingDataset.png> <./figures/FigureMatchingMeasurements
+.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 817.
  (./spamda.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 813.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 813.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 817.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 817.
 Package rerunfilecheck Info: File `spamda.out' has not changed.
 (rerunfilecheck)             Checksum: 9601A1D661BED4995755A623FCDFC5BF;903.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 813.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 817.
  ) 
 Here is how much of TeX's memory you used:
  9426 strings out of 494850
  141849 string characters out of 6178023
- 229577 words of memory out of 5000000
+ 228577 words of memory out of 5000000
  12374 multiletter control sequences out of 15000+600000
  20589 words of font info for 51 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 44i,13n,42p,2259b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,13n,42p,2259b,617s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/usuario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk> </home
 /usuario/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </home/usuario/
 .texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </home/usuario/.texmf-va
@@ -963,7 +965,7 @@ st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmsy8.pfb>
-Output written on spamda.pdf (50 pages, 1586978 bytes).
+Output written on spamda.pdf (50 pages, 1588536 bytes).
 PDF statistics:
  1284 PDF objects out of 1440 (max. 8388607)
  710 compressed objects within 8 object streams
