@@ -1,0 +1,12 @@
+Sustainable Energy Technologies and Assessments  
+Editor and Reviewer comments:     
+Reviewer #1: The manuscript entitled "A new software tool to facilitate environmental modelling procedures based on meteorological data management" presented a software tool with an user-friendly GUI to create datasets by means of management and data integration of meteorological observations from two sources of information. These datasets are ready to be used in prediction tasks by Machine Learning tools. The analyses are briefly made in the main text, but it difficult to assess the major contribution of the new software tool in the paper. The manuscript fails to identify the new information through the results and seems too simplistic. I would suggest some Major revision before it is considered for publication as following.
+
+1. The content of Highlights needed to be refined.
+2. The author needed to provide more information about the innovation of the module or improved the algorithm in the present study?
+3. It is suggested that the author should compared the results with those of other models.
+
+
+
+Reviewer #2: The manuscript described a data pre-processing software especially for reanalysis and buoy meteorological data. The output data of the software can be used for machine learning session. The software looks like useful for some kinds of ML data preparing, but it looks like not so novel for data processing methods including data format conversion, data matching by location, missing value filling and so on. Many tools and script programs can do this normal mission. I agree that the software GUI can be easily to be used but it also reduces the flexibility compare with scripts. The manuscript was written more like a technical user guide than a scientific paper, also the manuscript did not provide the evidence that the software has powerful potential to be used in a wider community.
+ 
