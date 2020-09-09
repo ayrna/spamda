@@ -1,12 +1,32 @@
 \begin{thebibliography}{-------}
 \providecommand{\natexlab}[1]{#1}
 
+\bibitem[Anis \em{et~al.}(2019)Anis, Jamil, Ansari, and
+  Bellos]{SHAHRUKHANIS2019179}
+Anis, M.S.; Jamil, B.; Ansari, M.A.; Bellos, E.
+\newblock {Generalized models for estimation of global solar radiation based on
+  sunshine duration and detailed comparison with the existing: A case study for
+  India}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2019},
+  {\em 31},~179--198.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2018.12.009}{\detokenize{10.1016/j.seta.2018.12.009}}}.
+
 \bibitem[Laface \em{et~al.}(2015)Laface, Arena, and Soares]{LAFACE201545}
 Laface, V.; Arena, F.; Soares, C.G.
 \newblock {Directional analysis of sea storms}.
 \newblock {\em Ocean Engineering} {\bf 2015}, {\em 107},~45--53.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.oceaneng.2015.07.027}{\detokenize{10.1016/j.oceaneng.2015.07.027}}}.
+
+\bibitem[Dahhani \em{et~al.}(2018)Dahhani, El-Jouni, and
+  Boumhidi]{DAHHANI2018167}
+Dahhani, O.; El-Jouni, A.; Boumhidi, I.
+\newblock {Assessment and control of wind turbine by support vector machines}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2018},
+  {\em 27},~167--179.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2018.04.006}{\detokenize{10.1016/j.seta.2018.04.006}}}.
 
 \bibitem[Dorado-Moreno \em{et~al.}(2017)Dorado-Moreno, Cornejo-Bueno,
   Guti{\'e}rrez, Prieto, Herv{\'a}s-Mart{\'i}nez, and
@@ -19,12 +39,15 @@ Dorado-Moreno, M.; Cornejo-Bueno, L.; Guti{\'e}rrez, P.; Prieto, L.;
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.renene.2017.04.016}{\detokenize{10.1016/j.renene.2017.04.016}}}.
 
-\bibitem[Dvorak \em{et~al.}(2010)Dvorak, Archer, and Jacobson]{DVORAK20101244}
-Dvorak, M.J.; Archer, C.L.; Jacobson, M.Z.
-\newblock {California offshore wind energy potential}.
-\newblock {\em Renewable Energy} {\bf 2010}, {\em 35},~1244--1254.
+\bibitem[Reyes-Mendoza \em{et~al.}(2020)Reyes-Mendoza, Alvarez-Silva,
+  Chiappa-Carrara, and Enriquez]{REYESMENDOZA2020100645}
+Reyes-Mendoza, O.; Alvarez-Silva, O.; Chiappa-Carrara, X.; Enriquez, C.
+\newblock {Variability of the thermohaline structure of a coastal hypersaline
+  lagoon and the implications for salinity gradient energy harvesting}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2020},
+  {\em 38},~100645.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.renene.2009.11.022}{\detokenize{10.1016/j.renene.2009.11.022}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2020.100645}{\detokenize{10.1016/j.seta.2020.100645}}}.
 
 \bibitem[Fuchs and Gerbi(2016)]{FUCHS2016109}
 Fuchs, H.L.; Gerbi, G.P.
@@ -78,22 +101,23 @@ Nguyen, T.H.; Prinz, A.; Friis{\o}, T.; Nossum, R.; Tyapin, I.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.renene.2013.05.002}{\detokenize{10.1016/j.renene.2013.05.002}}}.
 
-\bibitem[Gutierrez \em{et~al.}(2013)Gutierrez, Zamora, Garc{\'i}a, and
-  Peyrau]{GUTIERREZ201369}
-Gutierrez, J.E.; Zamora, B.; Garc{\'i}a, J.; Peyrau, M.R.
-\newblock {Tool development based on FAST for performing design optimization of
-  offshore wind turbines: FASTLognoter}.
-\newblock {\em Renewable Energy} {\bf 2013}, {\em 55},~69--78.
+\bibitem[Shehadeh \em{et~al.}(2020)Shehadeh, Moh'd, Aly, and
+  El-Hawary]{SHEHADEH2020100644}
+Shehadeh, S.H.; Moh'd, A.; Aly, H.H.; El-Hawary, M.
+\newblock {An intelligent load management application for solar boiler system}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2020},
+  {\em 38},~100644.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.renene.2012.12.026}{\detokenize{10.1016/j.renene.2012.12.026}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2020.100644}{\detokenize{10.1016/j.seta.2020.100644}}}.
 
-\bibitem[Baker \em{et~al.}(2013)Baker, Guedes, Shaikh, Calixto, and
-  Aguiar]{BAKER2013156}
-Baker, N.; Guedes, M.C.; Shaikh, N.; Calixto, L.; Aguiar, R.
-\newblock {The LT-Portugal software: A design tool for architects}.
-\newblock {\em Renewable Energy} {\bf 2013}, {\em 49},~156--160.
-\newblock Selected papers from World Renewable Energy Congress - XI,
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.renene.2012.01.041}{\detokenize{10.1016/j.renene.2012.01.041}}}.
+\bibitem[Garcia and Bruschi(2016)]{ASTIASOGARCIA201648}
+Garcia, D.A.; Bruschi, D.
+\newblock {A risk assessment tool for improving safety standards and emergency
+  management in Italian onshore wind farms}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2016},
+  {\em 18},~48--58.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2016.09.009}{\detokenize{10.1016/j.seta.2016.09.009}}}.
 
 \bibitem[Raabe \em{et~al.}(2010)Raabe, Klein, Gonz{\'a}lez, and
   Medina]{RAABE2010213}
@@ -104,22 +128,15 @@ Raabe, A.L.A.; Klein, A.H.d.F.; Gonz{\'a}lez, M.; Medina, R.
 \newblock Hydrodynamics and Applications of Headland-Bay Beaches,
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.coastaleng.2009.10.008}{\detokenize{10.1016/j.coastaleng.2009.10.008}}}.
 
-\bibitem[Brendel \em{et~al.}(2019)Brendel, Dymond, and Aguilar]{BRENDEL2019}
-Brendel, C.E.; Dymond, R.L.; Aguilar, M.F.
-\newblock {An interactive web app for retrieval, visualization, and analysis of
-  hydrologic and meteorological time series data}.
-\newblock {\em Environmental Modelling \& Software} {\bf 2019}.
+\bibitem[Motahhir \em{et~al.}(2019)Motahhir, Hammoumi, Ghzizal, and
+  Derouich]{MOTAHHIR20199}
+Motahhir, S.; Hammoumi, A.E.; Ghzizal, A.E.; Derouich, A.
+\newblock {Open hardware/software test bench for solar tracker with virtual
+  instrumentation}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2019},
+  {\em 31},~9--16.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.envsoft.2019.03.003}{\detokenize{10.1016/j.envsoft.2019.03.003}}}.
-
-\bibitem[Cascajo \em{et~al.}(2019)Cascajo, Garc{\'i}a, Quiles, Correcher, and
-  Morant]{en12050787}
-Cascajo, R.; Garc{\'i}a, E.; Quiles, E.; Correcher, A.; Morant, F.
-\newblock {Integration of Marine Wave Energy Converters into Seaports: A Case
-  Study in the Port of Valencia}.
-\newblock {\em Energies} {\bf 2019}, {\em 12}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/en12050787}{\detokenize{10.3390/en12050787}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2018.11.003}{\detokenize{10.1016/j.seta.2018.11.003}}}.
 
 \bibitem[Zeyringer \em{et~al.}(2018)Zeyringer, Fais, Keppo, and
   Price]{ZEYRINGER20181281}
@@ -139,14 +156,14 @@ Bhattacharya, M.; Churchill, S.A.; Paramati, S.R.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.renene.2017.03.102}{\detokenize{10.1016/j.renene.2017.03.102}}}.
 
-\bibitem[{De Jong} \em{et~al.}(2019){De Jong}, Hoppe, and Noori]{en12091657}
-{De Jong}, M.; Hoppe, T.; Noori, N.
-\newblock {City Branding, Sustainable Urban Development and the Rentier State.
-  How do Qatar, Abu Dhabi and Dubai present Themselves in the Age of Post Oil
-  and Global Warming?}
-\newblock {\em Energies} {\bf 2019}, {\em 12}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/en12091657}{\detokenize{10.3390/en12091657}}}.
+\bibitem[Brede and de~Vries(2013)]{BREDE201344}
+Brede, M.; de~Vries, B.J.
+\newblock {The energy transition in a climate-constrained world: Regional vs.
+  global optimization}.
+\newblock {\em Environmental Modelling \& Software} {\bf 2013}, {\em
+  44},~44--61.
+\newblock Thematic Issue on Innovative Approaches to Global Change Modelling,
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.envsoft.2012.07.011}{\detokenize{10.1016/j.envsoft.2012.07.011}}}.
 
 \bibitem[Falc{\~a}o(2010)]{FALCAO2010899}
 Falc{\~a}o, A.F.d.O.
@@ -156,15 +173,25 @@ Falc{\~a}o, A.F.d.O.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.rser.2009.11.003}{\detokenize{10.1016/j.rser.2009.11.003}}}.
 
-\bibitem[Ulazia \em{et~al.}(2018)Ulazia, Penalba, Rabanal, Ibarra-Berastegi,
-  Ringwood, and S{\'a}enz]{en11092289}
-Ulazia, A.; Penalba, M.; Rabanal, A.; Ibarra-Berastegi, G.; Ringwood, J.;
-  S{\'a}enz, J.
-\newblock {Historical Evolution of the Wave Resource and Energy Production off
-  the Chilean Coast over the 20th Century}.
-\newblock {\em Energies} {\bf 2018}, {\em 11}.
+\bibitem[Oliveira-Pinto \em{et~al.}(2019)Oliveira-Pinto, Rosa-Santos, and
+  Taveira-Pinto]{OLIVEIRAPINTO2019556}
+Oliveira-Pinto, S.; Rosa-Santos, P.; Taveira-Pinto, F.
+\newblock {Electricity supply to offshore oil and gas platforms from renewable
+  ocean wave energy: Overview and case study analysis}.
+\newblock {\em Energy Conversion and Management} {\bf 2019}, {\em
+  186},~556--569.
 \newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/en11092289}{\detokenize{10.3390/en11092289}}}.
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.enconman.2019.02.050}{\detokenize{10.1016/j.enconman.2019.02.050}}}.
+
+\bibitem[Prieto \em{et~al.}(2019)Prieto, Rodr{\'i}guez, and
+  Rodr{\'i}guez]{FERNANDEZPRIETO2019546}
+Prieto, L.F.; Rodr{\'i}guez, G.R.; Rodr{\'i}guez, J.S.
+\newblock {Wave energy to power a desalination plant in the north of Gran
+  Canaria Island: Wave resource, socioeconomic and environmental assessment}.
+\newblock {\em Journal of Environmental Management} {\bf 2019}, {\em
+  231},~546--551.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.jenvman.2018.10.071}{\detokenize{10.1016/j.jenvman.2018.10.071}}}.
 
 \bibitem[Ochi(1998)]{ochi1998}
 Ochi, M.K.
@@ -199,22 +226,6 @@ Ringwood, J.V.; Bacelli, G.; Fusco, F.
 \newblock {\em IEEE Control Systems} {\bf 2014}, {\em 34},~30--55.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1109/MCS.2014.2333253}{\detokenize{10.1109/MCS.2014.2333253}}}.
-
-\bibitem[Rusu(2015)]{en80910370}
-Rusu, L.
-\newblock {Assessment of the Wave Energy in the Black Sea Based on a 15-Year
-  Hindcast with Data Assimilation}.
-\newblock {\em Energies} {\bf 2015}, {\em 8},~10370--10388.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/en80910370}{\detokenize{10.3390/en80910370}}}.
-
-\bibitem[Wei(2018)]{en11010011}
-Wei, C.C.
-\newblock {Nearshore Wave Predictions Using Data Mining Techniques during
-  Typhoons: A Case Study near Taiwan{\rq}s Northeastern Coast}.
-\newblock {\em Energies} {\bf 2018}, {\em 11}.
-\newblock
-  doi:{\changeurlcolor{black}\href{https://doi.org/10.3390/en11010011}{\detokenize{10.3390/en11010011}}}.
 
 \bibitem[Chatziioannou \em{et~al.}(2017)Chatziioannou, Katsardi, Koukouselis,
   and Mistakidis]{CHATZIIOANNOU2017126}
@@ -254,9 +265,34 @@ Bishop, C.M.
 \newblock {\em {Pattern Recognition and Machine Learning (Information Science
   and Statistics)}}; Springer-Verlag New York, Inc.: Secaucus, NJ, USA,  2006.
 
-\bibitem[sri()]{srivastava2017large}
-{\em {Large-Scale Machine Learning in the Earth Sciences}}; {Chapman \&
-  Hall/CRC Data Mining and Knowledge Discovery Series}.
+\bibitem[Delfani \em{et~al.}(2019)Delfani, Esmaeili, and
+  Karami]{DELFANI2019100559}
+Delfani, S.; Esmaeili, M.; Karami, M.
+\newblock {Application of artificial neural network for performance prediction
+  of a nanofluid-based direct absorption solar collector}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2019},
+  {\em 36},~100559.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2019.100559}{\detokenize{10.1016/j.seta.2019.100559}}}.
+
+\bibitem[Nasruddin \em{et~al.}(2019)Nasruddin, Sholahudin, Satrio, Mahlia,
+  Giannetti, and Saito]{NASRUDDIN201948}
+Nasruddin.; Sholahudin.; Satrio, P.; Mahlia, T.M.I.; Giannetti, N.; Saito, K.
+\newblock {Optimization of HVAC system energy consumption in a building using
+  artificial neural network and multi-objective genetic algorithm}.
+\newblock {\em Sustainable Energy Technologies and Assessments} {\bf 2019},
+  {\em 35},~48--57.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.seta.2019.06.002}{\detokenize{10.1016/j.seta.2019.06.002}}}.
+
+\bibitem[Guo \em{et~al.}(2018)Guo, Wang, Chen, Li, Liu, Xu, Huang, and
+  Huang]{GUO201816}
+Guo, Y.; Wang, J.; Chen, H.; Li, G.; Liu, J.; Xu, C.; Huang, R.; Huang, Y.
+\newblock {Machine learning-based thermal response time ahead energy demand
+  prediction for building heating systems}.
+\newblock {\em Applied Energy} {\bf 2018}, {\em 221},~16--27.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.apenergy.2018.03.125}{\detokenize{10.1016/j.apenergy.2018.03.125}}}.
 
 \bibitem[{Eibe Frank} and Witten(2016)]{WEKA}
 {Eibe Frank}, M.A.H.; Witten, I.H.
@@ -280,6 +316,17 @@ kumar, N.K.; Savitha, R.; Mamun, A.A.
 \newblock {\em Ocean Engineering} {\bf 2017}, {\em 129},~605--612.
 \newblock
   doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.oceaneng.2016.10.033}{\detokenize{10.1016/j.oceaneng.2016.10.033}}}.
+
+\bibitem[Johansson \em{et~al.}(2015)Johansson, Epitropou, Karatzas, Karppinen,
+  Wanner, Vrochidis, Bassoukos, Kukkonen, and Kompatsiaris]{JOHANSSON2015143}
+Johansson, L.; Epitropou, V.; Karatzas, K.; Karppinen, A.; Wanner, L.;
+  Vrochidis, S.; Bassoukos, A.; Kukkonen, J.; Kompatsiaris, I.
+\newblock {Fusion of meteorological and air quality data extracted from the web
+  for personalized environmental information services}.
+\newblock {\em Environmental Modelling \& Software} {\bf 2015}, {\em
+  64},~143--155.
+\newblock
+  doi:{\changeurlcolor{black}\href{https://doi.org/10.1016/j.envsoft.2014.11.021}{\detokenize{10.1016/j.envsoft.2014.11.021}}}.
 
 \bibitem[Fern{\'a}ndez \em{et~al.}(2015)Fern{\'a}ndez, Salcedo-Sanz,
   Guti{\'e}rrez, Alexandre, and Herv{\'a}s-Mart{\'i}nez]{FERNANDEZ201544}
@@ -363,59 +410,36 @@ Kistler, R.; Collins, W.; Saha, S.; White, G.; Woollen, J.; Kalnay, E.;
   Boulder, CO: UCAR/Unidata.}
 \newblock \url{https://doi.org/10.5065/D6H70CW6},  2017.
 
-\bibitem[WEK({\natexlab{a}})]{WEKA_Filter_Normalize}
-{The WEKA Data Mining Software: {Normalize}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/Normalize.html}.
-\newblock {(Accessed 04 December 2018)}.
-
-\bibitem[WEK({\natexlab{b}})]{WEKA_Filter_Remove}
-{The WEKA Data Mining Software: {Remove}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/Remove.html}.
-\newblock {(Accessed 17 December 2018)}.
-
-\bibitem[WEK({\natexlab{c}})]{WEKA_Filter_RemoveByName}
-{The WEKA Data Mining Software: {RemoveByName}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/RemoveByName.html}.
-\newblock {(Accessed 17 December 2018)}.
-
-\bibitem[WEK({\natexlab{d}})]{WEKA_Filter_ReplaceMissingValues}
-{The WEKA Data Mining Software: {ReplaceMissingValues}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/ReplaceMissingValues.html}.
-\newblock {(Accessed 17 December 2018)}.
-
-\bibitem[WEK({\natexlab{e}})]{WEKA_Filter_ReplaceMissingWithUserConstant}
-{The WEKA Data Mining Software: {ReplaceMissingWithUserConstant}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/attribute/ReplaceMissingWithUserConstant.html}.
-\newblock {(Accessed 17 December 2018)}.
-
-\bibitem[WEK({\natexlab{f}})]{WEKA_Filter_RemoveDuplicates}
-{The WEKA Data Mining Software: {RemoveDuplicates}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/instance/RemoveDuplicates.html}.
-\newblock {(Accessed 04 December 2018)}.
-
-\bibitem[WEK({\natexlab{g}})]{WEKA_Filter_RemoveWithValues}
-{The WEKA Data Mining Software: {RemoveWithValues}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/instance/RemoveWithValues.html}.
-\newblock {(Accessed 17 December 2018)}.
-
-\bibitem[WEK({\natexlab{h}})]{WEKA_Filter_SubsetByExpression}
-{The WEKA Data Mining Software: {SubsetByExpression}}.
-\newblock
-  \url{http://weka.sourceforge.net/doc.stable-3-8/weka/filters/unsupervised/instance/SubsetByExpression.html}.
-\newblock {(Accessed 17 December 2018)}.
-
 \bibitem[de~Smith \em{et~al.}(2009)de~Smith, Goodchild, and
   Longley]{Haversine_2009}
 de~Smith, M.J.; Goodchild, M.F.; Longley, P.A.
 \newblock {\em {Geospatial Analysis: A Comprehensive Guide to Principles,
   Techniques and Software Tools}}, 3rd revised ed.; Matador,  2009; p. 516.
+
+\bibitem[{Hosmer Jr} \em{et~al.}(2013){Hosmer Jr}, Lemeshow, and
+  Sturdivant]{hosmer2013applied}
+{Hosmer Jr}, D.W.; Lemeshow, S.; Sturdivant, R.X.
+\newblock {\em {Applied logistic regression}}; Vol. 398, John Wiley \& Sons,
+  2013.
+
+\bibitem[Quinlan(2014)]{quinlan2014c4}
+Quinlan, J.R.
+\newblock {\em {C4. 5: programs for machine learning}}; Elsevier,  2014.
+
+\bibitem[Breiman(2001)]{breiman2001random}
+Breiman, L.
+\newblock {Random forests}.
+\newblock {\em Machine learning} {\bf 2001}, {\em 45},~5--32.
+
+\bibitem[Cortes and Vapnik(1995)]{cortes1995support}
+Cortes, C.; Vapnik, V.
+\newblock {Support-vector networks}.
+\newblock {\em Machine learning} {\bf 1995}, {\em 20},~273--297.
+
+\bibitem[Haykin(1994)]{haykin1994neural}
+Haykin, S.
+\newblock {\em {Neural networks: a comprehensive foundation}}; Prentice Hall
+  PTR,  1994.
 
 \bibitem[{National Data Buoy Center}()]{NOAA_3}
 {National Data Buoy Center}.
