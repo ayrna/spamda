@@ -1006,7 +1006,7 @@
 }
 
 @Article{He2020,
-  author  = {Qi He and Cheng Zha and Wei Song and Zengzhou Hao and Yanling Du and Antonio Liotta Cristian Perr},
+  author  = {Qi He Cheng Zha Wei Song Zengzhou Hao Yanling Du Antonio Liotta Cristian Perr},
   title   = {Improved Particle Swarm Optimization for Sea Surface Temperature Prediction},
   journal = {Energies},
   year    = {2020},
@@ -1014,17 +1014,6 @@
   number  = {6},
   pages   = {1369},
   doi     = {https://doi.org/10.3390/en13061369},
-}
-
-@Article{Kumar2020,
-  author  = {Kumar Shivam and Jong-Chyuan Tzou and Shang-Chen Wu},
-  title   = {Multi-Objective Sizing Optimization of a Grid-Connected Solar–Wind Hybrid System Using Climate Classification: A Case Study of Four Locations in Southern Taiwan},
-  journal = {Energies},
-  year    = {2020},
-  volume  = {13},
-  number  = {10},
-  pages   = {2505},
-  doi     = {https://doi.org/10.3390/en13102505},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
