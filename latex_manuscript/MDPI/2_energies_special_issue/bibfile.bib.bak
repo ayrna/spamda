@@ -953,17 +953,17 @@
 	year = "2019"
 }
 
-@article{NASRUDDIN201948,
-	abstract = "The optimization of heating, ventilating and air conditioning (HVAC) system operations and other building parameters intended to minimize annual energy consumption and maximize the thermal comfort is presented in this paper. The combination of artificial neural network (ANN) and multi-objective genetic algorithm (MOGA) is applied to optimize the two-chiller system operation in a building. The HVAC system installed in the building integrates radiant cooling system, variable air volume (VAV) chiller system, and dedicated outdoor air system (DOAS). Several parameters including thermostat setting, passive solar design, and chiller operation control are considered as decision variables. Subsequently, the percentage of people dissatisfied (PPD) and annual building energy consumption is chosen as objective functions. Multi-objective optimization is employed to optimize the system with two objective functions. As the result, ANN performed a good correlation between decision variables and the objective function. Moreover, MOGA successfully provides several alternative possible design variables to achieve optimum system in terms of thermal comfort and annual energy consumption. In conclusion, the optimization that considers two objectives shows the best result regarding thermal comfort and energy consumption compared to base case design.",
-	author = "Nasruddin and Sholahudin and Satrio, Pujo and Mahlia, Teuku Meurah Indra and Giannetti, Niccolo and Saito, Kiyoshi",
-	doi = "10.1016/j.seta.2019.06.002",
-	issn = "2213-1388",
-	journal = "Sustainable Energy Technologies and Assessments",
-	keywords = "Radiant cooling; Building optimization; Neural network; Genetic algorithm",
-	pages = "48--57",
-	title = "{Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm}",
-	volume = "35",
-	year = "2019"
+@Article{NASRUDDIN201948,
+  author   = {Nasruddin and Sholahudin Sholahudin and Pujo Satrio and Mahlia, Teuku Meurah Indra and Niccolo Giannetti and Kiyoshi Saito},
+  title    = {{Optimization of HVAC system energy consumption in a building using artificial neural network and multi-objective genetic algorithm}},
+  journal  = {Sustainable Energy Technologies and Assessments},
+  year     = {2019},
+  volume   = {35},
+  pages    = {48--57},
+  issn     = {2213-1388},
+  abstract = {The optimization of heating, ventilating and air conditioning (HVAC) system operations and other building parameters intended to minimize annual energy consumption and maximize the thermal comfort is presented in this paper. The combination of artificial neural network (ANN) and multi-objective genetic algorithm (MOGA) is applied to optimize the two-chiller system operation in a building. The HVAC system installed in the building integrates radiant cooling system, variable air volume (VAV) chiller system, and dedicated outdoor air system (DOAS). Several parameters including thermostat setting, passive solar design, and chiller operation control are considered as decision variables. Subsequently, the percentage of people dissatisfied (PPD) and annual building energy consumption is chosen as objective functions. Multi-objective optimization is employed to optimize the system with two objective functions. As the result, ANN performed a good correlation between decision variables and the objective function. Moreover, MOGA successfully provides several alternative possible design variables to achieve optimum system in terms of thermal comfort and annual energy consumption. In conclusion, the optimization that considers two objectives shows the best result regarding thermal comfort and energy consumption compared to base case design.},
+  doi      = {10.1016/j.seta.2019.06.002},
+  keywords = {Radiant cooling; Building optimization; Neural network; Genetic algorithm},
 }
 
 @article{SHEHADEH2020100644,
@@ -1089,6 +1089,47 @@
   abstract = {The principal target of the present work is to assess the wave energy potential in the Black Sea, identifying also some relevant energetic features and possible patterns. A wave prediction system based on the Simulating Waves Nearshore model (SWAN) has been implemented and intensively tested in the entire sea basin. Moreover, considering an optimal interpolation technique, an assimilation scheme of the satellite data has been developed, leading to a visible improvement of the wave model predictions in terms of significant wave heights and, consequently, also in terms of wave power. Using this wave prediction system with data assimilation, simulations have been performed for a 15-year period (1999--2013). Considering the results of this 15-year wave hindcast, an analysis of the wave energy conditions in the basin of the Black Sea has been carried out. This provided a more comprehensive picture concerning the wave energy patterns in the coastal environment of the Black Sea focused on the average wave conditions that might be expected in this sea. Following the results presented, it can be concluded that the wave energy extraction in the Black Sea can become an issue of interest, especially from the perspective of the hybrid solutions.},
   doi      = {10.3390/en80910370},
   url      = {http://www.mdpi.com/1996-1073/8/9/10370},
+}
+
+@Article{en11010011,
+  author         = {Wei, Chih-Chiang},
+  title          = {{Nearshore Wave Predictions Using Data Mining Techniques during Typhoons: A Case Study near Taiwan{\rq}s Northeastern Coast}},
+  journal        = {Energies},
+  year           = {2018},
+  volume         = {11},
+  number         = {1},
+  issn           = {1996-1073},
+  abstract       = {Seasonal typhoons provide energy into the wave field in summer and autumn in Taiwan. Typhoons lead to abundant wave energy near the coastal area and cause storm surges that can destroy offshore facilities. The potential for wave energy can be obtained from analyzing the wave height. To develop an effective model for predicting typhoon-induced wave height near coastal areas, this study employed various popular data mining models---namely k-nearest neighbors (kNN), linear regressions (LR), model trees (M5), multilayer perceptron (MLP) neural network, and support vector regression (SVR) algorithms---as forecasting techniques. The principal component analysis (PCA) was then performed to reduce the potential variables from the original data at the first stage of data preprocessing. The experimental site was the Longdong buoy off the northeastern coast of Taiwan. Data on typhoons that occurred during 2002--2011 and 2012--2013 were collected for training and testing, respectively. This study designed four PCA cases, namely EV1, TV90, TV95, and ORI: EV1 used eigenvalues higher than 1.0 as principal components; TV90 and TV95 used the total variance percentages of 90\% and 95\%, respectively; and ORI used the original data. The forecast horizons varying from 1 h to 6 h were evaluated. The results show that (1) in the PCA model{\rq} cases, when the number of attributes decreases, computing time decreases and prediction error increases; (2) regarding classified wave heights, M5 provides excellent outcomes at the small wavelet wavelet level; MLP has favorable outcomes at the large wavelet and small/moderate wave levels; meanwhile, SVR gives optimal outcomes at the long wave and high/very high wave levels; and (3) for performance of lead times, MLP and SVR achieve more favorable relative weighted performance without consideration of computational complexity; however, MLP and SVR might obtain lower performance when computational complexity is considered.},
+  article-number = {11},
+  doi            = {10.3390/en11010011},
+  url            = {http://www.mdpi.com/1996-1073/11/1/11},
+}
+
+@Book{Fi-John2019,
+  title     = {Flood Forecasting Using Machine Learning Methods},
+  publisher = {MPDI},
+  year      = {2019},
+  editor    = {Fi-John Chang and Kuolin Hsu and Li-Chiu Chang},
+  isbn      = {3038975486},
+}
+
+@Book{Sang-Yong2014,
+  title     = {Soft Computing in Machine Learning},
+  publisher = {Springer},
+  year      = {2014},
+  editor    = {Sang-Yong Rhee and Jooyoung Park and Atsushi Inoue},
+  isbn      = {978-3-319-05532-9},
+}
+
+@Article{Mosavi2019,
+  author  = {Dineva, Adrienn and Mosavi, Amir and Faizollahzadeh Ardabili, Sina and Vajda, Istvan and Shamshirband, Shahaboddin and Rabczuk, Timon and Chau, Kwok-Wing},
+  title   = {Review of Soft Computing Models in Design and Control of Rotating Electrical Machines},
+  journal = {Energies},
+  year    = {2019},
+  volume  = {12},
+  number  = {6},
+  pages   = {1049},
+  doi     = {https://doi.org/10.3390/en12061049},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
