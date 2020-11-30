@@ -1,5 +1,9 @@
 - Creo que debemos hacer la parte de prediccion de flujo de energia, podemo probar con los mismos datasets que tenemos ahora mismo. Asi ampliamos la experimentacion (revisor-1, revior-2), también metemos energia para el revisor-2 (en este lo malo es que nos dice comparar con otros, no se que podemos decir, porque es comparativa de software en este caso) y revisor-3.
 
+- ¿Dentro del directorio dist->DB-id1, al igual que existe el directorio TXTinFiles, no deberia haber un directorio llamado "NCinFiles" para que se puedan disponer de todos los datos de un experimento completo? Existe a nivel de dist->reanalysysFiles, pero no se si ese es el lugar correcto.
+
+- En base a lo anterior, ¿deberiamos añadir algun directorio llamada "example" o similar donde pongamos los fihceros de texto y de reanalisis que hemos empleado en el paper?
+
 
 COMENTARIOS DE PEDRO:
 
