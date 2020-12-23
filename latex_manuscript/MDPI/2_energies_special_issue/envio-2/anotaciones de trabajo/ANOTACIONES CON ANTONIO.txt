@@ -1,0 +1,45 @@
+- Creo que debemos hacer la parte de prediccion de flujo de energia, podemo probar con los mismos datasets que tenemos ahora mismo. Asi ampliamos la experimentacion (revisor-1, revior-2), también metemos energia para el revisor-2 (en este lo malo es que nos dice comparar con otros, no se que podemos decir, porque es comparativa de software en este caso) y revisor-3.
+
+- ¿Dentro del directorio dist->DB-id1, al igual que existe el directorio TXTinFiles, no deberia haber un directorio llamado "NCinFiles" para que se puedan disponer de todos los datos de un experimento completo? Existe a nivel de dist->reanalysysFiles, pero no se si ese es el lugar correcto.
+
+- En base a lo anterior, ¿deberiamos añadir algun directorio llamada "example" o similar donde pongamos los fihceros de texto y de reanalisis que hemos empleado en el paper?
+
+
+COMENTARIOS DE PEDRO:
+
+Yo creo que es factible que lo acepten. Lo más peligroso es el 3, pero si ven que hemos trabajado mucho para el 2, igual no le dan mucha importancia a su revisión. El revisor 2 pone mucha tarea, habrá que contestarle a todo. Para el revisor 3, ¿qué te parece si, a raíz del ejemplo en el que se aplica Weka para predecir las alturas de ola ponemos una estimación de la energía que producirá en el parque? No sé si esto es fácil de hacer con alguna fórmula. O como una simulación en la que se diga, según el modelo mañana hay flujo alto por lo que la producción de energía estará entre tanto y tanto... El revisor 1 sin problema. 
+
+---
+No, si es 6 horas es 6 horas. La cosa sería ponerlo con palabras más mundanas, para que le vean más utilidad práctica. Si el flujo es alto, hay que parar el parque porque sino producimos sobretensión (no sé, se me ocurre algo así, pero igual deberíamos consensuarlo con Sancho).
+
+Más que comparar, el revisor dice que "I strongly recommend the authors to provide a more comprehensive literature review in the introduction section. The following papers are recommended:". Es decir, incluirlos en en la revisión, diciendo que hacen y de que forma aplican machine learning. Pero el "gap" seguiría siendo el mismo, ninguno de esos trabajos proporciona una herramienta sencilla para incorporar las fuentes de datos que tiene SPAMDA. 
+
+
+
+
+key element for the design and construction of coastal protection structures, marine transportation, and offshore industry
+
+efficient operation of many offshore and coastal engineering activities
+
+problems for marine energy applications
+
+potential application in wave and ocean energy generation systems, and some of the other renewable and sustainable energy resource management.
+
+coastal and ocean engineering applications
+
+designing of reliable ocean energy converters.
+
+
+
+Este trabajo no se centra en las metodologías de ML and SC que utilice el investigador, por tanto no realiza un estudio comparativo entre el rendimiento de algoritmos de predicción del estado del arte. Se centra en abordar de manera automatizada y versátil la casuística que presenta una integración de datos well-formed y de calidad, que potencialmente pudiera proporcionar buenos modelos de predicción. Esta herrmienta software puede servir de apoyo en coastal and ocean engineering applications, en ayuda a la toma de decisiones en el design and construction of coastal protection structures, marine transportation, offshore industry, ocean energy converters and efficient operation of many offshore and coastal engineering activities.
+
+
+ocuses on providing an automated and versatile casuistry system that features well-formed and quality data integration.
+
+
+This work does not focus on the ML and SC methodologies used by the researcher, therefore it does not make a validation and extensive comparative study between the performance of state-of-the-art prediction algorithms. It focuses on providing an automated and versatile system for the casuistry that entails well-formed and quality data integration, that could potentially provide good prediction models. This software tool could be used to support coastal and ocean engineering applications, to aid decision-making in the design and construction of coastal protection structures, marine transportation, offshore industry, ocean energy converters and efficient operation of many offshore and coastal engineering activities.
+
+
+This software tool can serve as support in coastal and ocean engineering applications, in aid of decision making in the design and construction of coastal protection structures, marine transportation, offshore industry, ocean energy converters and efficient operation of many offshore and coastal engineering activities.
+
+Translated with www.DeepL.com/Translator (free version)
