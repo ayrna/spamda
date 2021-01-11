@@ -680,7 +680,7 @@ keywords = {Significant wave height; Missing values reconstruction; Product unit
   year    = {2019},
   volume  = {104},
   pages   = {281 - 295},
-  doi     = {doi.org/10.1016/j.rser.2019.01.014},
+  doi     = {10.1016/j.rser.2019.01.014},
 }
 
 @Article{Alizadeh2020,
@@ -765,6 +765,35 @@ keywords = {Significant wave height; Missing values reconstruction; Product unit
   number  = {3},
   pages   = {54.},
   doi     = {10.3390/jmse4030054},
+}
+
+@Article{Manfren2020,
+  author  = {Manfren, M. and Groppi, D. and Astiaso Garcia, D.},
+  title   = {Open data and energy analytics - An analysis of essential information for energy system planning, design and operation},
+  journal = {Energies},
+  year    = {2020},
+  volume  = {13},
+  number  = {9},
+  pages   = {2334},
+  doi     = {10.1016/j.energy.2020.118803},
+}
+
+@Article{Amini2020,
+  author  = {Amini, E. and Golbaz, D. and Amini, F. and Majidi Nezhad, M. and Neshat, M. and Astiaso Garcia, D.},
+  title   = {A Parametric Study of Wave Energy Converter Layouts in Real Wave Models},
+  journal = {Energies},
+  year    = {2020},
+  volume  = {13},
+  number  = {22},
+  pages   = {6095},
+  doi     = {10.3390/en13226095},
+}
+
+@Misc{NOAA_4,
+  author       = {{National Data Buoy Center}},
+  title        = {{Measurement Descriptions and Units}},
+  howpublished = {\url{https://www.ndbc.noaa.gov/measdes.shtml#stdmet}},
+  note         = {(Accessed 10 December 2020)},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}

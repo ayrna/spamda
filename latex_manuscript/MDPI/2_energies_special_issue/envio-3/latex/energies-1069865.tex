@@ -78,7 +78,7 @@
 
 %=================================================================
 % Full title of the paper (Capitalized)
-\Title{Building Suitable Datasets for Soft Computing and Machine Learning Techniques from Meteorological Data Integration: A Case Study for Predicting Significant Wave Height \textcolor{blue}{and Energy Flux}}
+\Title{Building Suitable Datasets for Soft Computing and Machine Learning Techniques from Meteorological Data Integration: A Case Study for Predicting Significant Wave Height and Energy Flux}
 
 % Author Orchid ID: enter ID or remove command
 \newcommand{\orcidauthorA}{0000-0001-8849-6036} % Add \orcidA{} behind the author's name
@@ -117,9 +117,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 %\conference{} % An extended version of a conference paper
 
 % Abstract (Do not insert blank lines, i.e. \\) 
-\abstract{Meteorological data are extensively used to perform environmental learning. Soft Computing (SC) and Machine Learning (ML) techniques represent a valuable support in many research areas, but require datasets containing information related to the topic under study. Such datasets are not always available in an appropriate format and its preparation and pre-processing implies a lot of time and effort by researchers. This paper presents a novel software tool with an user-friendly GUI to create datasets by means of management and data integration of meteorological observations from two well-known sources of information: the \textit{National Data Buoy Center} and the \textit{National Centers for Environmental Prediction and for Atmospheric Research Reanalysis Project}. Such datasets can be created using buoys and reanalysis data through customisable procedures, in terms of temporal resolution, predictive and objective variables, \textcolor{blue}{ and can be used by SC and ML methodologies for prediction tasks (classification or regression). The objective is providing the research community with an automated and versatile system for the casuistry that entails well-formed and quality data integration, potentially leading to better prediction models. The software tool can be used as a supporting tool for coastal and ocean engineering applications, sustainable energy production or environmental modelling; as well as for decision making in the design and construction of coastal protection structures, marine transportation, offshore industry, ocean energy converters and efficient operation of offshore and coastal engineering activities. Finally, to illustrate the applicability of the proposed tool, a case study to classify waves depending on their significant height and to predict energy flux in the Gulf of Alaska is presented. }
-%Therefore, it does not make a validation or comparison study of the performance of state-of-the-art prediction algorithms.
-}
+\abstract{Meteorological data are extensively used to perform environmental learning. Soft Computing (SC) and Machine Learning (ML) techniques represent a valuable support in many research areas, but require datasets containing information related to the topic under study. Such datasets are not always available in an appropriate format and its preparation and pre-processing implies a lot of time and effort by researchers. This paper presents a novel software tool with an user-friendly GUI to create datasets by means of management and data integration of meteorological observations from two data sources: the \textit{National Data Buoy Center} and the \textit{National Centers for Environmental Prediction and for Atmospheric Research Reanalysis Project}. Such datasets can be created using buoys and reanalysis data through customisable procedures, in terms of temporal resolution, predictive and objective variables, and can be used by SC and ML methodologies for prediction tasks (classification or regression). The objective is providing the research community with an automated and versatile system for the casuistry that entails well-formed and quality data integration, potentially leading to better prediction models. The software tool can be used as a supporting tool for coastal and ocean engineering applications, sustainable energy production or environmental modelling; as well as for decision making in the design and building of coastal protection structures, marine transport, ocean energy converters and well-planned running of offshore and coastal engineering activities. Finally, to illustrate the applicability of the proposed tool, a case study to classify waves depending on their significant height and to predict energy flux in the Gulf of Alaska is presented.}
 
 % Keywords
 \keyword{Environmental Prediction; Renewable Energy Resource Evaluation; Meteorological Data; Reanalysis Data; Marine Energy; Soft Computing}  % List three to ten pertinent keywords specific to the article, yet reasonably common within the subject discipline.
@@ -158,20 +156,20 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 
 	\section{Introduction}
 		
-		A better understanding of the environment is of vital importance for science, contributing not only to more efficient exploitation of natural resources but also to the development of new strategies aimed at its protection. In that sense, meteorological observations provide an essential and valuable source of information which is widely used by researchers to address environmental learning, comprehension, prediction and conservation in numerous oceanic and atmospheric studies of a wide variety of areas (e.g. energy, climate change, agriculture, etc.). Some specific examples of the diversity of fields in which meteorological data can be used in are, among others: estimation of global solar radiation based on sunshine duration \cite{SHAHRUKHANIS2019179}, directional analysis of sea storms \cite{LAFACE201545}, estimation of hybrid energy systems taking into account economic and environmental objectives\cite{Kumar2020}, wind power ramp events prediction \cite{DORADOMORENO2017428}, sea surface temperature prediction \cite{He2020}, study of the responses exhibited by plankton to fluid motions \cite{FUCHS2016109}, trends in solar radiation \cite{SILVA20101852} or simulation of extreme near shore sea conditions \cite{GOULDBY201415}. All these studies require a prior data collection and its adaptation to a specific format that allows the interpretation of them.
+		A better understanding of the environment is of vital importance for science, contributing not only to more efficient exploitation of natural resources but also to the development of new strategies aimed at its protection. In that sense, meteorological observations provide an essential and valuable source of information which is widely used by researchers to address environmental learning, comprehension, prediction and conservation in numerous oceanic and atmospheric studies of a wide variety of areas (e.g. energy, climate change, agriculture, etc.). Some specific examples of the diversity of fields in which meteorological data can be used in are, among others: global solar radiation estimation \cite{SHAHRUKHANIS2019179}, directional analysis of sea storms \cite{LAFACE201545}, estimation of hybrid energy systems taking into account economic and environmental objectives\cite{Kumar2020}, wind power ramp events prediction \cite{DORADOMORENO2017428}, sea surface temperature prediction \cite{He2020}, study of the responses exhibited by plankton to fluid motions \cite{FUCHS2016109}, trends in solar radiation \cite{SILVA20101852} or simulation of extreme near shore sea conditions \cite{GOULDBY201415}. All these studies require a prior data collection and its adaptation to a specific format that allows the interpretation of them.
 		
-		Once quality and well-formed data are obtained, these can be used to extract information and build prediction models that explain the behavior of a certain problem. \textcolor{blue}{The choice of the appropriate model, either in engineering problems or in any other problem, is also an important factor in addition to data \cite{Alizadeh2019, Alizadeh2020}}. Although Soft Computing (SC) and Machine Learning (ML) techniques have the ability to handle uncertainty in data and are extensively used for modelling purposes, the real challenge in modelling studies is due to the inadequacy of data, since the adequacy of the models depend mainly on the the quality of the information used, so that if a researcher does not have quality data there will be no quality models.
+		Once quality and well-formed data are obtained, these can be used to extract information and build prediction models that explain the behavior of a certain problem. The choice of the appropriate model, either in engineering problems or in any other problem, is also an important factor in addition to data \cite{Alizadeh2019, Alizadeh2020}. \textcolor{blue}{In this sense, public and research organisms are increasingly promoting the use of open and robust datasets to boost policies coherent with the environmental exploitation, protection and conservation, as well as modelling tools available to the scientific community and decision-makers \cite{Manfren2020}}. Although Soft Computing (SC) and Machine Learning (ML) techniques have the ability to handle uncertainty in data and are extensively used for modelling purposes, the real challenge in modelling studies is due to the inadequacy of data, since the adequacy of the models depend mainly on the the quality of the information used, so that if a researcher does not have quality data there will be no quality models.
 		
-		Continuing with this line, special purpose software is usually developed to help researchers to advance in their studies related to energy and environmental modelling, becoming a great support for decision-making in the exploitation and protection of the environment. In \cite{Neeraj2020}, a software package in R called ``ForecastTB'' is developed to compare the accuracy of different prediction methods as related to the characteristics of a time series dataset, presenting the software as a stepping stone in ML automation modelling.
-		In \cite{LO2015293}, an integrated simulation tool for the optimum design of bifacial solar panel with reflectors is presented. This tool can also be used to analyse the performance of the solar cells. A framework for data integration of offshore wind farms is implemented in \cite{NGUYEN2013150} in order to facilitate data exchange and improve operation and maintenance practices. 
-		In \cite{Roberta2020}, a new software tool named ``Storage LCA Tool`` is presented for comparing PCM - phase change materials- storage systems  with traditional systems that do not entail energy storage, being beneficial in order to support decision-making on energy concepts for buildings.
-		A risk assessment tool to improve safety standards and emergency management in onshore wind farms, is presented in \cite{ASTIASOGARCIA201648}. Raabe et al. \cite{RAABE2010213} developed two software tools, \textit{Model of Equilibrium of Bay Beaches} (MEPBAY) and \textit{Coastal Modelling System} (SMC), to support different operational levels of headland-bay beach in coastal engineering projects, and Motahhir et al. \cite{MOTAHHIR20199} developed an open hardware/software test bench for solar tracker.
+		Continuing with this line, special purpose software is usually developed to help researchers to advance in their studies related to energy and environmental modelling, becoming a great support for decision-making in the exploitation and protection of the environment. In \cite{Neeraj2020}, a software package in R called ``ForecastTB'' is developed for comparing the performance of distinct prediction methods, presenting the software as a stepping stone in ML automation modelling.
+		In \cite{LO2015293}, an integrated simulation tool to optimise the design of bifacial solar panel with reflectors is presented. This tool can also be applied to study the efficiency of the solar cells. A framework for integrating information from offshore wind farms is implemented in \cite{NGUYEN2013150} in order to ease data interchange and enhance operation and maintenance practices. 
+		In \cite{Roberta2020}, a new software tool named ``Storage LCA Tool`` is presented for comparing PCM - phase change materials- storage systems with conventional systems that do not involve energy storage, being beneficial for supporting decision-making on energy concepts for buildings.
+		A risk assessment tool to improve safety standards and emergency management in onshore wind farms, is presented in \cite{ASTIASOGARCIA201648}. Raabe et al. \cite{RAABE2010213} developed two software tools, \textit{Model of Equilibrium of Bay Beaches} (MEPBAY) and \textit{Coastal Modelling System} (SMC), for supporting distinct operational levels of headland-bay beach in coastal engineering projects, and Motahhir et al. \cite{MOTAHHIR20199} developed an open hardware/software test bench for solar tracker.
 		
-		Marine energy prediction is currently a hot topic where meteorological data is used in. Marine Renewable Energy (MRE) is one of the most important renewable and sustainable energy sources available in our environment \cite{en12050787}, and it includes ocean thermal energy, marine tidal current energy and wave energy, among others. Its benefits and great potential \cite{ZEYRINGER20181281} make it one of the most relevant natural resources, playing a crucial role not only in the reduction of the emission of greenhouse gases but also in all other aspects involved in the difficult challenge of the transition to a low carbon footprint society \textcolor{blue}{\cite{en12091657, BREDE201344, Alizadeh2020a}}. Wave energy exhibits a more stable power supply than wind energy and even solar energy. In recent years \textit{Wave Energy Converters} (WECs) \cite{FALCAO2010899} have been developed and widely installed to transform this wave energy into electricity, which can be injected into the electric network or supplied to existing offshore oil and gas platforms \cite{OLIVEIRAPINTO2019556} or seawater desalination plants \cite{FERNANDEZPRIETO2019546}, among others. WECs are mechanical devices that convert kinetic energy into electrical energy by means of either the vertical oscillation of waves or the linear motion of them. Nevertheless, waves are difficult to be characterised due to their stochastic nature, because of the influence of a large number of environmental factors that exert on them \cite{ochi1998}. As a consequence of this complexity, many aspects of WEC design, deployment and operation \textcolor{blue}{\cite{CROWLEY2018159, Abdelkhalik2016, 6898109}} need a proper prediction of waves \textcolor{blue}{\cite{en11010011, Kaloop2020}}, in order to maximise the wave energy extraction \cite{en80910370}. For this purpose WECs use wave \textit{flux of energy} ($F_e$) which can be calculated from the two most important wave parameters in this regard: \textit{significant wave height} ($H_s$) and \textit{wave energy period} ($T_e$). 
+		Marine energy prediction is currently a hot topic where meteorological data is used in. Marine Renewable Energy (MRE) is one of the most important renewable and sustainable energy sources available in our environment \cite{en12050787}, and it includes ocean thermal energy, marine tidal current energy and wave energy, among others. Its benefits and great potential \cite{ZEYRINGER20181281} make it one of the most relevant natural resources, playing a crucial role not only in the reduction of the emission of greenhouse gases but also in all other aspects involved in the difficult challenge of the transition to a low carbon footprint society \cite{en12091657, BREDE201344, Alizadeh2020a}. Wave energy exhibits a more stable power supply than wind energy and even solar energy. In recent years \textit{Wave Energy Converters} (WECs) \cite{FALCAO2010899} have been developed and widely installed, \textcolor{blue}{even arranged in array form \cite{Amini2020}}, to transform this wave energy into electricity, which can be injected into the electric network or supplied to existing offshore oil and gas platforms \cite{OLIVEIRAPINTO2019556} or seawater desalination plants \cite{FERNANDEZPRIETO2019546}, among others. WECs are mechanical devices that convert kinetic energy into electrical energy through either the vertical oscillation or the linear motion of waves. Nevertheless, waves are difficult to be characterised due to their stochastic nature, because of the influence of a large number of environmental factors that exert on them \cite{ochi1998}. As a consequence of this complexity, many aspects of WEC design, deployment and operation \cite{CROWLEY2018159, Abdelkhalik2016, 6898109} need a proper prediction of waves \cite{en11010011, Kaloop2020}, in order to maximise the wave energy extraction \cite{en80910370}. For this purpose WECs use wave \textit{flux of energy} ($F_e$) which can be calculated from the two most relevant wave parameters related to this aspect: \textit{significant wave height} ($H_s$) and \textit{wave energy period} ($T_e$).
 		
-		Currently, and as a support to traditional study procedures, SC and ML techniques \cite{Sang-Yong2014,Bishop:2006:PRM:1162264} are being widely used in numerous research fields related to classification, regression and optimisation tasks, obtaining significant improvements in the performance of the results, \textcolor{blue}{ either in engineering \cite{Alizadeh2020}, energy or environmental problems} \cite{Fi-John2019,Mosavi2019,GUO201816}. SC and ML methodologies can be used not only by experienced computer scientists but also by other researchers. For example, the well-known \textit{Waikato Environment for Knowledge Analysis} (WEKA) \cite{WEKA} software tool provides researchers with a wide collection of ML  algorithms. ML techniques have been already applied to tackle wave characterisation, accurately estimating $H_{s}$ and $T_{e}$ parameters \cite{DURANROSAL2017268, KUMAR2017605}, given that robustness of ML methods can tackle the previously explained difficulties in wave energy prediction. \textcolor{blue}{In \cite{Ali2020}, a reliable ML model based on multiple linear regression and covariant-weighted least square estimation for $H_s$ modelling is presented in order to forecast half-hourly nearly real-time significant wave height values. In \cite{Cornejo-Bueno2016}, an  approach for feature selection problems is developed and applied to a specific problem of $H_s$ and $F_e$ prediction in oceanic buoys,  obtaining excellent results in terms of prediction quality. In \cite{Emmanouil2020}, a Bayesian Network system provides an useful tool for the decision making process of installation and maintenance operations in offshore wind farms using predictions of $H_s$, among others. In \cite{Shamshirband2020}, several ML methods are implemented and compared for the prediction of $H_s$ in the Persian Gulf, the extreme learning machine (ELM) providing the best results.} The problem is that, in order to apply \textcolor{blue}{ML and SC techniques}, it is essential to obtain datasets with relevant information about the issue under study, used to infer knowledge. Usually, these datasets are not publicly available in a friendly format, and their generation is the first step needed.
+		Currently, and as a support to traditional study procedures, SC and ML techniques \cite{Sang-Yong2014,Bishop:2006:PRM:1162264} are being widely used in numerous research fields related to classification, regression and optimisation tasks, obtaining significant improvements in the performance of the results, either in engineering \cite{Alizadeh2020}, energy or environmental problems \cite{Fi-John2019,Mosavi2019,GUO201816}. SC and ML methodologies can be used not only by experienced computer scientists but also by other researchers. For example, the well-known \textit{Waikato Environment for Knowledge Analysis} (WEKA) \cite{WEKA} software tool provides researchers with a wide collection of ML  algorithms. ML techniques have been already applied to tackle wave characterisation, accurately estimating $H_{s}$ and $T_{e}$ parameters \cite{DURANROSAL2017268, KUMAR2017605}, given that robustness of ML methods can tackle the previously explained difficulties in wave energy prediction. In \cite{Ali2020}, a reliable ML model based on multiple linear regression and covariant-weighted least square estimation for $H_s$ modelling is presented in order to predict significant wave height 30 minutes in advance. In \cite{Cornejo-Bueno2016}, an  approach for feature selection problems is developed and applied for $H_s$ and $F_e$ prediction in oceanic buoys, obtaining very good results. In \cite{Emmanouil2020}, a Bayesian Network system provides a helpful tool to support decision-making process of installation and maintenance operations in offshore wind farms using predictions of $H_s$, among others. In \cite{Shamshirband2020}, several ML methods are implemented and compared for the prediction of $H_s$ in the Persian Gulf, the extreme learning machine (ELM) providing the best results. The problem is that, in order to apply ML and SC techniques, it is essential to obtain datasets with relevant information about the issue under study, used to infer knowledge. Usually, these datasets are not publicly available in a friendly format, and their generation is the first step needed.
 		
-		The information to create these datasets related with MRE can be obtained from meteorological observations, but such information may be available in a inappropriate format and even contain missing values or measurements. Consequently, it is usually required to perform pre-processing tasks for improving the quality of the data, such as the replacement of missing values, outlier detection or data normalisation, among others. Furthermore, if more than one source of information is used to achieve a better characterisation of the problem under study \cite{JOHANSSON2015143, FERNANDEZ201544, Adams2010}, then a data integration process, denominated as the matching process in this document, has to be carried out by researchers to manually create the datasets with the needed information. Given that such process is of great relevance and has an extensive casuistry, the present work has been specially focused on it. Moreover, depending on the subject and the SC and ML technique to be applied, or even if the researcher considers other factors in order to improve the results or have more in-depth conclusions, the datasets would have to be updated afterwards. In summary, many important details and different intermediate steps have to be considered when creating suitable datasets, specially when data integration is required, resulting in an extremely tedious task.
+		The information to create these datasets related with MRE can be obtained from meteorological observations, but such information may be available in a inappropriate format and even contain missing values or measurements. Consequently, it is usually required to perform pre-processing tasks for improving the quality of the data, such as the replacement of missing values, outlier detection or data normalisation, among others. Furthermore, if more than one source of information is used to achieve a better characterisation of the problem under study \cite{JOHANSSON2015143, FERNANDEZ201544, Adams2010}, then a data integration process, denominated as the matching process in this document, has to be carried out by researchers to manually create the datasets with the needed information. Given that such process is of great relevance and has an extensive casuistry, the present work has been specially focused on it. Moreover, depending on the subject and the SC and ML technique to be applied, or even if the researcher considers other factors in order to enhance the performance obtained or have more in-depth conclusions, the datasets would have to be updated afterwards. In summary, many important details and different intermediate steps have to be considered when creating suitable datasets, specially when data integration is required, resulting in an extremely tedious task.
 		
 		The main purpose of this paper is to present a new open source tool for the creation of datasets integrated by meteorological variables from two sources of information. Given that the tool provides an user-friendly graphical interface, no knowledge in programming languages is needed. It also prevents researchers from performing the mentioned tedious work and greatly simplify all the steps involved in it, avoiding possible errors in the intermediate steps, at least as a preliminary study in certain areas where some kind of environmental prediction is needed. The meteorological data used by the tool come from two well-known sources of information: the \textit{National Oceanic and Atmospheric Administration} (NOAA) \textit{National Data Buoy Center} (NDBC) \cite{NOAA} and the \textit{National Centers for Environmental Prediction} (NCEP)/\textit{National Center for Atmospheric Research} (NCAR) \textit{Reanalysis Project} (NNRP or R1) \cite{Kalnay1996, Kistler2001}. The open source software tool presented in this work is named SPAMDA (Software for Pre-processing and Analysis of Meteorological DAta to build datasets). As SPAMDA performs all this data processing, it reduces the time involving these tasks and allows researchers focus on the study of the meteorological aspects of the observations. The datasets obtained are ready to be used as input for SC and ML techniques in prediction tasks (classification or regression), although researchers can use them for other purposes. These datasets contain one or more meteorological variables as inputs and one variable as target (variable to be predicted). The format of the generated datasets will be \textit{Attribute-Relation File Format} (ARFF) \cite{WEKA_ARFF}, which is the one used by WEKA. Besides, the datasets can also be generated in \textit{Comma-Separated Values} (CSV) format, enabling researchers to use others tools.
 		
@@ -182,21 +180,21 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 			
 			\item The created datasets can be easily used by SC and ML tools. 
 			
-			\item It makes the researcher focus on environmental modelling, without having to worry about the development of scripts or mechanical tasks, avoiding laborious pre-processing procedures, that imply a lot of time and effort in early stages of the research.
+			\item It makes the researcher focus on environmental modelling, without having to worry about the development of scripts or mechanical tasks, avoiding laborious pre-processing procedures, that imply a great deal of time and endeavour in early stages of the research.
 			
 			\item It avoids possible researcher errors in the intermediate steps of the process, such as geographical coordinates conversion, missing values handling (dates or measurements not recorded) or different temporal resolution of the data collected, among others.
 			
-			\item It provides information about the quality and quantity of the data. \textcolor{blue}{SPAMDA allows preliminary studies of missing values (dates or measurements not recorded) in buoys managed by NDBC, so that the researcher can have an idea of the quality of the data recorded by the buoys and about their suitability for the intended purpose. In any case, SPAMDA allows data integration taking into account such missing values when needed by the user.}
-                    
-			\item \textcolor{blue}{Estimation of the amount of energy flux that can be produced at different prediction horizons: short-term, mid-term or long-term. Although this work does not focus on models performance, it should be taken into account that models tend to generalise worse with greater prediction horizons.}
+			\item It provides information about the quality and quantity of the data. SPAMDA allows preliminary studies of missing values (dates or measurements not recorded) in buoys managed by NDBC, so that the researcher can have an idea of the quality of the data recorded by the buoys and about their suitability for the intended purpose. In any case, SPAMDA allows data integration taking into account such missing values when needed by the user.
+			
+			\item Estimation of the amount of energy flux that can be produced at different prediction horizons: short-term, mid-term or long-term. Although this work does not focus on models performance, it should be taken into account that models tend to generalise worse with greater prediction horizons.
 						
 			\item It manages the extensive casuistry of data integration which can lead to incomplete datasets, described in Appendix \ref{app:AppendixA}.
 			
-			\item Possibility of selecting one or more reanalysis nodes near the localisation under study, \textcolor{blue}{which could provide a better description of the problem to achieve more accurate models.}
+			\item Possibility of selecting one or more reanalysis nodes near the localisation under study, which could provide a better description of the problem to achieve more accurate models.
 			
-			\item \textcolor{blue}{Although pre-processing is not the main objective of SPAMDA, the tool also provides some basic pre-processing filters on buoys measurements, such as normalisation and missing data recovery.}
+			\item Although pre-processing is not the main objective of SPAMDA, the tool also provides some basic pre-processing filters on buoys measurements, such as normalisation and missing data recovery.
 			
-			\item It facilitates data management and well-organised storage of the datasets. \textcolor{blue}{Environmental studies in different geographical locations can be carried out by merely introducing and using other collected data.}
+			\item It facilitates data management and well-organised storage of the datasets. Environmental studies in different geographical locations can be carried out by merely introducing and using other collected data.
 			
 			\item SPAMDA is distributed as open source tool, its modular design allows the implementation of new modules for managing meteorological data from others sources, benefiting future renewable energy and environmental research.
 			
@@ -205,7 +203,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 			\item It is multi-platform, and it can be used on any computer with Java regardless of the operating system.
 		\end{itemize}
 		
-		\textcolor{blue}{Therefore, the functionalities and characteristics that SPAMDA offers make it a supporting tool for researchers, which could be used in applications related to coastal and ocean engineering, and also in marine energy prediction. In \cite{Kumar2020}, the estimation of energy supply sources in hybrid energy systems is based on the amount of energy that can be obtained by a marine energy system within a prediction horizon. Regulation of WECs to avoid malfunction or breakage, depending on the significant wave height and/or energy flux expected, as well as the possibility of reconfiguring them in order to maximise the wave energy extraction, is studied in \cite{CROWLEY2018159, Abdelkhalik2016}. The prediction of the energy that could be obtained from a certain maritime location is considered in \cite{OLIVEIRAPINTO2019556, FERNANDEZPRIETO2019546} in order to know whether it is convenient to install WECs as power supply in marine structures, such as offshore oil and gas platforms or seawater desalination plants. In \cite{Ali2019}, significant wave height forecasting is applied for decision-making in exploitation and environmental protection for the construction of marine energy storage plants, future strategies on renewable energy and coastal planning. Other examples of application are: design of offshore structures and ports \cite{CHATZIIOANNOU2017126}, decision-making and risk assessment about operational works in the sea \cite{DALGIC2015211}, security systems for structures or naval security \cite{Spaulding2020}.}
+		Therefore, the functionalities and characteristics that SPAMDA offers make it a supporting tool for researchers, which could be used in applications related to coastal and ocean engineering, and also in marine energy prediction. In \cite{Kumar2020}, the estimation of energy supply sources in hybrid energy systems is based on the amount of energy that can be obtained by a marine energy system within a prediction horizon. Regulation of WECs to avoid malfunction or breakage, depending on the significant wave height and/or energy flux expected, as well as the possibility of reconfiguring them in order to maximise the wave energy extraction, is studied in \cite{CROWLEY2018159, Abdelkhalik2016}. The prediction of the energy that could be obtained from a certain maritime location is considered in \cite{OLIVEIRAPINTO2019556, FERNANDEZPRIETO2019546} in order to know whether it is convenient to install WECs as power supply in marine structures, such as offshore oil and gas platforms or seawater desalination plants. In \cite{Ali2019}, significant wave height forecasting is applied for decision-making in exploitation and environmental protection for the construction of marine energy storage plants, future strategies on renewable energy and coastal planning. Other examples of application are: design of offshore structures and ports \cite{CHATZIIOANNOU2017126}, decision-making and risk assessment about operational works in the sea \cite{DALGIC2015211}, security systems for structures or naval security \cite{Spaulding2020}.
 					
 		This paper is organised as follows: Section \ref{sec:DataSources} describes the sources of information used by SPAMDA for creating datasets. Section \ref{sec:SPAMDA} describes in detail the features of the software tool. Section \ref{sec:CaseStudy} shows a case study describing the use of SPAMDA in a practical approach. Section \ref{sec:Conclusions} provides the final conclusions and future work.
 		
@@ -214,10 +212,10 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 		The data provided by the above-mentioned sources of information of SPAMDA is described below:
 		
 		\begin{itemize}
-			
-			\item NDBC is a part of the \textit{National Weather Service} (NWS). NDBC designs, develops, operates, and maintains a network of data collecting buoys (stations). The mission of the network is to collect real-time marine meteorological and oceanographic observations, such as $H_s$, dominant wave period, or wind speed and direction, among others.
+						
+			\item NDBC belongs to the \textit{National Weather Service} (NWS) and operates and supports a network of marine and ocean buoys that record data. The mission of the network is to record marine and ocean meteorological data, such as $H_s$, dominant wave period, or wind speed and direction, among others.
 
-			The buoys maintained by NDBC are deployed in the coastal and offshore waters around oceans and seas, and they are equipped with assorted sensors which allow them to perform different measurements. The information collected by the buoys is available on the NDBC website \cite{NOAA_1}, and it is divided into different groups. One of them corresponds to standard meteorological information of the historical data collected by each buoy, which can be downloaded as annual text files and whose format was adopted by NDBC since January 2007 \cite {NOAA_2}. These files contain hourly measurements per day from $00$:$50$ to $23$:$50$ UTC (Universal Time Coordinated) and from $23$:$50$ 31th December of the previous desired year to $22$:$50$ 31th December of the desired year. In Table \ref{tab:measurementsDescription}, a comprehensive measurement description and the corresponding units are provided as a summary for the reader. A fragment of one of these files, which contains the measurements collected during year $2017$ by the buoy identified as \textit{Station 46001} in NDBC, is shown in Fig. \ref{fig:fragmentAnnualTexFile}. Each column corresponds to a meteorological variable or attribute, and each row or instance corresponds to the values of the measurements collected by the buoy for each attribute at a specific date and time.
+			The buoys maintained by NDBC are located in coastal and offshore waters, and they are provided with specific sensors and devices which allow them to perform measurements. The information collected by the buoys is available on the NDBC website \cite{NOAA_1}, and it is divided into different groups. One of them corresponds to standard meteorological information of the historical data collected by each buoy, which can be downloaded as annual text files and whose format was adopted by NDBC since January 2007 \cite {NOAA_2}. These files contain hourly measurements per day from $00$:$50$ to $23$:$50$ UTC (Universal Time Coordinated) and from $23$:$50$ 31th December of the previous desired year to $22$:$50$ 31th December of the desired year. In Table \ref{tab:measurementsDescription}, a comprehensive measurement description and the corresponding units are provided as a summary for the reader. A fragment of one of these files, which contains the measurements collected during year $2017$ by the buoy identified as \textit{Station 46001} in NDBC, is shown in Fig. \ref{fig:fragmentAnnualTexFile}. Each column corresponds to a meteorological variable or attribute, and each row or instance corresponds to the values of the measurements collected by the buoy for each attribute at a specific date and time.
 
 			\begin{figure}[ht!]
 				\centering
@@ -228,12 +226,12 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 			
 			\begin{table}[!ht]
 			
-				\caption{Measurements descriptions and units of each meteorological variable or attribute collected by the buoys.}
+				\caption{Measurements descriptions and units of each meteorological variable or attribute collected by the buoys (a detailed description can be found in NDBC website \cite{NOAA_4})}.
 				\label{tab:measurementsDescription}
 				\footnotesize
 				\centering
 				
-				\begin{tabular}{ccm{8.60cm}@{\setlength{\tabcolsep}{0pt}}m{0.0cm}}
+				\begin{tabular}{ccm{7.0cm}@{\setlength{\tabcolsep}{0pt}}m{0.0cm}}
 				
 					\cline{1-4}
 					
@@ -241,31 +239,31 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
  
 					\cline{1-4}
 					
-					WDIR & degT & Wind direction (the direction the wind is coming from in degrees clockwise from true North) during the same period used for WSPD. \\
+					WDIR & degT & The direction the wind is coming from true North. \\
 					
-					\cellcolor{gray090}WSPD & \cellcolor{gray090} m/s & \cellcolor{gray090} Wind speed (m/s) averaged over an eight-minute period for buoys and a two-minute period for land stations. Reported Hourly. \\
+					\cellcolor{gray090}WSPD & \cellcolor{gray090} m/s & \cellcolor{gray090} The speed of the wind. \\
 					
-					GST &  m/s & Peak 5 or 8 second gust speed (m/s) measured during the eight-minute or two-minute period. \\
+					GST &  m/s & Peak of gust speed. \\
 					
-					\cellcolor{gray090} WVHT & \cellcolor{gray090} m & \cellcolor{gray090} Significant wave height (meters) is calculated as the average of the highest one-third of all of the wave heights during the 20-minute sampling period. \\
+					\cellcolor{gray090} WVHT & \cellcolor{gray090} m & \cellcolor{gray090} Significant wave height. \\
 					
-					DPD & sec & Dominant wave period (seconds) is the period with the maximum wave energy. \\
+					DPD & sec & Dominant wave period (maximum wave energy). \\
 					
-					\cellcolor{gray090}APD & \cellcolor{gray090} sec & \cellcolor{gray090} Average wave period (seconds) of all waves during the 20-minute period. \\
+					\cellcolor{gray090}APD & \cellcolor{gray090} sec & \cellcolor{gray090} Average wave period of all waves. \\
 					
-					MWD & degT & The direction from which the waves at the dominant period (DPD) are coming. The units are degrees from true North, increasing clockwise, with North as 0 (zero) degrees and East as 90 degrees. \\
+					MWD & degT & The direction from which the waves at the dominant period are coming. \\
 					
-					\cellcolor{gray090}PRES & \cellcolor{gray090} hPa & \cellcolor{gray090} Sea level pressure (hPa). For C-MAN sites and Great Lakes buoys, the recorded pressure is reduced to sea level using the method described in NWS Technical Procedures Bulletin 291 (11/14/80). \\
+					\cellcolor{gray090}PRES & \cellcolor{gray090} hPa & \cellcolor{gray090} Sea level pressure. \\
 					
-					ATMP & degC & Air temperature (Celsius degrees). &\\[0.10cm]
+					ATMP & degC & Air temperature. &\\[0.10cm]
 					
-					\cellcolor{gray090}WTMP & \cellcolor{gray090} degC & \cellcolor{gray090} Sea surface temperature (Celsius degrees). For buoys the depth is referenced to the hull's waterline. For fixed platforms it varies with tide, but is referenced to, or near Mean Lower Low Water (MLLW).\\
+					\cellcolor{gray090}WTMP & \cellcolor{gray090} degC & \cellcolor{gray090} Sea surface temperature.\\
 					
-					DEWP & degC & Dewpoint temperature taken at the same height as the air temperature measurement. \\
+					DEWP & degC & Dewpoint temperature. \\
 					
-					\cellcolor{gray090}VIS & \cellcolor{gray090} nmi & \cellcolor{gray090} Station visibility (nautical miles). Note that buoy stations are limited to reports from 0 to 1.6 nmi. \\
+					\cellcolor{gray090}VIS & \cellcolor{gray090} nmi & \cellcolor{gray090} Visibility of the station. \\
 					
-					TIDE & ft & The water level in feet above or below MLLW. \\
+					TIDE & ft & The water level. \\
 					
 					\cline{1-4}
 						
@@ -275,26 +273,24 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 			
 			Note that the data collected by the network of buoys may be incomplete due to diverse circumstances such as the weather conditions in which the buoys have to operate, failures or malfunctioning elements of the buoys, among others. Accordingly, it may be the situation that some of the measurements are completely missing (missing date or instance) or partially missing (some measurements not recorded), by a buoy or by a set of buoys, once in a while or over a period of time. It may be also possible that the measurements have been recorded at a time different from the expected one. These aspects have to be taken into account when creating the datasets. This casuistry is explained in detail in Appendix \ref{app:AppendixA}.
 			
-			\item NNRP provides three-dimensional global reanalysis of numerous meteorological variables (e.g. air temperature, components South-North and West-East of wind speed, relative humidity, pressure, etc.), which is available monthly, daily and every $6$ hours at $00$ Z (Zulu time), $06$ Z, $12$ Z and $18$ Z from $1948$ on a global $2.5\degree$ x $2.5\degree$ grid. Weather observations are from different sources, such as ships, satellites and radar, among others. Reanalysis data is created assimilating such observations using the same climate model throughout the entire reanalysis period in order to reduce the effects of modelling changes on climate statistics. Such information has become a substantial support of the needs of the research community, even more in locations where instrumental (real time) data is not available.
+			\item NNRP provides three-dimensional global reanalysis of numerous meteorological observations (e.g. components  \textit{Zonal} and \textit{Meridional} of the velocity of the wind, relative humidity, pressure, etc.), which is available monthly, daily and every $6$ hours at $00$ Z (Zulu time), $06$ Z, $12$ Z and $18$ Z from $1948$ on a global $2.5\degree$ x $2.5\degree$ grid. Weather observations are from different sources, such as ships, satellites and radar, among others. Reanalysis data is created assimilating such observations employing the same climate model along the whole period of reanalysis in order to decrease the impact of modelling changes on climate statistics. Such information has become a substantial support of the needs of the research community, even more in locations where instrumental (real time) data is not available.
 			
-			The reanalysis data is available in the NNRP website \cite{NNRP}, which it is accessible through different sections. Such data can be fully (a global $2.5\degree$ x $2.5\degree$ grid) or partially (only the desired reanalysis nodes or sub-grid) downloaded as \textit{Network Common Data Form} (NetCDF) files \cite{NetCDF}, a special binary format for representing scientific data, which provides a description of the file contents and also includes the spatial and temporal properties of the data. Each reanalysis file contains the values of a meteorological variable estimated by a mathematical model for each reanalysis node. For a better understanding, in Fig. \ref{fig:subGrid} an approximate representation of a sub-grid containing six reanalysis nodes around the geographical location of a buoy (obtained from NDBC) is shown.
-			
+			The reanalysis data is available in the NNRP website \cite{NNRP}, which it is accessible through different sections. Such data can be fully (a global $2.5\degree$ x $2.5\degree$ grid) or partially (only the desired reanalysis nodes or sub-grid) downloaded as \textit{Network Common Data Form} (NetCDF) files \cite{NetCDF}, a special binary format for representing scientific data, which provides a description of the file contents and also includes the spatial and temporal properties of the data. Each reanalysis file contains the values of a meteorological variable estimated by a mathematical model for each reanalysis node. For the sake of clarity, in Fig. \ref{fig:subGrid}, an example to approximately illustrate a sub-grid containing six nodes of reanalysis surrounding the geographic localisation of a buoy (obtained from NDBC) is shown.
 			
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[scale=0.55]{figures/FigureSubGrid.jpg}
-				\caption{Example of a six sub-grid reanalysis nodes around the \textit{Station 46001}.}
+				\caption{Sub-grid representation of six nodes of reanalysis surrounding the \textit{Station 46001}.}
 				\label{fig:subGrid}
 			\end{figure}
 			
 		\end{itemize}
 		
-		
 		Therefore, with both sources of information, which complement each other, and carrying out a matching process, SPAMDA will create datasets for prediction tasks. In this way, the dataset input variables will be one or more reanalysis variables from NNRP and one or more measurements from NDBC. The dataset output variable will always be one measurement from NDBC.
 		
 	\section{SPAMDA}\label{sec:SPAMDA}
 		
-		SPAMDA combines  meteorological information from NDBC and NNRP to obtain new datasets for oceanic and atmospheric studies. In order to do so, SPAMDA manages three different types of datasets, which will be described in detail in the following sections, but are briefly introduced bellow for giving the reader a better general understanding:
+		SPAMDA combines  meteorological information from NDBC and NNRP to obtain new datasets for oceanic and atmospheric studies. In order to do so, SPAMDA manages three different types of datasets which are described in the following sections, but are briefly introduced bellow for giving the reader a better general understanding:
 			\begin{itemize}
 				\item \textit{Intermediate datasets}: They contain the meteorological observations from NDBC.
 				\item \textit{Pre-processed datasets}: They are obtained as a result of pre-processing tasks performed on the intermediate datasets.
@@ -336,7 +332,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 					\item \textit{Description}: A short description of the buoy.
 					\item \textit{Latitude}: North or South geographical localisation (degrees) of the buoy.
 					\item \textit{Longitude}: West or East geographical localisation (degrees) of the buoy.
-					\item \textit{Measurements files}: The above-mentioned annual text files of the standard meteorological information collected by the buoy and downloaded from the NDBC website. This will be used for the creation of the intermediate datasets. One file per year is expected.
+					\item \textit{Measurements files}: The above-mentioned annual text files of the standard meteorological information recorded by the buoy and downloaded from the NDBC website. This will be used for the creation of the intermediate datasets. One file per year is expected.
 				\end{itemize}
 				
 				For clarification, an example is presented in Fig. \ref{fig:buoys}, where the buoy ID1 has three annual text files and the buoy ID2 has two annual text files.
@@ -367,7 +363,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				
 			\subsection{Pre-process} \label{sec:Preprocess}
 				
-				Data pre-processing prepares the raw data (intermediate datasets) to be able to be treated correctly by ML algorithms. In this way, the quality of data can be improved prior to the learning phase, by applying pre-processing tasks (filters). The result will be referenced as pre-processed datasets.
+				Data pre-processing prepares the raw data (intermediate datasets) to be able to be treated correctly by ML algorithms. This action can enhance the quality of data before the learning phase, by applying pre-processing tasks (filters). The result will be referenced as pre-processed datasets.
 				
 				SPAMDA provides several filters grouped in three categories, \textit{Attribute}, \textit{Instance} and \textit{Recover missing data}, including the configuration of their parameters and a short description of them:
 				
@@ -401,7 +397,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				 
 				\end{itemize}
 				
-				SPAMDA allows researchers to undo the last filter applied or to restore the initial content of the intermediate dataset. Besides, the content and relevant statistical information (number of instances with missing values, minimum and maximum values, mean and standard deviation) of the intermediate and the pre-processed datasets can be visualised in this module.
+				SPAMDA allows researchers to undo the last filter applied or to restore the initial content of the intermediate dataset. Besides, the content and relevant statistical information of the intermediate and the pre-processed datasets can be visualised in this module, for example: minimum and maximum values, mean, standard deviation or even the number of instances with missing values.
 				
 				Fig. \ref{fig:preprocess} shows an example where the intermediate datasets 1 and 2 of the buoy ID1 have been pre-processed, obtaining as a result the pre-processed dataset 1 of each one. The intermediate dataset 1 of the buoy ID2 has been also pre-processed. \textit{Pre-processed dataset n} represents that researchers can create as many pre-processed datasets as they consider opportune.
 				
@@ -422,7 +418,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				
 				The matching procedure is performed using an intermediate or pre-processed dataset, which includes the measurements collected by a buoy from NDBC, and the needed reanalysis data files from NNRP. Note that SPAMDA is able to manage the NetCDF binary format for handling the information stored in the reanalysis files.
 				
-				Such process merges the information of both sources that match on time, but, given that the measurements of the buoys are hourly collected from $00$:$50$ to $23$:$50$ UTC, and the reanalysis data is available every $6$ hours at $00$ Z, $06$ Z, $12$ Z and $18$ Z, the matching can only be carried every $6$ hours (discarding the rest of measurements from the buoy data). Besides, and since there is still a difference of 10 minutes, the matching with the reanalysis data will be performed with the nearest buoy measurement (before or after) within a maximum of 60 minutes of difference. Finally, the matched instances of both sources will form the final datasets.
+				Such process merges the information of both sources that match on time, but, given that the reanalysis data is available with a minimum time horizon of $6$ hours at $00$ Z, $06$ Z, $12$ Z and $18$ Z, and the measurements of the buoys are recorded at hourly intervals, from $00$:$50$ to $23$:$50$ UTC, the matching can only be carried every $6$ hours (discarding the rest of measurements from the buoy data). Besides, and since there is still a difference of 10 minutes, the matching with the reanalysis data will be performed with the nearest buoy measurement (before or after) within a maximum of 60 minutes of difference. Finally, the matched instances of both sources will form the final datasets.
 				
 				Fig. \ref{fig:matchingProcess} presents an example of matching with the measurements collected during $2017$ by \textit{Station 46001} (NDBC) and the reanalysis data (NNRP) of the variable \textit{pressure} for reanalysis nodes $57.5$ N $\times$ $147.5$ W and $55.0$ N $\times$ $147.5$ W in the same year. In this way, only the instances from both sources that are linked with arrows (highlighted in green colour) will be used in the creation of the final datasets. Although the reanalysis dates have been presented in a human readable format, note that reanalysis dates are stored in hours from $01$-$01$-$1800$, and they have to be transformed for comparison taking into account the time zone. Such transformation is automatically done by SPAMDA when matching the instances.
 				
@@ -435,7 +431,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				\end{figure}
 				
 				SPAMDA allows researchers to perform a customisable matching process, for obtaining as many different versions of the same meteorological data as needed.
-				Prediction tasks are based on the estimation of the output attribute using the information provided by the input attributes. Depending on the task, the datasets must be prepared and configured differently:				
+				Prediction tasks are based on the estimation of the output attribute using the information provided by the input attributes. Depending on the task, the datasets must be prepared and configured differently:
 				\begin{itemize}
 					\item \textit{Classification}: The final datasets will be ready to use as input for ML classifiers, requiring a nominal output attribute, whose specific preparation is detailed in Section \ref{sec:FinalDatasets}.
 					\item \textit{Regression}: The final datasets will be ready to use as input for regression methods, requiring a real output attribute, whose preparation is also explained in Section \ref{sec:FinalDatasets}.
@@ -445,13 +441,13 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				The following parameters can be specified for the matching process:
 				\begin{itemize}
 				
-					\item \textit{Flux of energy} \cite{FERNANDEZ201544}: When the $F_e$ is selected, it will be used as output. This attribute is not collected by the buoys, but it can be calculated from two wave parameters: $H_s$ and $T_e$, which are collected as WVHT and APD attributes, respectively, and were described in Table \ref{tab:measurementsDescription}. In this way, SPAMDA obtains the $F_e$ of each instance using the following equation:
+					\item \textit{Flux of energy} \cite{FERNANDEZ201544}: When the $F_e$ is selected, it will be used as output. This attribute is not collected by the buoys, but there are two parameters from which it can be computed: $H_s$ and $T_e$, which are collected as WVHT and APD attributes, respectively, and were described in Table \ref{tab:measurementsDescription}. In this way, SPAMDA obtains the $F_e$ (measured in kilowatts per meter) of each instance using the following equation:
 					\begin{equation}
 							F_e = 0.49 \cdot H^2_s \cdot T_e,
 							\label{eq:fluxOfEnergy}
 					\end{equation}
 						
-					where $F_e$ is measured in kilowatts per meter, $H_s$ is measured in meters and $T_e$ is measured in seconds. Note also that $F_e$ is defined in Eq. \ref{eq:fluxOfEnergy} as an average energy flux ($H_s$ is a kind of average wave height), though for simplicity it will be referred just as flux of energy.
+					where $H_s$ is measured in meters and $T_e$ in seconds. $F_e$ is referred to as flux of energy but it is defined as an average energy flux because $H_s$ is an average wave height (see descriptions of the measurements on the NDBC website).
 					
 					\item \textit{Attribute to predict}: Instead of using $F_e$, researchers can select any of the attributes collected by the buoys as output (e.g. significant wave height, WVHT, wind direction, WDIR, sea level pressure, PRES, etc.). Therefore, they can conduct different studies by selecting one attribute or other.
 
@@ -469,20 +465,20 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 							
 							\item Consider all the reanalysis nodes contained in each file: in this case, the information provided by each reanalysis node contained in each selected reanalysis data file will be used.
 							
-							\item Consider only some of the reanalysis nodes contained in each file: in this case, only the information of the $N$ closest reanalysis nodes to the buoy will be used  ($N$ given by the user). To do that, SPAMDA uses the \textit{Haversine} equation \cite{Haversine_2009} to calculate the distance from each reanalysis node to the location of the buoy and obtain the closest ones. Haversine equation is also known as the great circle distance and performs calculation from main point to destination point with a trigonometric function using latitude and longitude:
+							\item Consider only some of the reanalysis nodes contained in each file: in this case, the information used is only that corresponding to the closest nodes to the buoy (the number of nodes, $N$, is indicated by the user). To do that, SPAMDA uses the \textit{Haversine} equation \cite{Haversine_2009} (or the great-circle distance) to calculate the distance from the location of the buoy to each node of reanalysis and obtain the closest ones. Haversine equation performs calculation from main point to destination point with a trigonometric function:
 								\begin{eqnarray}
 									\label{eq:Haversine}
 									d(p_0,p_j) & = & \arccos(\sin(lat_0)\cdot \sin(lat_j) \nonumber \\
 									& & \cdot \cos(lon_0-lon_j) + \cos(lat_0) \\
 									& & \cdot \cos(lat_j)), \nonumber 
-								\end{eqnarray}								
-							where $p_0$ is the buoy geographical location, $p_j$ stands for the location of each reanalysis node, and $lat$ and $lon$ are the latitude and longitude of the points, respectively.
+								\end{eqnarray}
+							where $p_0$ is the geographical location of the buoy and $p_j$ is the position of each node. Finally, $lat$ and $lon$ represent the latitude and longitude of the positions of the points.
 						\end{itemize}
 					
 					\item \textit{Number of final datasets}: Depending on the number of nearest reanalysis nodes to consider, the number of final datasets to create and the content of them can be configured according to the following options:
 						\begin{itemize}
 						
-							\item \textit{One (using weighted mean of the $N$ nearest reanalysis nodes)}: Only one final dataset will be created, which will contain the attributes (the selected one as output and the selected ones as inputs) of the intermediate or pre-processed dataset used, along with a weighted mean of each variable of the reanalysis data used (one per selected reanalysis data file). This weighted mean is obtained by SPAMDA and uses Eq. \ref{eq:Haversine} to obtain the distance from each reanalysis node to the location of the buoy. Once the distances have been calculated they are inverted and normalised as follows:							
+							\item \textit{One (using weighted mean of the $N$ nearest reanalysis nodes)}: Only one final dataset will be created, which will contain the attributes (the selected one as output and the selected ones as inputs) of the intermediate or pre-processed dataset used, along with a weighted mean of each variable of the reanalysis data used (one per selected reanalysis data file). This weighted mean is obtained by SPAMDA and uses Eq. \ref{eq:Haversine} to calculate the distance from the geographical position of the buoy to each node of reanalysis. Once the distances have been computed, they are normalised and inverted as shown in the following equation:
 								\begin{linenomath*}
 									\begin{equation}
 										w_i=\frac{d(p_0,p_i)}{\sum_{j=1}^{N} d(p_0,p_j)}, ~~i=1, \ldots, N.
@@ -490,7 +486,7 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 									\end{equation}
 								\end{linenomath*}
 
-							With these weights, a weighted mean of each variable of reanalysis is obtained for each of the $N$ nodes. Therefore, the closest reanalysis nodes to the localisation of the buoy will provide more information.
+							Then, with these calculated weights, a weighted mean of each variable of reanalysis is obtained for each of the $N$ nodes. In this way, the closest reanalysis nodes to the geographical position of the buoy will provide more information.
 							
 							Considering as example the two nearest reanalysis nodes represented in Fig. \ref{fig:subGrid} and the reanalysis variables air temperature and pressure, the weighted mean of each reanalysis variable will be calculated using the reanalysis nodes $57.5$ N $\times$ $147.5$ W and $55.0$ N $\times$ $147.5$ W.
 							
@@ -502,28 +498,21 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 					
 				\end{itemize}
 						
-				\textcolor{blue}{Once the matching parameters have been described, for a better understanding of them,  Fig. \ref{fig:directMatching} presents an example of the data integration considering the data shown in Fig. \ref{fig:matchingProcess} and using the following configuration\footnote{Note that the date is shown just for a better understanding, but it will not be included in the final dataset.}:}
+				Once the matching parameters have been described, for a better understanding of them,  Fig. \ref{fig:directMatching} presents an example of the data integration considering the data shown in Fig. \ref{fig:matchingProcess} and using the following configuration\footnote{Note that the date is shown just for a better understanding, but it will not be included in the final dataset.}:
 					\begin{itemize}
-						\item \textcolor{blue}{Attribute to predict: variable WVHT (Fig. \ref{fig:directMatchingWave}) / flux of energy (Fig. \ref{fig:directMatchingFlux})}.
+						\item Attribute to predict: variable WVHT (Fig. \ref{fig:directMatchingWave}) / flux of energy (Fig. \ref{fig:directMatchingFlux}).
 						\item Variable Pres as reanalysis input attribute.
 						\item Variable WSDP as buoy input attribute.
 						\item Not including missing dates.
 						\item Considering the closest reanalysis node.
 						\item Task to be used: \textit{Direct matching}.
 					\end{itemize}
-						
-% 				\begin{figure}[ht!]
-% 					\centering
-% 					\includegraphics[scale=0.49]{figures/FigureDirectMatching.png}
-% 					\caption{An example of the matched information for \textit{Direct matching}.}
-% 					\label{fig:directMatching}
-% 				\end{figure}
 
 				\begin{figure}[ht!]
 					\centering
 					\subfloat[attribute to predict: WVHT\label{fig:directMatchingWave}]{\includegraphics[width=0.4\textwidth]{figures/FigureDirectMatching.png}}\hfill
 					\subfloat[attribute to predict: flux of energy\label{fig:directMatchingFlux}]{\includegraphics[width=0.47\textwidth]{figures/FigureDirectMatching_EF.png}}\hfill
-					\caption{\textcolor{blue}{Example of data integration for \textit{Direct matching}.}} \label{fig:directMatching}
+					\caption{Example of data integration for \textit{Direct matching}.} \label{fig:directMatching}
 				\end{figure}
 				
 			\subsection{Final datasets} \label{sec:FinalDatasets}
@@ -536,16 +525,16 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 
 						\item \textit{Prediction horizon} (Classification and Regression): This option indicates the time gap for moving backward the attribute to predict (output attribute). In this way, the input attributes (variables of the buoy and reanalysis data) will be used to predict the output attribute in a specific future time (e.g. +6h, +12h, +18h, +1 day, etc.).
 						
-						The minimum interval for increasing and decreasing the prediction horizon is $6$h (due to reanalysis data temporal resolution) \cite{DORADOMORENO2017428}, the same interval used when the matching process is carried out. Therefore, for each increment of the prediction horizon, an instance of the dataset is lost (as this future information is not available). As the minimum prediction horizon is $6$h, at least one instance will be lost. The relation between the inputs and the attribute to predict will be defined as follows:
+						The minimum interval for increasing and decreasing the prediction horizon is $6$h (due to reanalysis data temporal resolution) \cite{DORADOMORENO2017428}, the same interval used when the matching process is carried out. Therefore, for each increment of the prediction horizon, an instance of the dataset is lost (as this future information is not available). As the minimum prediction horizon is $6$h, at least one instance will be lost. The relation between the inputs and the output (attribute to predict) is defined as follows:
 						\begin{linenomath*}
 							\begin{equation}
 								o_{t+\Delta t}=\phi(\mathbf{b}_t,\mathbf{r}_{t}),
 								\label{eq:noSynchronisingRD}
 							\end{equation}
 						\end{linenomath*}
-						where $t$ represents the time instant to study and $\Delta t$ the prediction horizon; $o$ is the attribute to be predicted, $\mathbf{b}_t$ is the vector containing the selected NDBC variables and $\mathbf{r}_t$ is the vector containing the selected reanalysis variables. \textcolor{blue}{In this way and considering the matched information shown in Fig. \ref{fig:directMatchingWave}, WVHT is $o$, the vector $\mathbf{b}$ contains the variable WSPD and the vector $\mathbf{r}$ contains Pres.}
+						where $t$ is the time instant to study, $\Delta t$ is the prediction horizon, $o$ is the attribute to be predicted, $\mathbf{b}_t$ represents the vector that contains the selected NDBC variables, and, finally, $\mathbf{r}_t$ represents the vector that contains the selected reanalysis variables. In this way and considering the matched information shown in Fig. \ref{fig:directMatchingWave}, WVHT is $o$, the vector $\mathbf{b}$ contains the variable WSPD and the vector $\mathbf{r}$ contains Pres.
 						
-						Optionally, the reanalysis variables can be synchronised with the attribute to predict. Given that these variables are estimated by a mathematical model, we can obtain very good future estimations, which can improve the performance of the results. In this case, the relation between the inputs and the attribute to predict would be:						
+						Optionally, the reanalysis variables can be synchronised with the attribute to predict. Given that these variables are estimated by a mathematical model, we can obtain very good future estimations, which can improve the performance of the results. In this case, the relation between the inputs and the attribute to predict would be:
 						\begin{linenomath*}
 							\begin{equation}
 								o_{t+\Delta t}=\phi(\mathbf{b}_t,\mathbf{r}_{t+\Delta t}).
@@ -555,45 +544,28 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 						
 						Note that the selected NDBC variables as input cannot be synchronised with the attribute to predict.
 						
- 						\textcolor{blue}{For the sake of clarity, considering the matched information shown in Fig. \ref{fig:directMatchingWave}, an example of building a dataset for a \textit{Regression} task is shown in Fig. \ref{fig:regressionNoSync}. As mentioned earlier, this prediction task requires a real output variable (in this case, WVHT, the last one). The options considered for the preparation of each final dataset are the following:}
+ 						For the sake of clarity, considering the matched information shown in Fig. \ref{fig:directMatchingWave}, an example of building a dataset for a \textit{Regression} task is shown in Fig. \ref{fig:regressionNoSync}. As mentioned earlier, this prediction task requires a real output variable (in this case, WVHT, the last one). The options considered for the preparation of each final dataset are the following:
  							\begin{itemize}
  								\item Do not synchronise the reanalysis data (see Eq. \ref{eq:noSynchronisingRD} for the relation between the inputs and the output).
  								\item A prediction horizon of $6$h.
  							\end{itemize}
 							
-% 							\begin{figure}[ht!]
-% 								\centering
-% 								\includegraphics[scale=0.49]{figures/FigureRegressionNoSync.png}
-% 								\caption{An example of the creation of a \textit{Regression} dataset, with a prediction horizon of $6$h and without synchronisation.}
-% 								\label{fig:regressionNoSync}
-% 							\end{figure}
-
  						Note that, due to prediction horizon is $6$h, the values of WVHT attribute are moved backward one instance (up). As a consequence, the last instance ($2017$/$12$/$31$ $18$:$00$) is lost and is not included in the final dataset. Besides, and because the reanalysis data has not been synchronised, the values of the Pres and WSPD variables are at the same time instant ($t$ in Eq. \ref{eq:noSynchronisingRD}).
 						
- 						\textcolor{blue}{Moreover, considering again the matched information shown in Fig. \ref{fig:directMatchingWave}, an example of the creation of the same dataset but applying synchronisation (see Eq. \ref{eq:synchronisingRD}) is shown in Fig. \ref{fig:regressionSync}.}
- 						
-% 							\begin{figure}[ht!]
-% 								\centering
-% 								\includegraphics[scale=0.49]{figures/FigureRegressionSync.png}
-% 								\caption{An example of the creation of a \textit{Regression} dataset, with a prediction horizon of $6$h and with synchronisation.}
-% 								\label{fig:regressionSync}
-% 							\end{figure}
-							
-							
-							%TODO: Aañdir rectángulo a la columna de la variable Pres.
-							
+ 						Moreover, considering again the matched information shown in Fig. \ref{fig:directMatchingWave}, an example of the creation of the same dataset but applying synchronisation (see Eq. \ref{eq:synchronisingRD}) is shown in Fig. \ref{fig:regressionSync}.
+						
 							\begin{figure}[ht!]
 								\centering
 								\subfloat[without synchronisation\label{fig:regressionNoSync}]{\includegraphics[width=0.39\textwidth]{figures/FigureRegressionNoSync.png}}\hfill
 								\subfloat[with synchronisation\label{fig:regressionSync}]{\includegraphics[width=0.39\textwidth]{figures/FigureRegressionSync.png}}\hfill
-								\caption{\textcolor{blue}{Example of the creation of a \textit{Regression} dataset with a prediction horizon of $6$h.}} \label{fig:regression}
+								\caption{Example of the creation of a \textit{Regression} dataset with a prediction horizon of $6$h.} \label{fig:regression}
 							\end{figure}
 
 						Again, and due to the prediction horizon selected ($6$h), the values of the WVHT attribute are moved backward one instance (up) and the last instance ($2017$/$12$/$31$ $18$:$00$) is not included in the final dataset. But now, the values of the Pres variable are also moved backward one instance (due to the synchronisation). Therefore, in this case, Pres is at the same time instant as the attribute to predict (${t+\Delta t}$ in Eq. \ref{eq:synchronisingRD}).
 						
 						\item \textit{Thresholds of the output attribute} (Classification): Since the values of the variables collected by the buoys are real numbers, it is necessary to discretise them (convert them from real to nominal values) for the attribute selected as output (attribute to be predicted). SPAMDA allows researchers to perform this process by defining the necessary classes with their thresholds, which will be used to carry out such discretisation.
 						
-						\textcolor{blue}{Considering again the matched information shown in Fig. \ref{fig:directMatchingWave}, an example of the creation of a \textit{Classification} dataset is shown in Fig. \ref{fig:prediction}.} The options considered for the preparation of the final dataset are the following:
+						Considering again the matched information shown in Fig. \ref{fig:directMatchingWave}, an example of the creation of a \textit{Classification} dataset is shown in Fig. \ref{fig:prediction}. The options considered for the preparation of the final dataset are the following:
 							\begin{itemize}
 								\item Do not synchronise the reanalysis data.
 								\item A prediction horizon of $6$h.
@@ -682,27 +654,22 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 			
 				SPAMDA also contains another module that provides two utilities: one of them is \textit{Dataset converter} used for converting the desired intermediate or pre-processed datasets to ARFF or CSV formats; the other utility can be used for opening ARFF files with WEKA Explorer environment, which is useful for easily checking the results of different configurations of the pre-processing.
 				
-	%\section{Case study}\label{sec:CaseStudy}
 	\section{A case study applied to Gulf of Alaska}\label{sec:CaseStudy}
-		%This section will describe how the application works in a practical approach. To do so, an example showing how to create a fully processed dataset (final dataset), starting from the raw data, will be described. The objective of this final dataset is to be used with ML algorithms for environmental modelling, concretely, to classify waves in the Gulf of Alaska depending on their height. In this case, the problem will be tackled as a multi-class classification problem, given that any continuous variable can be discretised in different classes. Such waves modelling can be applied with different purposes, energy flux range forecasting, missing buoy data reconstruction, or extreme significant wave heights detection, among others.
 		
-		\textcolor{blue}{This section describes how SPAMDA works in a practical approach showing two examples to create fully processed datasets (final datasets) starting from the raw data. The objective of these final datasets is to be used with SC and ML algorithms for environmental modelling, in this case, to classify waves depending on their height and to predict energy flux in the Gulf of Alaska.}
+		This section describes how SPAMDA works in a practical approach showing two examples to create fully processed datasets (final datasets) starting from the raw data. The objective of these final datasets is to be used with SC and ML algorithms for environmental modelling, in this case, to classify waves depending on their height and to predict energy flux in the Gulf of Alaska.
 		
-		\textcolor{blue}{On the one hand, wave classification is tackled as a multi-class classification problem, given that any continuous variable can be discretised in different classes. Such waves modelling can be applied with different purposes, such as missing buoy data reconstruction, extreme significant wave heights detection or decision-making and risk assessment about operational works in the sea.}
+		On the one hand, wave classification is addressed as a multi-class approach, given that a continuous attribute can be discretised, using different thresholds, in distinct classes. Such waves modelling can be applied with different purposes, such as missing buoy data reconstruction, extreme significant wave heights detection or decision-making and risk assessment about operational works in the sea.
 
-		\textcolor{blue}{On the other hand, energy flux prediction is addressed as a regression problem. Energy flux prediction is related to marine energy and it is useful to characterise the wave energy production from WECs facilities, which could be injected into the electric network or supplied to existing marine platforms.}
+		On the other hand, the prediction of the energy flux is addressed as a regression problem. Energy flux prediction is related to marine energy and it is useful to characterise the wave energy production from WECs facilities, which could be injected into the electric network or supplied to existing marine platforms.
 
-		%
-		\textcolor{blue}{\subsection{Gathering the information and introducing it in SPAMDA}}\label{sec:ObtainingFinalDataset}
+		\subsection{Gathering the information and introducing it in SPAMDA}\label{sec:ObtainingFinalDataset}
 		
-			The data collected to perform this \textcolor{blue}{case study} is:
+			The data collected to perform this case study is:
 			\begin{enumerate}
 			\item The measurements obtained from 2013 to 2017 by the buoy with ID 46001, placed in the Gulf of Alaska, which are provided by NDBC as annual text files. This data is publicly available at the NDBC website. 
-			\item Complementary information collected from reanalysis data containing air temperature (air), pressure (pres) and two components of wind speed measurements: South-North (vwind) and West-East (uwind). This information will be collected from the four closest reanalysis nodes surrounding the geographical location of the buoy. This data is publicly available at the NNRP website and can be downloaded in NetCDF format. Concretely, the closest reanalysis nodes downloaded are $57.5$ N $\times$ $147.5$ W, $57.5$ N $\times$ $150$ W, $55$ N $\times$ $147.5$ W and $55$ N $\times$ $150$ W. However, as will be seen later, only the information from the nearest node will be used in the data integration process.
+			\item Complementary information collected from reanalysis data containing air temperature (air), pressure (pres) and two components of wind speed measurements, South-North (vwind) and West-East (uwind). This information can be downloaded from the NNRP website in NetCDF format for the four closest nodes of reanalysis surrounding the position of the buoy. Concretely, the closest reanalysis nodes downloaded are $57.5$ N $\times$ $147.5$ W, $57.5$ N $\times$ $150$ W, $55$ N $\times$ $147.5$ W and $55$ N $\times$ $150$ W. However, as will be seen later, only the information from the nearest node will be used in the data integration process.
 			\end{enumerate}
 		
-			%After gathering the information described above\footnote{Further instructions for downloading this data can be found in the user manual of the application.}, the researcher can open SPAMDA. In Figure \ref{fig:main_view}, the main window is shown. In order to input the reanalysis data which will be used in further steps for creating the final dataset, the researcher has to select the option \textcolor{blue}{\textit{Manage reanalysis data}}.
-			
 			After gathering the information described above, researchers can open SPAMDA. In Fig. \ref{fig:main_view}, the main view is shown. In order to input the reanalysis data which will be used in further steps for creating the final dataset, researchers has to select the option \textbf{\textit{Manage reanalysis data}}.
 
 			\begin{figure}[ht]
@@ -756,35 +723,33 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.84\textwidth]{figures/FigurePreprocess.png}
-				\caption{\textit{Pre-process} tab: preprocessing the created intermediate dataset.}\label{fig:preprocess_data}
+				\caption{\textit{Pre-process} tab: pre-processing the created intermediate dataset.}\label{fig:preprocess_data}
 			\end{figure}
 			
 			In \textbf{\textit{Pre-process}} tab, relevant statistical information about the selected dataset is shown, and also the content of the dataset can be consulted, providing the researcher the capacity to evaluate the pre-processing being performed. Here the researcher can apply (and configure) the necessary filters (explained in Section \ref{sec:Preprocess}) to the selected dataset, and, in the bottom part, the main statistics of the dataset are displayed, which can be used to observe the changes produced when applying a filter. As mentioned earlier, this case study is focused on classifying waves considering their height, so any missing data from wave height ($376$ values) and the remaining attributes are recovered, using the filter \textit{Replace missing values with symmetric $3$ hours mean}. Furthermore, the attributes MWD, DEWP, VIS and TIDE are removed from the dataset by applying the filter \textit{RemoveByName}, since the first two had more than $92$\% of missing data and the last two $100$\%. After finishing the pre-processing of the dataset, the researcher can click on the \textbf{\textit{Save}} button, to introduce the description and file name for the current pre-processed dataset.
 			
-			At this point, the researcher has registered the buoy in SPAMDA, then entered its raw data and selected the required data for the problem (intermediate dataset). Finally, the data has been pre-processed in order to be ready for its future use in ML algorithms. In order to achieve a more accurate description of the problem under study, a matching process can be carried out to merge the processed data from NDBC with the reanalysis data (also entered previously) from NNRP.
+			At this point, the researcher has registered the buoy in SPAMDA, then entered its raw data and selected the required data for the problem (intermediate dataset). Finally, the data has been pre-processed in order to be ready for its future use in ML algorithms. Then, a data integration process can be carried out to merge the processed data from NDBC with the reanalysis data (also included previously) from NNRP.
 			
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.84\textwidth]{figures/FigureMatching_configuration.png}
-				\caption{\textcolor{blue}{\textit{Matching configuration} tab: parameters for the data integration of the intermediate dataset and the reanalysis files (waves classification)}.}\label{fig:matching_conf_wc}
+				\caption{\textit{Matching configuration} tab: parameters for the data integration of the intermediate dataset and the reanalysis files (waves classification).}\label{fig:matching_conf_wc}
 			\end{figure}
 			
-			%The next step is to click on the \textcolor{blue}{\textit{Matching configuration}} tab, to open the view shown in  Figure \ref{fig:matching_conf_wc}. In this view, the researcher can customise (or load) the parameters of the matching process according to their needs and select the prediction task  (described in Section \ref{sec:matching_conf}) that the final dataset will be used for. In this example, the following parameters were selected:
+			The next step is to customise (or load) the parameters of the matching process according to the problem being studied and to select the prediction task (described in Section \ref{sec:matching_conf}) that the final dataset will be used for, in this case, waves classification or energy flux prediction.
 			
-			\textcolor{blue}{The next step is to customise (or load) the parameters of the matching process according to the problem being studied and to select the prediction task (described in Section \ref{sec:matching_conf}) that the final dataset will be used for, in this case, waves classification or energy flux prediction.}
-			%
-			\textcolor{blue}{\subsection{Waves classification}}
+			\subsection{Waves classification}
 			
-			\textcolor{blue}{As mentioned above, the objective of the final dataset is to be used with SC and ML algorithms to classify waves depending on their significant height. Following sections describe the procedure of performing the data integration provided by SPAMDA, modelling wave height by using classification algorithms available in WEKA.}
-			%
-			\textcolor{blue}{\subsubsection{Obtaining the final dataset}}
+			As mentioned above, the objective of the final dataset is to be used with SC and ML algorithms to classify waves depending on their significant height. Following sections describe the procedure of performing the data integration provided by SPAMDA, modelling wave height by using classification algorithms available in WEKA.
 			
-			\textcolor{blue}{By clicking on the \textbf{\textit{Matching configuration}} tab, the view shown in Fig. \ref{fig:matching_conf_wc} will be opened. In this view, the researcher can configure the parameters of the data integration process. For this problem, the following parameters were selected:}
+			\subsubsection{Obtaining the final dataset}
+			
+			By clicking on the \textbf{\textit{Matching configuration}} tab, the view shown in Fig. \ref{fig:matching_conf_wc} will be opened. In this view, the researcher can configure the parameters of the data integration process. For this problem, the following parameters were selected:
 			
 			\begin{itemize}
 				\item Attribute to predict: WVHT.
 				\item Reanalysis data: Air, pressure, u-wind and v-wind.
-				\item Buoy attributes to be used as inputs: WDIR, WSPD, GST, DPD, APD, PRES, ATMP and WTMP (see Table \ref{tab:measurementsDescription}).
+				\item Buoy attributes to be used as inputs: WDIR, WSPD, GST, DPD, APD, PRES, ATMP and WTMP (see Table \ref{tab:measurementsDescription} or descriptions of the measurements in the NDBC website).
 				\item Reanalysis nodes to consider: $1$ (only the closest reanalysis node will be used).
 				\item Number of final datasets: In this example that option is disabled, because only one reanalysis node is considered.
 				\item Prediction task: Classification.
@@ -796,12 +761,12 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				\caption{\textit{Final datasets} tab: content of the final dataset created after data integration and discretisation of the output variable in $4$ classes.}\label{fig:final_dataset}
 			\end{figure}
 			
-			After configuring the matching process, the researcher can click on the \textbf{\textit{Run}} button to jump to the view shown in Fig. \ref{fig:final_dataset} and proceed to define the final dataset structure according to the selected prediction task. Given that, in the previous view \textcolor{blue}{(Fig. \ref{fig:matching_conf_wc})}, \textit{Classification} was selected, the researcher can now add, modify or delete the thresholds (usually defined by an expert) for discretising the output variable \textcolor{blue}{(top left of Fig. \ref{fig:final_dataset})}. After this, the next step is to set the time horizon desired (6 hours by default) and also to activate (if desired) the synchronisation (in time) of reanalysis variables with the output \textcolor{blue}{(top right of Fig. \ref{fig:final_dataset})}, as explained in Section {\ref{sec:FinalDatasets}}. Then the researcher can click on the \textbf{\textit{Update final dataset}} button to see the content shown in the bottom left corner \textcolor{blue}{(NDBC observations, NNRP variables, missing values, dates)}. Finally, after checking that everything is correct, the last step would be to select the name and path of the dataset file, and its output format (CSV or ARFF) and click on the \textbf{\textit{Create final datasets}} button \textcolor{blue}{(bottom right of Fig. \ref{fig:final_dataset})}. For this \textcolor{blue}{example}, the following configuration was applied:
+			After configuring the matching process, the researcher can click on the \textbf{\textit{Run}} button to jump to the view shown in Fig. \ref{fig:final_dataset} and proceed to define the final dataset structure according to the selected prediction task. Given that, in the previous view (Fig. \ref{fig:matching_conf_wc}), \textit{Classification} was selected, the researcher can now add, modify or delete the thresholds (usually defined by an expert) for discretising the output variable (top left of Fig. \ref{fig:final_dataset}). After this, the next step is to set the time horizon desired (6 hours by default) and also to activate (if desired) the synchronisation (in time) of reanalysis variables with the output (top right of Fig. \ref{fig:final_dataset}), as explained in Section {\ref{sec:FinalDatasets}}. Then the researcher can click on the \textbf{\textit{Update final dataset}} button to see the content shown in the bottom left corner (NDBC observations, NNRP variables, missing values, dates). Finally, after checking that everything is correct, the last step would be to select the name and path of the dataset file, and its output format (CSV or ARFF) and click on the \textbf{\textit{Create final datasets}} button (bottom right of Fig. \ref{fig:final_dataset}). For this example, the following configuration was applied:
 			\begin{itemize}
 				\item Thresholds: see Table \ref{tab:thresholds}.
 				\item Prediction horizon: 6 hours.
 				\item Synchronisation: Disabled.
-				\item \textcolor{blue}{Final dataset format: ARFF.}
+				\item Final dataset format: ARFF.
 			\end{itemize}
 			
 			At this point, the final dataset would be created according to the tailored configuration and stored in the computer of the researcher, which already can apply the ML techniques to address the problem of wave classification. Concretely, the final dataset consists of $7302$ instances and whose distribution is represented in Table \ref{tab:datasetDistribution}.
@@ -825,20 +790,20 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 					\end{tabular}
 				\end{table}
 		%
-		\textcolor{blue}{\subsubsection{Obtaining classification models with ML algorithms}}%
+		\subsubsection{Obtaining classification models with ML algorithms}
 		
 			Now, the process to obtain wave classification models is described using the final dataset previously created with SPAMDA. The modelling will be performed using WEKA as SC and ML tool, which can be opened through SPAMDA, as shown in Fig. \ref{fig:openigFinalDatasetWeka}. Nevertheless, as mentioned above, the researcher can create the final dataset in CSV format in order to use any other ML tools, such as KEEL, Python or R, among others.
 			
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.95\textwidth]{figures/FigureOpeningFinalDatasetWeka.png}
-				\caption{\textcolor{blue}{Final dataset opened with the environment Explorer of WEKA (waves classification)}.}
+				\caption{Final dataset opened with the environment Explorer of WEKA (waves classification).}
 				\label{fig:openigFinalDatasetWeka}
 			\end{figure}
 			
 			Since the final dataset is a time series of meteorological data (collected from $2013$ to $2017$), a hold-out scheme (60\% train / 40\% test) will be used. In this way, years from $2013$ to $2015$ will be used for the training phase ($4380$ instances) whereas $2016$ and $2017$ years will be used for the test phase ($2922$ instances). Previous to the learning phase, the attributes are normalised to avoid that some attributes dominate others because of a larger scale.
 			
-			The classification algorithms that will be considered for wave modelling are Logistic Regression \cite{hosmer2013applied}, C4.5 \cite{quinlan2014c4}, Random Forest \cite{breiman2001random}, Support Vector Machine \cite{cortes1995support} and Multilayer Perceptron \cite{haykin1994neural}, which will be applied with the default values of the parameters provided by WEKA. Given that Logistic Regression and C4.5 algorithms are deterministic, only one run will be considered for each one. However, Random Forest, Support Vector Machine and Multilayer Perceptron algorithms have a stochastic component, so, in this case, 30 executions for each one will be carried out. The results obtained are shown in Table \ref{tab:results}.
+			The classification algorithms that will be considered for wave modelling are Logistic Regression \cite{hosmer2013applied}, C4.5 \cite{quinlan2014c4}, Random Forest \cite{breiman2001random}, Support Vector Machine \cite{cortes1995support} and Multilayer Perceptron \cite{haykin1994neural}, which will be applied with the default values of the parameters provided by WEKA. Given that Logistic Regression and C4.5 algorithms are deterministic, only one run will be considered for each one. However, Random Forest, Support Vector Machine and Multilayer Perceptron algorithms have a stochastic component, so, in this case, 30 executions for each one will be carried out. Table \ref{tab:results} shows the results of this experimentation.
 			
 				\begin{table}[!h]
 				
@@ -873,65 +838,65 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				
 			As can be seen, Random Forest and Multilayer Perceptron algorithms have achieved similar accuracy, but the performance of the latter is slightly better. Although this is an illustrative classification example using datasets built with SPAMDA, both models have obtained good performance, despite the problem tackled is difficult (prediction is approached six hours in advance).
 			
-			\textcolor{blue}{\subsection{Energy flux prediction}}
+			\subsection{Energy flux prediction}
 			
-			\textcolor{blue}{As mentioned above, the final dataset of this example is also used with SC and ML algorithms to predict flux of energy. Following sections explain the process of performing the data integration provided by SPAMDA to build the final dataset, modelling the flux of energy by using regression algorithms available in WEKA.}
+			As mentioned above, the final dataset of this example is also used with SC and ML algorithms to predict flux of energy. Following sections explain the process of performing the data integration provided by SPAMDA to build the final dataset, modelling the flux of energy by using regression algorithms available in WEKA.
 			
-			\textcolor{blue}{\subsubsection{Obtaining the final dataset}}
+			\subsubsection{Obtaining the final dataset}
 			
-			\textcolor{blue}{The researcher can configure the parameters of the data integration by clicking on the \textbf{\textit{Matching configuration}} tab. For this problem, as shown in Fig. \ref{fig:matching_conf_ef}, the following parameters were selected:}
+			The researcher can configure the parameters of the data integration by clicking on the \textbf{\textit{Matching configuration}} tab. For this problem, as shown in Fig. \ref{fig:matching_conf_ef}, the following parameters were selected:
 
 			\begin{itemize}
-				\item \textcolor{blue}{Attribute to predict: Flux of energy.}
-				\item \textcolor{blue}{Reanalysis data: Air, pressure, u-wind and v-wind.}
-				\item \textcolor{blue}{Buoy attributes to be used as inputs: WDIR, WSPD, GST, DPD, APD, PRES, ATMP and WTMP (see Table \ref{tab:measurementsDescription}).}
-				\item \textcolor{blue}{Reanalysis nodes to consider: $1$ (only the closest reanalysis node will be used).}
-				\item \textcolor{blue}{Number of final datasets: In this example, this option is disabled, because only one reanalysis node is considered.}
-				\item \textcolor{blue}{Prediction task: Regression.}
+				\item Attribute to predict: Flux of energy.
+				\item Reanalysis data: Air, pressure, u-wind and v-wind.
+				\item Buoy attributes to be used as inputs: WDIR, WSPD, GST, DPD, APD, PRES, ATMP and WTMP (see Table \ref{tab:measurementsDescription} or descriptions of the measurements in the NDBC website).
+				\item Reanalysis nodes to consider: $1$ (only the closest reanalysis node will be used).
+				\item Number of final datasets: In this example, this option is disabled, because only one reanalysis node is considered.
+				\item Prediction task: Regression.
 			\end{itemize} 
 			
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.85\textwidth]{figures/FigureMatching_configuration_EF.png}
-				\caption{\textcolor{blue}{\textit{Matching configuration} tab: parameters for the data integration of the intermediate dataset and the reanalysis files (energy flux prediction)}.}\label{fig:matching_conf_ef}
+				\caption{\textit{Matching configuration} tab: parameters for the data integration of the intermediate dataset and the reanalysis files (energy flux prediction).}\label{fig:matching_conf_ef}
 			\end{figure}
 
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.85\textwidth]{figures/FigureFinal_datasets_EF.png}
-				\caption{\textcolor{blue}{\textit{Final datasets} tab: content of the final dataset created after data integration.}}\label{fig:final_dataset_EF}
+				\caption{\textit{Final datasets} tab: content of the final dataset created after data integration.}\label{fig:final_dataset_EF}
 			\end{figure}
 			
-			\textcolor{blue}{After configuring the parameters of the matching process, the next step is to define the final dataset structure according to the selected prediction task. Researcher can click on the \textbf{\textit{Run}} button to jump to the view shown in Fig. \ref{fig:final_dataset_EF}. Note that, the thresholds for discretising the output variable (top left of Fig. \ref{fig:final_dataset_EF}) are disabled due to, in this case, energy flux prediction is a regression problem.}
+			After configuring the parameters of the matching process, the next step is to define the final dataset structure according to the selected prediction task. Researcher can click on the \textbf{\textit{Run}} button to jump to the view shown in Fig. \ref{fig:final_dataset_EF}. Note that, the thresholds for discretising the output variable (top left of Fig. \ref{fig:final_dataset_EF}) are disabled due to, in this case, energy flux prediction is a regression problem.
 
-			\textcolor{blue}{By default, the time horizon is set to $6$ hours, that is, the energy flux prediction will be performed $6$ hours in advance (top right of Fig. \ref{fig:final_dataset_EF}), but researchers can increase such time horizon depending on their needs. The synchronisation (in time) of reanalysis variables with the output (explained in Section {\ref{sec:FinalDatasets}}) can be set in this view. By clicking on the \textbf{\textit{Update final dataset}} button, researchers can preview the content of the final dataset (bottom left corner of Fig. \ref{fig:final_dataset_EF}). Finally, the last step would be to set the name, path and output format (CSV or ARFF) of the dataset file, and then the user should click on the \textbf{\textit{Create final datasets}} button (bottom right of Fig. \ref{fig:final_dataset_EF}). For this example, the following configuration was applied:}
+			By default, the time horizon is set to $6$ hours, that is, the energy flux prediction will be performed $6$ hours in advance (top right of Fig. \ref{fig:final_dataset_EF}), but researchers can increase such time horizon depending on their needs. The synchronisation (in time) of reanalysis variables with the output (explained in Section {\ref{sec:FinalDatasets}}) can be set in this view. By clicking on the \textbf{\textit{Update final dataset}} button, researchers can preview the content of the final dataset (bottom left corner of Fig. \ref{fig:final_dataset_EF}). Finally, the last step would be to set the name, path and output format (CSV or ARFF) of the dataset file, and then the user should click on the \textbf{\textit{Create final datasets}} button (bottom right of Fig. \ref{fig:final_dataset_EF}). For this example, the following configuration was applied:
 
 			\begin{itemize}
-				\item \textcolor{blue}{Prediction horizon: 6 hours.}
-				\item \textcolor{blue}{Synchronisation: Disabled.}
-				\item \textcolor{blue}{Final dataset format: ARFF.}
+				\item Prediction horizon: 6 hours.
+				\item Synchronisation: Disabled.
+				\item Final dataset format: ARFF.
 			\end{itemize}
 			
-			\textcolor{blue}{After that, the final dataset would be created and stored in the computer of the researcher according to the introduced configuration, ready to be used as input for SC and ML techniques to tackle the problem of energy flux prediction. The number of instances ($7302$) and the distribution of the final dataset (Table \ref{tab:datasetDistribution}) are the same as in the previous example (waves classification) since the data used to create the final dataset and the time horizon selected (6h) are the same.}
+			After that, the final dataset would be created and stored in the computer of the researcher according to the introduced configuration, ready to be used as input for SC and ML techniques to tackle the problem of energy flux prediction. The number of instances ($7302$) and the distribution of the final dataset (Table \ref{tab:datasetDistribution}) are the same as in the previous example (waves classification) since the data used to create the final dataset and the time horizon selected (6h) are the same.
 
-		\textcolor{blue}{\subsubsection{Obtaining prediction models with ML algorithms}}
+		\subsubsection{Obtaining prediction models with ML algorithms}
 
-			\textcolor{blue}{In this example, WEKA is used as SC and ML tool to obtain energy flux prediction models, as shown in Fig. \ref{fig:openigFinalDatasetWeka_EF}. Nonetheless, the final dataset can be created in CSV format so that the researcher can use any other SC and ML tool.}
+			In this example, WEKA is used as SC and ML tool to obtain energy flux prediction models, as shown in Fig. \ref{fig:openigFinalDatasetWeka_EF}. Nonetheless, the final dataset can be created in CSV format so that the researcher can use any other SC and ML tool.
 
 			\begin{figure}[ht!]
 				\centering
 				\includegraphics[width=0.95\textwidth]{figures/FigureOpeningFinalDatasetWeka_EF.png}
-				\caption{\textcolor{blue}{Final dataset opened with the environment Explorer of WEKA (energy flux prediction).}}
+				\caption{Final dataset opened with the environment Explorer of WEKA (energy flux prediction).}
 				\label{fig:openigFinalDatasetWeka_EF}
 			\end{figure}
 			
-			\textcolor{blue}{For this problem, the same partitioning scheme used in the wave classification problem is considered (60\% train / 40\% test), that is, years from $2013$ to $2015$ for the training phase ($4380$ instances) and years $2016$ and $2017$ for the test phase ($2922$ instances). Again, the attributes are normalised prior to the learning phase.}
+			For this problem, the same partitioning scheme used in the wave classification problem is considered (60\% train / 40\% test), that is, years from $2013$ to $2015$ for the training phase ($4380$ instances) and years $2016$ and $2017$ for the test phase ($2922$ instances). Again, the attributes are normalised prior to the learning phase.
 			
-			\textcolor{blue}{To perform the energy flux modelling, one execution will be run for the deterministic algorithm Linear Regression \cite{Bishop:2006:PRM:1162264}, whereas $30$ executions will be considered for the stochastic ones: Random Forest \cite{breiman2001random}, Support Vector Machine \cite{cortes1995support} and Multilayer Perceptron \cite{haykin1994neural}. Table \ref{tab:results_EF} shows the results obtained by each algorithm using the default values of the algorithm parameters provided by WEKA.}
+			To perform the energy flux modelling, one execution will be run for the deterministic algorithm Linear Regression \cite{Bishop:2006:PRM:1162264}, whereas $30$ executions will be considered for the stochastic ones: Random Forest \cite{breiman2001random}, Support Vector Machine \cite{cortes1995support} and Multilayer Perceptron \cite{haykin1994neural}. Table \ref{tab:results_EF} shows the experimental results obtained using the default values for the parameters of the algorithms provided by WEKA.
 
 				\begin{table}[!h]
 				
-					\caption{\textcolor{blue}{Results (mean$\pm$SD) obtained by the algorithms}}
+					\caption{Results (mean$\pm$SD) obtained by the algorithms}
 					\label{tab:results_EF}
 					\footnotesize
 					\centering
@@ -958,13 +923,13 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 				
 				\end{table}
 			
-			\textcolor{blue}{As can be checked, Random Forest has achieved the best performance in terms of Root mean squared error. The standard deviation of the results obtained by Multilayer Perceptron indicates that this algorithm may has been slightly affected by its stochastic component. However, both Multilayer Perceptron and Random Forest have obtained an excellent Correlation coefficient.}
+			As can be checked, Random Forest has achieved the best performance for the Root mean squared error. The standard deviation of the results obtained by Multilayer Perceptron indicates that this algorithm may has been slightly affected by its stochastic component. However, both Multilayer Perceptron and Random Forest have obtained an excellent Correlation coefficient.
 			
-			\textcolor{blue}{The objective of this case study has been to illustrate the use of datasets created with SPAMDA to address an energy flux prediction problem. An exhaustive comparison of state-of-the-art regression algorithms is not the purpose of this paper. However, note that Multilayer Perceptron and Random Forest algorithms have achieved very good results despite the fact that the energy flux prediction has been performed with a time horizon of 6h.}
+			In this case study, the use of datasets created with SPAMDA has been shown to address an energy flux prediction problem. An exhaustive comparison of regression algorithms is not the purpose of this work. However, note that Multilayer Perceptron and Random Forest algorithms have achieved very good results despite the fact that the energy flux prediction has been performed with a time horizon of 6h.
 
 		\subsection{Important remarks}
 		
-			In this section, it has been described how to use SPAMDA to create \textcolor{blue}{final datasets with the aim of classifying waves and predicting flux of energy}. However, using the same data described in Section \ref{sec:ObtainingFinalDataset} the researcher can quickly address other objectives or different studies by merely tailoring the matching configuration of the data integration process. For example, longer-term wave \textcolor{blue}{or energy flux} prediction can be addressed by changing the time horizon, waves modelling can be approached from another perspective by creating the final dataset for regression, or environmental modelling can be focused in diverse fields by changing the output meteorological variable.
+			In this section, it has been described how to use SPAMDA to create final datasets with the aim of classifying waves and predicting flux of energy. However, using the same data described in Section \ref{sec:ObtainingFinalDataset} the researcher can quickly address other objectives or different studies by merely tailoring the matching configuration of the data integration process. For example, longer-term wave or energy flux prediction can be addressed by changing the time horizon, waves modelling can be approached from another perspective by creating the final dataset for regression, or environmental modelling can be focused in diverse fields by changing the output meteorological variable.
 
 			Furthermore, environmental modelling in other geographical location can be carried out by merely using other collected data.
 			
@@ -972,11 +937,15 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 		
 	\section{Conclusions}\label{sec:Conclusions}
 
-		A new open source tool named SPAMDA with an user-friendly GUI for creating datasets using meteorological data from NDBC and NNRP has been presented in this work. \textcolor{blue}{The aim of the tool presented in this work is to provide the research community with an automated, customisable and robust integration for NDBC and NNRP data, serving as a tool for analysis and decision support in marine energy and engineering applications, among others.} 
+		%A new open source tool named SPAMDA with an user-friendly GUI for creating datasets using meteorological data from NDBC and NNRP has been presented in this work. The aim of the tool presented in this work is to provide the research community with an automated, customisable and robust integration for NDBC and NNRP data, serving as a tool for analysis and decision support in marine energy and engineering applications, among others.
 		
-		\textcolor{blue}{Studies on marine energy using ML and SC methodologies apply specific algorithms (extreme learning machine, metaheuristics, Bayesian networks, neural networks, etc) on data using custom-made implementations or scripts developed in some programming language; but they do not allow to build datasets in an automated way ready to be used as input for prediction tasks (classification or regression).} These datasets can be easily obtained with SPAMDA by means of the selection of different input parameters, such as predictive and objective variables, output discretisation or prediction horizon. As a result, researchers will benefit from significant support when carrying out environmental modelling related to energy, atmospheric or oceanic studies, among others. Moreover, given that SPAMDA simplifies all the intermediate steps involved in the creation of datasets and manages the extensive casuistry of the data integration (such as entering the meteorological information, managing with the incomplete data, pre-processing tasks, the customisable matching process to merge the data and the preparation of the datasets according to the SC or ML technique to use), it avoids errors and reduces the time needed. In this way, researchers will be able to have more in-depth analysis, which could result in more complete conclusions about the issue under study.
+		%Studies on marine energy using ML and SC methodologies apply specific algorithms (extreme learning machine, metaheuristics, Bayesian networks, neural networks, etc) on data using custom-made implementations or scripts developed in some programming language; but they do not allow to build datasets in an automated way ready to be used as input for prediction tasks (classification or regression). These datasets can be easily obtained with SPAMDA by means of the selection of different input parameters, such as predictive and objective variables, output discretisation or prediction horizon. As a result, researchers will benefit from significant support when carrying out environmental modelling related to energy, atmospheric or oceanic studies, among others. Moreover, given that SPAMDA simplifies all the intermediate steps involved in the creation of datasets and manages the extensive casuistry of the data integration (such as entering the meteorological information, managing with the incomplete data, pre-processing tasks, the customisable matching process to merge the data and the preparation of the datasets according to the SC or ML technique to use), it avoids errors and reduces the time needed. In this way, researchers will be able to have more in-depth analysis, which could result in more complete conclusions about the issue under study.
 		
-		The case study \textcolor{blue}{described in Section \ref{sec:CaseStudy}} illustrates how SPAMDA can be used by researchers in a practical approach for environmental modelling, concretely, to classify waves in the Gulf of Alaska depending on their height. \textcolor{blue}{The case study also covers an example of energy flux prediction, to predict the wave energy that could be exploited by WECs facilities six hours in advance, although such time horizon is customisable. Given that this work does not focus on models performance, a more extensive validation or comparison study of the results obtained in both examples has not been carried out.}
+		\textcolor{blue}{Studies on marine energy using ML and SC methodologies apply specific algorithms (extreme learning machine, metaheuristics, Bayesian networks, neural networks, etc.) on data using custom-made implementations or scripts developed in some programming language; but they do not allow to build datasets in an automated way ready to be used as input for prediction tasks (classification or regression). In this sense, a new open source tool named SPAMDA has been presented in this work, with an user-friendly GUI for creating datasets using meteorological data from NDBC and NNRP. The aim of the tool is to provide the research community with an automated, customisable and robust integration for NDBC and NNRP data, serving as a tool for analysis and decision support in marine energy and engineering applications, among others.}
+		
+		Such datasets can be easily obtained with SPAMDA by means of the selection of different input parameters, such as predictive and objective variables, output discretisation or prediction horizon. As a result, researchers will benefit from significant support when carrying out environmental modelling related to energy, atmospheric or oceanic studies, among others. Moreover, given that SPAMDA simplifies all the intermediate steps involved in the creation of datasets and manages the extensive casuistry of the data integration (such as specifying the meteorological information, managing incomplete data, pre-processing tasks, the customisable matching process to merge the data and the preparation of the datasets according to the SC or ML technique to use), it avoids errors and reduces the time needed. In this way, researchers will be able to have more in-depth analysis, which could result in more complete conclusions about the issue under study.
+		
+		The case study described in Section \ref{sec:CaseStudy} illustrates how SPAMDA can be used by researchers in a practical approach for environmental modelling, concretely, to classify waves in the Gulf of Alaska depending on their height. The case study also covers an example of energy flux prediction, to predict the wave energy that could be exploited by WECs facilities six hours in advance, although such time horizon is customisable. Given that this work does not focus on models performance, a more extensive validation or comparison study of the results obtained in both examples has not been carried out. \textcolor{blue}{The final datasets obtained with SPAMDA can be replicated by researchers using the same meteorological data from NDBC and NNRP (publicly available) and applying the same parameters for the pre-processing tasks and the data integration process. After that, the models and results obtained, using such final datasets, will depend on the SC or ML tool used.}
 
 		In order to improve SPAMDA, some future work could be focused on new functional modules for managing meteorological data of different formats \cite{NOAA_3}, so that the developed tool can be extended to any other research, new pre-processing functionalities such as filters to analyse the correlation between attributes or new functional modules for recovering missing values using nearby buoys data \cite{DuranRosal2016}. Furthermore, the developed software could manage other sources of reanalysis data (with different spatial and temporal resolution), and new output formats for the datasets which could be used as input by other tools for ML such as KEEL (\textit{Knowledge Extraction based on Evolutionary Learning}) \cite{AlcalFdez2009KEELAS}. However, such new functionalities can be developed with a reasonable effort to be able to manage each particular casuistry. For example, when dealing with incomplete data, interpreting different data and files structures or carrying out the matching process of two environmental data sources.
 
@@ -1015,12 +984,14 @@ $^{1}$ \quad Department of Computer Science and Numerical Analysis, University o
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\conflictsofinterest{Declare conflicts of interest or state ``The authors declare no conflict of interest.'' Authors must identify and declare any personal circumstances or interest that may be perceived as inappropriately influencing the representation or interpretation of reported research results. Any role of the funders in the design of the study; in the collection, analyses or interpretation of data; in the writing of the manuscript, or in the decision to publish the results must be declared in this section. If there is no role, please state ``The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results''.} 
 
-\conflictsofinterest{The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.} 
+%\conflictsofinterest{The authors declare no conflict of interest. The funders had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or in the decision to publish the results.} 
 
+\conflictsofinterest{The authors declare no conflict of interest.} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% optional
-\abbreviations{The following abbreviations are used in this manuscript:\\
+%\abbreviations{The following abbreviations are used in this manuscript:\\
+\abbreviations{Abbreviations used in this manuscript:\\
 
 % \noindent 
 % \begin{tabular}{@{}ll}
