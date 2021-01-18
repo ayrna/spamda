@@ -1,1 +1,0 @@
-The tool and the paper both look quite interesting, but the paper reads more like a spatial data analysis project, with not enough focus on the environmental modelling component. Accordingly, the manuscript is being returned without review.

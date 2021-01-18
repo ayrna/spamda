@@ -1,3 +1,0 @@
-Solo falta cambiar las fechas de "CoverLetter.doc" y "Declaration of Interest Statement.doc" y convertir a pdf.
-
-El resto usar los .pdf tal cual están ya hechos.

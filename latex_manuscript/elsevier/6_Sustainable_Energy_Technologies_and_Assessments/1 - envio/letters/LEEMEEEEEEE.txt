@@ -1,2 +1,0 @@
-Queda por compilar el .tex para que salga fecha del 18 de marzo en el paper.
-Las cartas ya estan en .pdf para adjuntar.
