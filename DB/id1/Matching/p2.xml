@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<matchingInformation attributeNameToPredict="WVHT" datasetFileName="46001_2012.db" datasetFilePath="id1/Datasets/46001_2012.db" dateCreation="2018-02-08T12:42:12.922+01:00" idBuoy="1" includeAttributesAsInputs="true" includeMissingDates="true" numberOfNearestGeopointsToConsider="4" openDatabasesWithWEKA="false" outputFilesFormat="ARFF" outputFilesToCreate="1" outputFolder="/home/agomez/Escritorio/pruebas" typeDatasetFile="Dataset" typeOfMatching="Direct matching">
-    <reanalysisFiles>X150.214.94.234.71.3.25.57.nc</reanalysisFiles>
-    <reanalysisVars>air</reanalysisVars>
-    <shortDescription>2323</shortDescription>
-</matchingInformation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<matchingInformation attributeNameToPredict="WDIR" calculateFluxOfEnergy="false" datasetFileName="measurements.db" datasetFilePath="id1/Datasets/measurements.db" dateCreation="2018-04-10T11:31:38.146+02:00" idBuoy="1" includeAttributesAsInputs="true" includeMissingDates="true" numberOfNearestGeopointsToConsider="2" openDatabasesWithWEKA="false" outputFilesFormat="ARFF" outputFilesToCreate="1" outputFolder="/home/agomez/Escritorio/boyas/measurements" predictionHorizon="0" stationID="Station 46001" synchroniseRData="false" typeDatasetFile="Dataset" typeOfMatching="Direct matching">
-    <reanalysisFiles>press_2013_01_01_2018_01_01.nc</reanalysisFiles>
-    <reanalysisVars>pres</reanalysisVars>
-    <shortDescription>measurements</shortDescription>
-</matchingInformation>
