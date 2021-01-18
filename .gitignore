@@ -9,7 +9,7 @@ target
 
 nbproject/private/
 nbbuild/
-dist/
+#dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
