@@ -12,9 +12,11 @@
 
 Software for Pre-processing and Analysis of Meteorological DAta to build datasets
 
-Copyright (c) 2017-2019 by **AYRNA Research Group**
+Copyright (c) 2017-2021 by **AYRNA Research Group**
 
 [https://www.uco.es/grupos/ayrna/index.php/en](https://www.uco.es/grupos/ayrna/index.php/en)
+
+Gómez-Orellana, A.M.; Fernández, J.C.; Dorado-Moreno, M.; Gutiérrez, P.A.; Hervás-Martínez, C. Building Suitable Datasets for Soft Computing and Machine Learning Techniques from Meteorological Data Integration: A Case Study for Predicting Significant Wave Height and Energy Flux. Energies 2021, 14, 468. https://doi.org/10.3390/en14020468
 
 ---
 
@@ -24,6 +26,7 @@ Copyright (c) 2017-2019 by **AYRNA Research Group**
 - [3. Running SPAMDA](#running-spamda)
 - [4. SPAMDA Manual](#spamda-manual) 
 - [5. License](#license)
+- [6. Cite SPAMDA](#cite)
 <!-- /TOC -->
 
 # System requirements
@@ -79,3 +82,8 @@ The user manual can be consulted in *dist/help/userManual.pdf* file.
 
 # License
 SPAMDA is distributed under the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. Please read the files *COPYING* and *LICENSE*.
+
+# Cite
+If you use SPAMDA, please cite the following work:
+
+Gómez-Orellana, A.M.; Fernández, J.C.; Dorado-Moreno, M.; Gutiérrez, P.A.; Hervás-Martínez, C. Building Suitable Datasets for Soft Computing and Machine Learning Techniques from Meteorological Data Integration: A Case Study for Predicting Significant Wave Height and Energy Flux. Energies 2021, 14, 468. https://doi.org/10.3390/en14020468
