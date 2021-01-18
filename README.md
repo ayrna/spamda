@@ -54,6 +54,7 @@ The process of installation creates the following folders and files inside the f
         |---> reanalysisFiles: Contains the reanalysis files entered through SPAMDA.
       |--> help: Contains the user manual of SPAMDA.
         |---> userManual.pdf: The user manual.
+        |---> javadoc: Contains the Java documentacion.
       |--> SPAMDA.jar: The runnable file containing SPAMDA.
     |-> COPYING: This file contains a copy of the license of the GNU GENERAL PUBLIC LICENSE.
     |-> LICENSE: This file contains a copy of the license of SPAMDA.

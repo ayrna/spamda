@@ -82,6 +82,7 @@ the folder created in step 1):
                                through SPAMDA.
       |--> help: Contains the user manual of SPAMDA.
         |---> userManual.pdf: The user manual.
+        |---> javadoc: Contains the Java documentacion.
       |--> SPAMDA.jar: The runnable file containing SPAMDA.
     |-> COPYING: This file contains a copy of the license of the 
                  GNU GENERAL PUBLIC LICENSE.
