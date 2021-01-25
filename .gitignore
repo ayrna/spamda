@@ -9,7 +9,6 @@ target
 
 nbproject/private/
 nbbuild/
-nbdist/
 nbactions.xml
 nb-configuration.xml
 DB
