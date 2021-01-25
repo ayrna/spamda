@@ -11,7 +11,7 @@ nbproject/private/
 nbbuild/
 nbactions.xml
 nb-configuration.xml
-DB
+/DB
 store
 test
 
