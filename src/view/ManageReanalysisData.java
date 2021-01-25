@@ -1,11 +1,12 @@
 /*
 SPAMDA: Software for Pre-processing and Analysis of Meteorological DAta to build datasets
 
-Copyright (c) 2017-2018 by AYRNA Research Group. https://www.uco.es/ayrna/
-	Authors: 
-		Antonio Manuel Gomez Orellana, Juan Carlos Fernandez Caballero,
-		Manuel Dorado Moreno, Pedro Antonio Gutierrez Peña and 
-		Cesar Hervas Martinez.
+Copyright (c) 2017-2021 by AYRNA Research Group. https://www.uco.es/ayrna/
+    Authors: 
+      Gómez-Orellana, A.M.; Fernández, J.C.; Dorado-Moreno, M.; Gutiérrez, P.A.; Hervás-Martínez, C.
+      Building Suitable Datasets for Soft Computing and Machine Learning Techniques from Meteorological
+       Data Integration: A Case Study for Predicting Significant Wave Height and Energy Flux.
+      Energies 2021, 14, 468. https://doi.org/10.3390/en14020468                                                                       
 
 This program is free software: you can redistribute it and/or modify it under the
 terms of the GNU General Public License as published by the Free Software Foundation,
@@ -51,6 +52,13 @@ such licenses, see the distributions provided by their authors:
 	Notice of license in the file WEKA-LICENSE
 
 Contact information:
+Antonio Manuel Gomez Orellana, Mr.
+email: am[dot]gomez[at]uco[dot]es
+Address: University of Cordoba, Department of Computer Science
+and Numerical Analysis, AYRNA Research Group, Rabanales Campus,
+Einstein Building, 3rd floor. Road Madrid-Cadiz, Km 396-A.
+14071 - Cordoba (Spain).
+
 Juan Carlos Fernandez Caballero, PhD.
 email: jfcaballero[at]uco[dot]es
 Address: University of Cordoba, Department of Computer Science
